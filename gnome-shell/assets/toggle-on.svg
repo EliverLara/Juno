@@ -106,8 +106,8 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="18.364849"
-     inkscape:cx="29.368223"
+     inkscape:zoom="13.619987"
+     inkscape:cx="23.8261"
      inkscape:cy="9.1634726"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -180,7 +180,7 @@
        id="rect912"
        style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#000000;fill-opacity:0.2;fill-rule:nonzero;stroke:none;stroke-width:1.76470685;stroke-opacity:1;marker:none;filter:url(#filter930);enable-background:new" />
     <rect
-       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#222e32;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.76470685;stroke-opacity:1;marker:none;enable-background:new"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#2d3144;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.76470685;stroke-opacity:1;marker:none;enable-background:new"
        id="rect3872"
        width="15"
        height="15"
@@ -195,7 +195,7 @@
        inkscape:connector-curvature="0" />
     <path
        style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:none;fill-opacity:0.2;fill-rule:nonzero;stroke:none;stroke-width:1.76470685;stroke-opacity:1;marker:none;enable-background:new"
-       d="M 44.392578,3 C 40.29722,3 37,6.2972196 37,10.392578 v 0.214844 c 0,0.132603 0.0127,0.261734 0.01953,0.392578 0.204057,-3.9101943 3.410291,-7 7.373047,-7 h 0.214844 c 3.962756,0 7.16899,3.0898057 7.373047,7 C 51.987297,10.869156 52,10.740025 52,10.607422 V 10.392578 C 52,6.2972196 48.70278,3 44.607422,3 Z"
+       d="M 44.392578,3 C 40.29722,3 37,6.2972196 37,10.392578 v 0.214844 C 37,10.740025 37.0127,10.869156 37.01953,11 37.223587,7.0898057 40.429821,4 44.392577,4 h 0.214844 c 3.962756,0 7.16899,3.0898057 7.373047,7 C 51.987297,10.869156 52,10.740025 52,10.607422 V 10.392578 C 52,6.2972196 48.70278,3 44.607422,3 Z"
        transform="translate(444.64286,782.36218)"
        id="rect936"
        inkscape:connector-curvature="0" />
