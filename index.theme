@@ -1,11 +1,11 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Nordic
-Comment=Dark theme created using the awesome Nord color pallete
+Name=Juno
+Comment=GTK themes inspired by epic vscode themes
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Nordic
-MetacityTheme=Nordic
+GtkTheme=Juno
+MetacityTheme=Juno
 IconTheme=Zafiro-icons
 ButtonLayout=:minimize,maximize,close
