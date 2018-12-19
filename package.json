@@ -1,22 +1,22 @@
 {
-  "name": "nordic",
+  "name": "juno",
   "version": "1.0.0",
-  "description": "Dark theme created using the awesome Nord color pallete",
+  "description": "GTK themes inspired by epic vscode themes",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EliverLara/Nordic.git"
+    "url": "git+https://github.com/EliverLara/juno.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/EliverLara/Nordic/issues"
+    "url": "https://github.com/EliverLara/juno/issues"
   },
-  "homepage": "https://github.com/EliverLara/Nordic#readme",
+  "homepage": "https://github.com/EliverLara/juno#readme",
   "dependencies": {
     "gulp": "^4.0.0",
     "gulp-exec": "^2.1.3",
