@@ -4079,9 +4079,14 @@ placessidebar.sidebar {
     background-color: transparent;
     /*rgba(65,67,75,0.4); */
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.12) 40px, rgba(0, 0, 0, 0.12) 40px, rgba(0, 0, 0, 0.12) 97%); }
-  placessidebar.sidebar row.sidebar-row:active:hover {
-    color: rgba(0, 0, 0, 0.76);
-    background-color: rgba(0, 0, 0, 0.23); }
+  placessidebar.sidebar row.sidebar-row:active {
+    color: #98abb2; }
+    placessidebar.sidebar row.sidebar-row:active label {
+      color: #98abb2;
+      font-weight: normal; }
+    placessidebar.sidebar row.sidebar-row:active:hover {
+      color: #98abb2;
+      background-color: rgba(22, 29, 32, 0.93); }
   placessidebar.sidebar row.sidebar-row:selected {
     color: inherit;
     background-color: transparent;
