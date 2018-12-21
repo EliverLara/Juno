@@ -146,9 +146,14 @@ placessidebar{
 				}
 
 				&:active{
+          color: #98abb2;
+          label {
+            color: #98abb2;
+            font-weight: normal;
+          }
 					&:hover{
-						color: rgba(0,0,0,0.76);
-						background-color: rgba(0,0,0,0.23);
+						color: #98abb2;
+						background-color: transparentize(darken($_sidebar_color, 3%), 0.07);
 					}
 				}
 
