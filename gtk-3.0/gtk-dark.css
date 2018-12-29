@@ -4086,7 +4086,7 @@ placessidebar.sidebar {
       font-weight: normal; }
     placessidebar.sidebar row.sidebar-row:active:hover {
       color: #98abb2;
-      background-color: rgba(22, 29, 32, 0.93); }
+      background: rgba(0, 0, 0, 0.12); }
   placessidebar.sidebar row.sidebar-row:selected {
     color: inherit;
     background-color: transparent;
@@ -4096,7 +4096,7 @@ placessidebar.sidebar {
       font-weight: normal; }
     placessidebar.sidebar row.sidebar-row:selected:hover {
       color: #ffffff;
-      background-color: rgba(0, 0, 0, 0.24); }
+      background-color: rgba(22, 29, 32, 0.93); }
       placessidebar.sidebar row.sidebar-row:selected:hover .sidebar-icon {
         color: #ffffff; }
     placessidebar.sidebar row.sidebar-row:selected:backdrop {

@@ -153,7 +153,7 @@ placessidebar{
           }
 					&:hover{
 						color: #98abb2;
-						background-color: transparentize(darken($_sidebar_color, 3%), 0.07);
+						background: rgba(0,0,0,0.12);
 					}
 				}
 
@@ -170,7 +170,7 @@ placessidebar{
           // $selected_bg_color 36px, rgba(65,67,75,0)97%);
 					&:hover{
 						color: #ffffff;
-						background-color: rgba(0,0,0,0.24);
+						background-color: transparentize(darken($_sidebar_color, 3%), 0.07);
 						.sidebar-icon {
 							color: #ffffff;
 						}
