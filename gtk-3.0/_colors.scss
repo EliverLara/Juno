@@ -2,10 +2,10 @@
 // it gets @if ed depending on $variant
 
 // Main definitions
-$base_color: if($variant == 'light', #ebf0f5, lighten(#0F111A, 2%));
-$text_color: if($variant == 'light', rgb(223, 226, 231), #6F7678);
-$bg_color: if($variant == 'light', darken( #EEEEEE, 3%), #0F111A);
-$fg_color: if($variant == 'light', #e69317, #6F7678);
+$base_color: if($variant == 'light', #ebf0f5, lighten(#1f2430, 2%));
+$text_color: if($variant == 'light', rgb(223, 226, 231), #707a8c);
+$bg_color: if($variant == 'light', darken( #EEEEEE, 3%), #1f2430);
+$fg_color: if($variant == 'light', #e69317, #707a8c);
 $switch_bg: if($variant == 'light', #ffffff, transparentize(black,1));
 $shadow_color: rgba(162, 162, 165, 0.21);
 
@@ -13,19 +13,19 @@ $main_dark_color: darken($bg_color, 1%);
 $_sidebar_color: if($variant == 'light', darken($main_dark_color, 3%), $main_dark_color);
 
 // Primary colors
-$lime: #C3E88D;
-$red: #FF5370;
+$lime: #a6cc70;
+$red: #ed8274;
 $orange: #F78C6C;
-$yellow: #FFCB6B;
-$purple: #C792EA;
+$yellow: #fad07b;
+$purple: #cfbafa;
 $darkpurple: #bb80b3;
-$blue: #82AAFF;
-$cyan: #89DDFF;
+$blue: #6dcbfa;
+$cyan: #90e1c6;
 $slider: #7b7bbd;
 $teal: #00A9A5;
 
 $selected_fg_color: #fefefe;
-$selected_bg_color: $teal;
+$selected_bg_color: #ffcc66;
 /*$selected_bg_color: #00e8c6;06d6a0*/
 $selected_borders_color: darken($selected_bg_color, 10%);
 $borders_color: darken($main_dark_color, 5%);
@@ -108,6 +108,6 @@ $backdrop_menu_color: if($variant == 'light', $backdrop_base_color, mix($backdro
 
 $scale_bg: if($variant == 'light', transparentize(black,0.86) ,transparentize(white,0.86));
 $scale_disabled_bg: if($variant == 'light', transparentize(black, 0.94) ,transparentize(white, 0.94));
-$suggested_bg_color: linear-gradient(to right, $orange 0%, $orange 100%);
+$suggested_bg_color: linear-gradient(to right, $yellow 0%, $yellow 100%);
 $destructive_bg_color: linear-gradient(to right, $red, $red);
 $menu_shadow_color: if($variant == 'light', transparentize(rgb(122, 122, 122), 0.6), transparent);
