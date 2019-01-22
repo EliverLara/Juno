@@ -167,9 +167,9 @@
        color: lighten($headerbar_fg_color, 5%);
        border-bottom: 1px solid $selected_bg_color;
        &:backdrop{
-         color: $backdrop_selected_fg_color;
+         color: $backdrop_headerbar_fg_color;
          label{
-           color: $backdrop_selected_fg_color;
+           color: $backdrop_headerbar_fg_color;
          }
        }
      }
