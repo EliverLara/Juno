@@ -4587,10 +4587,10 @@ decoration {
   border-radius: 4px 4px 0 0;
   border-width: 0px;
   border-width: 0px;
-  box-shadow: 0 4px 10px 2px rgba(33, 26, 30, 0.4);
+  box-shadow: 0 4px 10px 2px rgba(18, 23, 26, 0.4);
   margin: 10px; }
   decoration:backdrop {
-    box-shadow: 0 4px 10px 2px rgba(33, 26, 30, 0.2);
+    box-shadow: 0 4px 10px 2px rgba(18, 23, 26, 0.2);
     transition: 200ms ease-out; }
   .maximized decoration,
   .fullscreen decoration,
