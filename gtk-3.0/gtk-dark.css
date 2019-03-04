@@ -3463,54 +3463,6 @@ scale {
       box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
     row:selected scale slider:disabled, row:selected scale slider {
       border-color: #007673; }
-    .osd scale slider {
-      color: #6F7678;
-      border-color: #040407;
-      background-color: rgba(8, 9, 13, 0.93);
-      background-clip: padding-box;
-      text-shadow: 0 1px black;
-      -gtk-icon-shadow: 0 1px black;
-      outline-color: rgba(111, 118, 120, 0.3);
-      border-color: black;
-      background-color: #08090d; }
-      .osd scale slider:hover {
-        color: white;
-        border-color: #040407;
-        background-image: linear-gradient(to bottom, rgba(30, 34, 52, 0.93), rgba(30, 34, 52, 0.93));
-        background-clip: padding-box;
-        text-shadow: 0 1px black;
-        -gtk-icon-shadow: 0 1px black;
-        outline-color: rgba(111, 118, 120, 0.3);
-        background-color: #08090d; }
-      .osd scale slider:active {
-        color: white;
-        border-color: #040407;
-        background-image: linear-gradient(to bottom, rgba(19, 21, 32, 0.93), rgba(19, 21, 32, 0.93));
-        background-clip: padding-box;
-        text-shadow: none;
-        -gtk-icon-shadow: none;
-        outline-color: rgba(111, 118, 120, 0.3);
-        background-color: #08090d; }
-      .osd scale slider:disabled {
-        color: #3b3f43;
-        border-color: #040407;
-        background-image: linear-gradient(to bottom, rgba(18, 19, 24, 0.5), rgba(18, 19, 24, 0.5));
-        background-clip: padding-box;
-        box-shadow: none;
-        text-shadow: none;
-        -gtk-icon-shadow: none;
-        background-color: #08090d; }
-      .osd scale slider:backdrop {
-        color: #6F7678;
-        border-color: #040407;
-        background-image: linear-gradient(to bottom, rgba(8, 9, 13, 0.93), rgba(8, 9, 13, 0.93));
-        background-clip: padding-box;
-        box-shadow: none;
-        text-shadow: none;
-        -gtk-icon-shadow: none;
-        background-color: #08090d; }
-        .osd scale slider:backdrop:disabled {
-          background-color: #08090d; }
   scale value {
     color: alpha(currentColor,0.4); }
   scale marks {
@@ -3556,7 +3508,7 @@ scale {
     border: none;
     border-radius: 50%;
     background-color: #323957;
-    box-shadow: inset 0 1px #666666, 0px 0px 1px 1px #666666; }
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
   scale.horizontal.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
   scale.horizontal.marks-before:not(.marks-after) slider:hover {
@@ -3566,7 +3518,7 @@ scale {
     border: none;
     border-radius: 50%;
     background-color: #323957;
-    box-shadow: inset 0 1px #666666, 0px 0px 1px 1px #666666; }
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
   scale.horizontal.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
   scale.horizontal.marks-before:not(.marks-after) slider:active {
@@ -3576,7 +3528,7 @@ scale {
     border: none;
     border-radius: 50%;
     background-color: #323957;
-    box-shadow: inset 0 1px #666666, 0px 0px 1px 1px #666666; }
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
   scale.horizontal.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
   scale.horizontal.marks-before:not(.marks-after) slider:disabled {
@@ -3586,7 +3538,7 @@ scale {
     border: none;
     border-radius: 50%;
     background-color: #323957;
-    box-shadow: inset 0 1px #666666, 0px 0px 1px 1px #666666; }
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
   scale.horizontal.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
   scale.horizontal.marks-before:not(.marks-after) slider:backdrop {
@@ -3596,7 +3548,7 @@ scale {
     border: none;
     border-radius: 50%;
     background-color: #323957;
-    box-shadow: inset 0 1px #666666, 0px 0px 1px 1px #666666; }
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
   scale.horizontal.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
   scale.horizontal.marks-before:not(.marks-after) slider:backdrop:disabled {
@@ -3606,7 +3558,7 @@ scale {
     border: none;
     border-radius: 50%;
     background-color: #323957;
-    box-shadow: inset 0 1px #666666, 0px 0px 1px 1px #666666; }
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
   scale.horizontal.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
   scale.horizontal.marks-after:not(.marks-before) slider {
@@ -3616,7 +3568,7 @@ scale {
     border: none;
     border-radius: 50%;
     background-color: #323957;
-    box-shadow: inset 0 1px #666666, 0px 0px 1px 1px #666666; }
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
   scale.horizontal.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
   scale.horizontal.marks-after:not(.marks-before) slider:hover {
@@ -3626,7 +3578,7 @@ scale {
     border: none;
     border-radius: 50%;
     background-color: #323957;
-    box-shadow: inset 0 1px #666666, 0px 0px 1px 1px #666666; }
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
   scale.horizontal.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
   scale.horizontal.marks-after:not(.marks-before) slider:active {
@@ -3636,7 +3588,7 @@ scale {
     border: none;
     border-radius: 50%;
     background-color: #323957;
-    box-shadow: inset 0 1px #666666, 0px 0px 1px 1px #666666; }
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
   scale.horizontal.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
   scale.horizontal.marks-after:not(.marks-before) slider:disabled {
@@ -3646,7 +3598,7 @@ scale {
     border: none;
     border-radius: 50%;
     background-color: #323957;
-    box-shadow: inset 0 1px #666666, 0px 0px 1px 1px #666666; }
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
   scale.horizontal.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
   scale.horizontal.marks-after:not(.marks-before) slider:backdrop {
@@ -3656,7 +3608,7 @@ scale {
     border: none;
     border-radius: 50%;
     background-color: #323957;
-    box-shadow: inset 0 1px #666666, 0px 0px 1px 1px #666666; }
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
   scale.horizontal.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
   scale.horizontal.marks-after:not(.marks-before) slider:backdrop:disabled {
@@ -3666,7 +3618,7 @@ scale {
     border: none;
     border-radius: 50%;
     background-color: #323957;
-    box-shadow: inset 0 1px #666666, 0px 0px 1px 1px #666666; }
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
   scale.horizontal.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
   scale.vertical.marks-before:not(.marks-after) slider {
@@ -3676,7 +3628,7 @@ scale {
     border: none;
     border-radius: 50%;
     background-color: #323957;
-    box-shadow: inset 0 1px #666666, 0px 0px 1px 1px #666666; }
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
   scale.vertical.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
   scale.vertical.marks-before:not(.marks-after) slider:hover {
@@ -3686,7 +3638,7 @@ scale {
     border: none;
     border-radius: 50%;
     background-color: #323957;
-    box-shadow: inset 0 1px #666666, 0px 0px 1px 1px #666666; }
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
   scale.vertical.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
   scale.vertical.marks-before:not(.marks-after) slider:active {
@@ -3696,7 +3648,7 @@ scale {
     border: none;
     border-radius: 50%;
     background-color: #323957;
-    box-shadow: inset 0 1px #666666, 0px 0px 1px 1px #666666; }
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
   scale.vertical.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
   scale.vertical.marks-before:not(.marks-after) slider:disabled {
@@ -3706,7 +3658,7 @@ scale {
     border: none;
     border-radius: 50%;
     background-color: #323957;
-    box-shadow: inset 0 1px #666666, 0px 0px 1px 1px #666666; }
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
   scale.vertical.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
   scale.vertical.marks-before:not(.marks-after) slider:backdrop {
@@ -3716,7 +3668,7 @@ scale {
     border: none;
     border-radius: 50%;
     background-color: #323957;
-    box-shadow: inset 0 1px #666666, 0px 0px 1px 1px #666666; }
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
   scale.vertical.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
   scale.vertical.marks-before:not(.marks-after) slider:backdrop:disabled {
@@ -3726,7 +3678,7 @@ scale {
     border: none;
     border-radius: 50%;
     background-color: #323957;
-    box-shadow: inset 0 1px #666666, 0px 0px 1px 1px #666666; }
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
   scale.vertical.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
   scale.vertical.marks-after:not(.marks-before) slider {
@@ -3736,7 +3688,7 @@ scale {
     border: none;
     border-radius: 50%;
     background-color: #323957;
-    box-shadow: inset 0 1px #666666, 0px 0px 1px 1px #666666; }
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
   scale.vertical.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
   scale.vertical.marks-after:not(.marks-before) slider:hover {
@@ -3746,7 +3698,7 @@ scale {
     border: none;
     border-radius: 50%;
     background-color: #323957;
-    box-shadow: inset 0 1px #666666, 0px 0px 1px 1px #666666; }
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
   scale.vertical.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
   scale.vertical.marks-after:not(.marks-before) slider:active {
@@ -3756,7 +3708,7 @@ scale {
     border: none;
     border-radius: 50%;
     background-color: #323957;
-    box-shadow: inset 0 1px #666666, 0px 0px 1px 1px #666666; }
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
   scale.vertical.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
   scale.vertical.marks-after:not(.marks-before) slider:disabled {
@@ -3766,7 +3718,7 @@ scale {
     border: none;
     border-radius: 50%;
     background-color: #323957;
-    box-shadow: inset 0 1px #666666, 0px 0px 1px 1px #666666; }
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
   scale.vertical.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
   scale.vertical.marks-after:not(.marks-before) slider:backdrop {
@@ -3776,7 +3728,7 @@ scale {
     border: none;
     border-radius: 50%;
     background-color: #323957;
-    box-shadow: inset 0 1px #666666, 0px 0px 1px 1px #666666; }
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
   scale.vertical.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
   scale.vertical.marks-after:not(.marks-before) slider:backdrop:disabled {
@@ -3786,7 +3738,7 @@ scale {
     border: none;
     border-radius: 50%;
     background-color: #323957;
-    box-shadow: inset 0 1px #666666, 0px 0px 1px 1px #666666; }
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
   scale.vertical.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
   scale.color {
@@ -4096,7 +4048,7 @@ placessidebar.sidebar {
       font-weight: normal; }
     placessidebar.sidebar row.sidebar-row:selected:hover {
       color: #ffffff;
-      background-color: rgba(22, 29, 32, 0.93); }
+      background-color: rgba(8, 9, 13, 0.93); }
       placessidebar.sidebar row.sidebar-row:selected:hover .sidebar-icon {
         color: #ffffff; }
     placessidebar.sidebar row.sidebar-row:selected:backdrop {
@@ -4587,10 +4539,10 @@ decoration {
   border-radius: 4px 4px 0 0;
   border-width: 0px;
   border-width: 0px;
-  box-shadow: 0 4px 10px 2px rgba(18, 23, 26, 0.4);
+  box-shadow: 0 4px 10px 2px rgba(4, 4, 7, 0.4);
   margin: 10px; }
   decoration:backdrop {
-    box-shadow: 0 4px 10px 2px rgba(18, 23, 26, 0.2);
+    box-shadow: 0 4px 10px 2px rgba(4, 4, 7, 0.2);
     transition: 200ms ease-out; }
   .maximized decoration,
   .fullscreen decoration,
