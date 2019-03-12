@@ -13,9 +13,9 @@
    height="16"
    id="svg2"
    version="1.1"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.4 (unknown)"
    sodipodi:docname="maximize.svg"
-   inkscape:export-filename="/home/lara/github/Nord/assets/maximize.png"
+   inkscape:export-filename="/home/lara/github/Juno/assets/maximize.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
@@ -27,8 +27,8 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="25.257747"
-     inkscape:cx="4.988687"
+     inkscape:zoom="19.080817"
+     inkscape:cx="-7.741809"
      inkscape:cy="7.9547456"
      inkscape:document-units="px"
      inkscape:current-layer="g4287"
@@ -38,7 +38,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1366"
-     inkscape:window-height="706"
+     inkscape:window-height="713"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1" />
@@ -64,18 +64,18 @@
        inkscape:label="ink_ext_XXXXXX"
        id="g4090">
       <g
-         transform="scale(0.1,0.1)"
+         transform="scale(0.1)"
          id="g4092">
         <g
            transform="matrix(9.9999999,0,0,9.9999999,-4.0034923,0.11816995)"
            inkscape:label="ink_ext_XXXXXX"
            id="g4285">
           <g
-             transform="scale(0.1,0.1)"
+             transform="scale(0.1)"
              id="g4287">
             <path
                id="path4289"
-               style="fill:#232831;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.14285719"
+               style="fill:#13191c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.14285719"
                d="m 563.58759,-119.38766 c 349.0926,0 632.09311,283.00097 632.09311,632.098 0,349.09852 -283.00051,632.09906 -632.09311,632.09906 -349.10297,0 -632.104441,-283.00054 -632.104441,-632.09906 0,-349.09703 283.001471,-632.098 632.104441,-632.098"
                inkscape:connector-curvature="0"
                inkscape:export-xdpi="90"

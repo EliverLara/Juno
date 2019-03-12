@@ -13,7 +13,7 @@
    height="16"
    id="svg2"
    version="1.1"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.4 (unknown)"
    sodipodi:docname="close.svg"
    inkscape:export-filename="/home/lara/github/Nord/assets/close.png"
    inkscape:export-xdpi="96"
@@ -27,8 +27,8 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="28.578928"
-     inkscape:cx="6.8341985"
+     inkscape:zoom="21.589784"
+     inkscape:cx="-7.7456851"
      inkscape:cy="6.6670206"
      inkscape:document-units="px"
      inkscape:current-layer="g4092"
@@ -64,11 +64,11 @@
        inkscape:label="ink_ext_XXXXXX"
        id="g4090">
       <g
-         transform="scale(0.1,0.1)"
+         transform="scale(0.1)"
          id="g4092">
         <path
            id="path4094"
-           style="fill:#232831;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.14285719"
+           style="fill:#13191c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.14285719"
            d="m 564.89251,-113.74869 c 349.09263,0 632.09319,283.00099 632.09319,632.09804 0,349.09856 -283.00056,632.09915 -632.09319,632.09915 -349.10297,0 -632.104326,-283.00059 -632.104326,-632.09915 0,-349.09705 283.001356,-632.09804 632.104326,-632.09804"
            inkscape:connector-curvature="0"
            inkscape:export-xdpi="96"
