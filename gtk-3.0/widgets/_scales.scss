@@ -147,8 +147,8 @@ scale {
     }
   }
 
-  $_scale_bg: if($variant == 'light', $base_color, lighten($main_dark_color, 20%));
-  $_scale_disabled_bg: lighten($_scale_bg, 15%);
+  $_scale_bg: darken(#f7f7f7, 15%);
+  $_scale_disabled_bg: darken($_scale_bg, 17%);
   slider {
     border-color: $_scale_bg;
     border: none;
