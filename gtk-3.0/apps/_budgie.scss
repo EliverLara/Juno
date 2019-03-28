@@ -139,7 +139,7 @@ $pos_list: ((top, bottom),(bottom,top),(left,right),(right,left));
         &:active { box-shadow: inset 0 2px 2px -2px transparentize(black, 0.8); }
         &:checked {
           color: $selected_fg_color;
-          background: $suggested_bg_color;
+          background: $selected_bg_color;
         }
         &:checked:disabled {
             opacity: 0.5;
@@ -636,7 +636,7 @@ button.raven-trigger {
         color: $selected_fg_color;
       }
       &:first-child {
-        background: $suggested_bg_color;
+        background: $selected_bg_color;
 
         &:hover {
           background: transparentize($selected_bg_color, 0.15);
@@ -836,7 +836,7 @@ calendar.raven-calendar {
 
       label { font-weight: 700; }
       &:first-child { border-left: none; border-bottom-left-radius: 2px; }
-      &:last-child { border-right: none; border-bottom-right-radius: 2px; }
+      &:last-child { border-right: none; border-bottom-right-radius: 2px; background:transparent; }
       &:hover {
         background-color: transparentize($selected_bg_color, 0.1);
         &:backdrop {
@@ -847,9 +847,9 @@ calendar.raven-calendar {
       @each $b_type, $b_color in (suggested-action, $selected_bg_color),
                                  (destructive-action, $destructive_color) {
         &.#{$b_type} {
-          background-color: transparentize($b_color, 0.1);
-          &:hover { background-color: transparentize(lighten($b_color,5%), 0.1); }
-          &:active, &:checked { background-color: transparentize(lighten($b_color,5%), 0.1); }
+          background: linear-gradient(to right, $red 0%, $b_color 100%);
+          &:hover { background: linear-gradient(to right, darken($error_color, 3%) 0%, $b_color 100%); }
+          &:active, &:checked { background: linear-gradient(to right, darken($error_color, 3%) 0%, $b_color 100%); }
         }
       }
     }
