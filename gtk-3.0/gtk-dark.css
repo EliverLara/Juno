@@ -4745,7 +4745,7 @@ entry selection, row:selected, treeview.view:selected:focus, treeview.view:selec
       box-shadow: inset 0 2px 2px -2px rgba(0, 0, 0, 0.2); }
     .budgie-menu .category-button:checked {
       color: #1f2430;
-      background: linear-gradient(to right, #fad07b 0%, #fad07b 100%); }
+      background: #ffcc66; }
     .budgie-menu .category-button:checked:disabled {
       opacity: 0.5; }
       .budgie-menu .category-button:checked:disabled label {
@@ -5226,7 +5226,7 @@ button.raven-trigger {
       background: #cfbafa;
       color: #1f2430; }
     .raven .powerstrip button.image-button:first-child {
-      background: linear-gradient(to right, #fad07b 0%, #fad07b 100%); }
+      background: #ffcc66; }
       .raven .powerstrip button.image-button:first-child:hover {
         background: rgba(255, 204, 102, 0.85); }
       .raven .powerstrip button.image-button:first-child:active {
@@ -5375,23 +5375,27 @@ calendar.raven-calendar {
       border-bottom-left-radius: 2px; }
     .budgie-session-dialog .linked.horizontal > button:last-child, .budgie-polkit-dialog .linked.horizontal > button:last-child, .budgie-run-dialog .linked.horizontal > button:last-child {
       border-right: none;
-      border-bottom-right-radius: 2px; }
+      border-bottom-right-radius: 2px;
+      background: transparent; }
     .budgie-session-dialog .linked.horizontal > button:hover, .budgie-polkit-dialog .linked.horizontal > button:hover, .budgie-run-dialog .linked.horizontal > button:hover {
-      background-color: rgba(255, 204, 102, 0.9); }
+      background-color: rgba(255, 204, 102, 0.9);
+      color: #fff; }
       .budgie-session-dialog .linked.horizontal > button:hover:backdrop label, .budgie-polkit-dialog .linked.horizontal > button:hover:backdrop label, .budgie-run-dialog .linked.horizontal > button:hover:backdrop label {
         color: rgba(255, 255, 255, 0.5); }
     .budgie-session-dialog .linked.horizontal > button.suggested-action, .budgie-polkit-dialog .linked.horizontal > button.suggested-action, .budgie-run-dialog .linked.horizontal > button.suggested-action {
-      background-color: rgba(255, 204, 102, 0.9); }
+      background: linear-gradient(to right, #ed8274 0%, #ffcc66 100%);
+      color: #fff; }
       .budgie-session-dialog .linked.horizontal > button.suggested-action:hover, .budgie-polkit-dialog .linked.horizontal > button.suggested-action:hover, .budgie-run-dialog .linked.horizontal > button.suggested-action:hover {
-        background-color: rgba(255, 213, 128, 0.9); }
+        background: linear-gradient(to right, #e86250 0%, #ffcc66 100%); }
       .budgie-session-dialog .linked.horizontal > button.suggested-action:active, .budgie-polkit-dialog .linked.horizontal > button.suggested-action:active, .budgie-run-dialog .linked.horizontal > button.suggested-action:active, .budgie-session-dialog .linked.horizontal > button.suggested-action:checked, .budgie-polkit-dialog .linked.horizontal > button.suggested-action:checked, .budgie-run-dialog .linked.horizontal > button.suggested-action:checked {
-        background-color: rgba(255, 213, 128, 0.9); }
+        background: linear-gradient(to right, #e86250 0%, #ffcc66 100%); }
     .budgie-session-dialog .linked.horizontal > button.destructive-action, .budgie-polkit-dialog .linked.horizontal > button.destructive-action, .budgie-run-dialog .linked.horizontal > button.destructive-action {
-      background-color: rgba(231, 89, 71, 0.9); }
+      background: linear-gradient(to right, #ed8274 0%, #e75947 100%);
+      color: #fff; }
       .budgie-session-dialog .linked.horizontal > button.destructive-action:hover, .budgie-polkit-dialog .linked.horizontal > button.destructive-action:hover, .budgie-run-dialog .linked.horizontal > button.destructive-action:hover {
-        background-color: rgba(234, 110, 93, 0.9); }
+        background: linear-gradient(to right, #e86250 0%, #e75947 100%); }
       .budgie-session-dialog .linked.horizontal > button.destructive-action:active, .budgie-polkit-dialog .linked.horizontal > button.destructive-action:active, .budgie-run-dialog .linked.horizontal > button.destructive-action:active, .budgie-session-dialog .linked.horizontal > button.destructive-action:checked, .budgie-polkit-dialog .linked.horizontal > button.destructive-action:checked, .budgie-run-dialog .linked.horizontal > button.destructive-action:checked {
-        background-color: rgba(234, 110, 93, 0.9); }
+        background: linear-gradient(to right, #e86250 0%, #e75947 100%); }
   .budgie-session-dialog entry, .budgie-polkit-dialog entry, .budgie-run-dialog entry {
     background-color: #505359;
     color: #707a8c; }
