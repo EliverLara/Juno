@@ -848,6 +848,7 @@ calendar.raven-calendar {
                                  (destructive-action, $destructive_color) {
         &.#{$b_type} {
           background: linear-gradient(to right, $red 0%, $b_color 100%);
+          color:#fff;
           &:hover { background: linear-gradient(to right, darken($error_color, 3%) 0%, $b_color 100%); }
           &:active, &:checked { background: linear-gradient(to right, darken($error_color, 3%) 0%, $b_color 100%); }
         }
