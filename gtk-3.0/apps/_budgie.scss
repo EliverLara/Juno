@@ -839,6 +839,7 @@ calendar.raven-calendar {
       &:last-child { border-right: none; border-bottom-right-radius: 2px; background:transparent; }
       &:hover {
         background-color: transparentize($selected_bg_color, 0.1);
+        color: #fff;
         &:backdrop {
           label { color: transparentize(white, 0.5); }
         }
@@ -848,6 +849,7 @@ calendar.raven-calendar {
                                  (destructive-action, $destructive_color) {
         &.#{$b_type} {
           background: linear-gradient(to right, $red 0%, $b_color 100%);
+          color: #fff;
           &:hover { background: linear-gradient(to right, darken($error_color, 3%) 0%, $b_color 100%); }
           &:active, &:checked { background: linear-gradient(to right, darken($error_color, 3%) 0%, $b_color 100%); }
         }
