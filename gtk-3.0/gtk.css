@@ -4746,6 +4746,8 @@ entry selection, row:selected, treeview.view:selected:focus, treeview.view:selec
     .budgie-menu .category-button:checked {
       color: #fefefe;
       background: #00A9A5; }
+      .budgie-menu .category-button:checked:hover {
+        color: rgba(254, 254, 254, 0.6); }
     .budgie-menu .category-button:checked:disabled {
       opacity: 0.5; }
       .budgie-menu .category-button:checked:disabled label {
