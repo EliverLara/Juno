@@ -48,6 +48,9 @@ button {
 
         &:active { transition: $button_transition; }
       }
+      &.image-button:hover{
+        color: lighten($fg_color, 35%);
+      }
     }
 
     &:hover {
