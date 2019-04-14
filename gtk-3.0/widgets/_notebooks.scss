@@ -169,7 +169,6 @@
 
       &:hover {
         color: mix($insensitive_fg_color, $fg_color, 50%);
-
         &.reorderable-page {
           border-color: transparentize($borders_color, 0.7);
           background-color: transparentize($bg_color, 0.8);
@@ -197,9 +196,15 @@
           &:hover { background-color: transparentize($bg_color, 0.3); }
         }
       }
+      &:hover, &:checked, &:backdrop:checked {
+        button.flat {
+          color: gtkalpha(currentColor, 0.3); 
+        }
+      }
 
       &:backdrop:checked {
         color: $backdrop_fg_color;
+        
         &.reorderable-page {
           border-color: $backdrop_borders_color;
           background-color: $backdrop_base_color;
@@ -210,11 +215,17 @@
       button.flat {
         &:hover {  background: transparent; box-shadow: none; color: $red; }
 
-        &, &:backdrop { color: gtkalpha(currentColor, 0.3); }
+        &, &:backdrop {   
+          border: none;
+          background: transparent;
+          color: gtkalpha(currentColor, 0); 
+        }
 
         padding: 0;
         margin-top: 4px;
         margin-bottom: 4px;
+        border: none;
+        background: transparent;
         // FIXME: generalize .small-button?
         min-width: 20px;
         min-height: 20px;
