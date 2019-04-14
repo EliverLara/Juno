@@ -3169,6 +3169,8 @@ notebook > header {
         background-color: rgba(31, 36, 48, 0.5); }
         notebook > header tab:checked.reorderable-page:hover {
           background-color: rgba(31, 36, 48, 0.7); }
+    notebook > header tab:hover button.flat, notebook > header tab:checked button.flat, notebook > header tab:backdrop:checked button.flat {
+      color: alpha(currentColor,0.3); }
     notebook > header tab:backdrop:checked {
       color: #484f5e; }
       notebook > header tab:backdrop:checked.reorderable-page {
@@ -3178,6 +3180,8 @@ notebook > header {
       padding: 0;
       margin-top: 4px;
       margin-bottom: 4px;
+      border: none;
+      background: transparent;
       min-width: 20px;
       min-height: 20px; }
       notebook > header tab button.flat:hover {
@@ -3185,7 +3189,9 @@ notebook > header {
         box-shadow: none;
         color: #ed8274; }
       notebook > header tab button.flat, notebook > header tab button.flat:backdrop {
-        color: alpha(currentColor,0.3); }
+        border: none;
+        background: transparent;
+        color: alpha(currentColor,0); }
       notebook > header tab button.flat:last-child {
         margin-left: 4px;
         margin-right: -4px; }
