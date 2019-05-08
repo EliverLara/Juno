@@ -33,7 +33,7 @@
    
    button {
      @include button(normal-header);
-     min-height: 14px;
+     min-height: 20px;
      margin-top: 5px;
      margin-bottom: 5px;
      box-shadow: none;
@@ -182,27 +182,40 @@
    // End reset style
  
    .path-bar-box {
-     .dim-label {
-       color: transparent;
-     }
-     button {
-       @extend %linked-button;
-       margin-left: -6px;
-       &:last-child {
-         margin-left: -6px;
-         border-radius: 0px;
-         &:active, &:checked {
-           border-radius: 0px 4px 4px 0px;
-         }
-       }
-       &:first-child {
-         border-radius: 4px 0px 0px 4px;
-         &:active, &:checked {
-           border-radius: 4px;
-         }
-       }
-     }
-   }
+    .dim-label {
+      color: transparent;
+      margin-right: -6px;
+    }
+    button {
+      @extend %linked-button;
+      &:last-child {
+        margin-left: -1px;
+        border-radius: 0px;
+        &:active, &:checked {
+          border-radius: 0px 4px 4px 0px;
+        }
+      }
+      &:first-child {
+        border-radius: 4px 0px 0px 4px;
+        &:active, &:checked {
+          border-radius: 4px;
+        }
+      }
+    }
+    widget > .text-button:last-child{
+      border-radius: 0px 4px 4px 0px;
+      background:  transparentize(darken($_sidebar_color, 3%), 0.07);
+      color: lighten($headerbar_fg_color, 5%);
+      border-bottom: 1px solid $selected_bg_color;
+      &:backdrop, &:backdrop label {
+        color: $backdrop_selected_fg_color;
+      }
+      &:only-child{
+        border-radius: 4px;
+      } 
+    }
+  }
+
  
    &.selection-mode {
      button {
