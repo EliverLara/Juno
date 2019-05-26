@@ -1481,6 +1481,8 @@ StScrollBar {
     background-color: rgba(34, 37, 51, 0.96); }
   .notification-banner:focus {
     background-color: rgba(34, 37, 51, 0.96); }
+  .notification-banner * {
+    color: #fefefe; }
   .notification-banner .notification-icon {
     padding: 5px; }
   .notification-banner .notification-content {
