@@ -5481,7 +5481,7 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   border-style: none none solid; }
 
 .workspace-switcher .workspace-layout {
-  border: 0 solid rgba(9, 12, 14, 0.95); }
+  border: 0 solid rgba(0, 0, 0, 0.95); }
   .top .workspace-switcher .workspace-layout:dir(ltr),
   .bottom .workspace-switcher .workspace-layout:dir(ltr) {
     border-left-width: 1px; }
@@ -5494,7 +5494,7 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
 
 .workspace-switcher .workspace-item,
 .workspace-switcher .workspace-add-button {
-  border: 0 solid rgba(30, 40, 44, 0.95); }
+  border: 0 solid rgba(26, 26, 26, 0.95); }
   .top .workspace-switcher .workspace-item:dir(ltr),
   .bottom .workspace-switcher .workspace-item:dir(ltr), .top
   .workspace-switcher .workspace-add-button:dir(ltr),
@@ -5515,7 +5515,7 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
     border-bottom-width: 1px; }
 
 .workspace-switcher .workspace-item.current-workspace {
-  background-color: rgba(0, 0, 0, 0.95); }
+  background-color: rgba(26, 26, 26, 0.95); }
 
 .workspace-switcher .workspace-add-button {
   border: none;

@@ -982,7 +982,7 @@ window.background.budgie-settings-window.csd {
 
   .workspace-item {
 
-    &.current-workspace { background-color: darken($panel_bg, 5%); }
+    &.current-workspace { background-color: lighten($panel_bg, 10%); }
   }
 
   .workspace-add-button {
