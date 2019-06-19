@@ -5807,8 +5807,47 @@ LibraryWindow .the-button-in-the-combobox {
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05), inset 0 1px 0 0 rgba(255, 255, 255, 0.45), inset 0 -1px 0 0 rgba(255, 255, 255, 0.15), 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.23); }
 
 .xfce4-panel.panel {
-  background-color: #131520;
-  color: #6F7678; }
+  background-color: rgba(19, 21, 32, 0.95);
+  text-shadow: none;
+  -gtk-icon-shadow: none; }
+
+#tasklist-button {
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 0;
+  border: none;
+  background-color: rgba(19, 21, 32, 0); }
+  #tasklist-button:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.17); }
+  #tasklist-button:checked {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 -2px #00A9A5; }
+
+.xfce4-panel.panel button.flat {
+  color: white;
+  border-radius: 0;
+  border: none;
+  background-color: rgba(19, 21, 32, 0); }
+  .xfce4-panel.panel button.flat:hover {
+    border: none;
+    background-color: rgba(37, 42, 65, 0.95); }
+  .xfce4-panel.panel button.flat:active, .xfce4-panel.panel button.flat:checked {
+    color: #fefefe;
+    border-bottom: 2px solid #00A9A5;
+    background-color: rgba(28, 32, 49, 0.95); }
+    .xfce4-panel.panel button.flat:active label, .xfce4-panel.panel button.flat:active image, .xfce4-panel.panel button.flat:checked label, .xfce4-panel.panel button.flat:checked image {
+      color: inherit; }
+
+#whiskermenu-window button {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  font-weight: normal;
+  padding: 3px;
+  margin: 1px 2px; }
+  #whiskermenu-window button:hover, #whiskermenu-window button:checked {
+    background-color: #00A9A5; }
 
 /********
 * Unity *
@@ -5985,10 +6024,10 @@ ConversationListView {
  * LightDm *
  ***********/
 #panel_window {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(19, 21, 32, 0.95);
   color: white;
   font-weight: bold;
-  box-shadow: inset 0 -1px rgba(0, 0, 0, 0.7); }
+  box-shadow: inset 0 -1px rgba(6, 6, 10, 0.95); }
   #panel_window .menubar,
   #panel_window .menubar > .menuitem menubar,
   #panel_window menubar > menuitem {
