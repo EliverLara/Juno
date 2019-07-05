@@ -1522,6 +1522,7 @@ StScrollBar {
       border-radius: 12px;
       background-image: none;
       background-color: rgba(255, 255, 255, 0.3);
+      border: none;
     }
 
     &:hover .page-indicator-icon {  
@@ -1531,11 +1532,13 @@ StScrollBar {
     &:active .page-indicator-icon { 
       background-image: none;
       background-color: rgba(255, 255, 255, 0.7);
+      margin: 0;
     }
     &:checked .page-indicator-icon{ 
       background-image: none;
       background-color: #FFFFFF;
-      transition-duration: 0s; 
+      transition-duration: 0.3s; 
+      transition-timing-function: ease-in-out;
     }
   }
 
