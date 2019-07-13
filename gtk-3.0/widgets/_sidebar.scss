@@ -58,7 +58,7 @@
 
     //elementary os file manager
     &.source-list{
-      background: $base_color;
+      background: $_sidebar_color;
       padding: 4px 0px;
       &.view{
         transition: all .12s ease-in;
