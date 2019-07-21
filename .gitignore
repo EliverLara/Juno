@@ -6,7 +6,6 @@ node_modules/
 *.css.map
 
 _gnome-shell/
-xfwm4/
 
 install.sh
 *blue.*
