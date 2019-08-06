@@ -221,7 +221,7 @@ button {
   }
 
   // Suggested and Destructive Action buttons
-  @each $b_type, $b_color in (suggested-action, $purple),
+  @each $b_type, $b_color in (suggested-action, $orange),
                              (destructive-action, $destructive_color) {
     &.#{$b_type} {
       border: none;
