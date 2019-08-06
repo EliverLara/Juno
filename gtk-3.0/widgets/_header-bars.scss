@@ -90,7 +90,7 @@
        }
      }
  
-     @each $b_type, $b_color in (suggested-action, $cyan),
+     @each $b_type, $b_color in (suggested-action, $yellow),
                                 (destructive-action, $destructive_color) {
        &.#{$b_type} {
          font-weight: bold;
