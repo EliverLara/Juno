@@ -399,9 +399,9 @@ button {
       padding-right: 8px; }
   combobox:drop(active) button.combo, notebook > header > tabs > arrow:drop(active),
   button:drop(active) {
-    color: #4e9a06;
-    border-color: #4e9a06;
-    box-shadow: inset 0 0 0 1px #4e9a06; }
+    color: #a6cc70;
+    border-color: #a6cc70;
+    box-shadow: inset 0 0 0 1px #a6cc70; }
 
 row:selected
 button.flat:not(:active):not(:checked):not(:hover):not(disabled) {
@@ -1574,11 +1574,11 @@ colorswatch.light overlay {
 colorswatch:drop(active) {
   box-shadow: none; }
   colorswatch:drop(active).light overlay {
-    border-color: #4e9a06;
-    box-shadow: inset 0 0 0 2px #13161d, inset 0 0 0 1px #4e9a06; }
+    border-color: #a6cc70;
+    box-shadow: inset 0 0 0 2px #13161d, inset 0 0 0 1px #a6cc70; }
   colorswatch:drop(active).dark overlay {
-    border-color: #4e9a06;
-    box-shadow: inset 0 0 0 2px #13161d, inset 0 0 0 1px #4e9a06; }
+    border-color: #a6cc70;
+    box-shadow: inset 0 0 0 2px #13161d, inset 0 0 0 1px #a6cc70; }
 
 colorswatch overlay {
   box-shadow: inset 0 3px 2px -2px rgba(0, 0, 0, 0.5);
@@ -1807,8 +1807,8 @@ entry {
   spinbutton:drop(active):focus:not(.vertical), spinbutton:drop(active):not(.vertical),
   entry:drop(active):focus,
   entry:drop(active) {
-    border-color: #4e9a06;
-    box-shadow: inset 0 0 0 1px #4e9a06; }
+    border-color: #a6cc70;
+    box-shadow: inset 0 0 0 1px #a6cc70; }
   .osd spinbutton:not(.vertical), .osd
   entry {
     color: #707a8c;
@@ -1882,7 +1882,7 @@ entry:drop(active) + button,
 entry:drop(active) + combobox > box > button.combo, .linked:not(.vertical) > spinbutton:drop(active):not(.vertical) + entry, .linked:not(.vertical) >
 entry:drop(active) +
 entry {
-  border-left-color: #4e9a06; }
+  border-left-color: #a6cc70; }
 
 .linked.vertical > spinbutton:not(:disabled):not(.vertical) + entry:not(:disabled),
 .linked.vertical > spinbutton:not(:disabled):not(.vertical) + spinbutton:not(:disabled):not(.vertical), .linked.vertical >
@@ -1913,7 +1913,7 @@ entry + entry:focus:not(:only-child) {
 .linked.vertical > spinbutton:not(.vertical) + entry:drop(active):not(:only-child), .linked.vertical > entry + spinbutton:drop(active):not(:only-child):not(.vertical),
 .linked.vertical >
 entry + entry:drop(active):not(:only-child) {
-  border-top-color: #4e9a06; }
+  border-top-color: #a6cc70; }
 
 .linked.vertical > spinbutton:focus:not(:only-child):not(.vertical) + spinbutton:not(.vertical),
 .linked.vertical > spinbutton:focus:not(:only-child):not(.vertical) + entry,
@@ -1937,7 +1937,7 @@ entry:drop(active):not(:only-child) + entry,
 entry:drop(active):not(:only-child) + button,
 .linked.vertical >
 entry:drop(active):not(:only-child) + combobox > box > button.combo {
-  border-top-color: #4e9a06; }
+  border-top-color: #a6cc70; }
 
 treeview entry:focus:dir(rtl), treeview entry:focus:dir(ltr) {
   background-color: #232936;
@@ -4078,6 +4078,16 @@ placessidebar.sidebar {
         color: #616a7b; }
     placessidebar.sidebar row.sidebar-row:selected .sidebar-icon {
       color: inherit; }
+  placessidebar.sidebar row.sidebar-row.sidebar-new-bookmark-row, placessidebar.sidebar row.sidebar-row.sidebar-new-bookmark-row label, placessidebar.sidebar row.sidebar-row.sidebar-new-bookmark-row .sidebar-icon {
+    color: #fad07b; }
+  placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled) {
+    box-shadow: inset 0 1px #a6cc70, inset 0 -1px #a6cc70; }
+    placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled), placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled) label, placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled) image {
+      color: #a6cc70; }
+    placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected {
+      background: #a6cc70; }
+      placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected, placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected label, placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected image {
+        color: #1f2430; }
 
 placessidebar list {
   background-color: transparent; }
