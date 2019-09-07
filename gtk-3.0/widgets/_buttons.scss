@@ -228,34 +228,28 @@ button {
                              (destructive-action, $destructive_color) {
     &.#{$b_type} {
       border: none;
-      
-      @if $b_type ==  suggested-action {
-        @include button(rounded, $b_color, white);
-      } @else {
-        @include button(rounded-red, $b_color, white); 
-      }
-
+      @include button(rounded, $b_color, $selected_fg_color);
       &.flat {
        // @include button(undecorated);
-        @include button(rounded, $b_color, white);
+        @include button(rounded, $b_color, $selected_fg_color);
         //color: $b_color; //FIXME: does it work on the dark variant?
       }
 
-      &:hover { @include button(hover, $b_color, white); }
+      &:hover { @include button(hover, $b_color, $selected_fg_color); }
 
       &:active,
-      &:checked { @include button(active, $b_color, white); }
+      &:checked { @include button(active, $b_color, $selected_fg_color); }
 
       &:backdrop,
       &.flat:backdrop {
-        @include button(backdrop, $b_color, white);
-        label { color: transparentize(white, 0.5);}
+        @include button(backdrop, $b_color, $selected_fg_color);
+        label { color: transparentize($selected_fg_color, 0.5);}
         &:active,
-        &:checked { @include button(backdrop-active, $b_color, white); }
+        &:checked { @include button(backdrop-active, $b_color, $selected_fg_color); }
 
         &:disabled {
-          @include button(backdrop-insensitive, $b_color, white);
-          label { color: transparentize(white, 0.5);}
+          @include button(backdrop-insensitive, $b_color, $selected_fg_color);
+          label { color: transparentize($selected_fg_color, 0.5);}
 
           &:active,
           &:checked { @include button(backdrop-insensitive-active, $b_color, white); }

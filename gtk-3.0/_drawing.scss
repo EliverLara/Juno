@@ -206,16 +206,16 @@
   @if $t==rounded {
     box-shadow: none;
   //  border: 1px solid $c;
-    color: white;
+    color: $tc;
     border-radius: 4px;
-    background: $suggested_bg_color; }
+    background: $c; }
 
     @if $t==rounded-red {
       box-shadow: none;
     //  border: 1px solid $c;
-      color: white;
+      color: $tc;
       border-radius: 4px;
-      background: $destructive_bg_color; 
+      background: $c; 
     }
   
   @if $t==normal {
