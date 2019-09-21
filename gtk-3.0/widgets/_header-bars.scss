@@ -122,20 +122,18 @@
  
      //Reset style
      &.titlebutton {
-       color: transparent;
-       box-shadow: none;
-       border: none;
-       background-color: transparent;
-       background-repeat: no-repeat;
-       &:hover,
-       &:active,
-       &:checked,
-       &:backdrop,
-       &:backdrop:hover,* {
-         color: transparent;
-         box-shadow: none;
-         background-color: transparent;
-       }
+      box-shadow: none;
+      border: 1px solid transparent;
+      background: transparent;
+      padding: 5px;
+      min-height: 14px;
+      margin: 5px 1px;
+      &:checked,
+      &:hover,
+      &:backdrop:hover { @include button(normal-header); }
+      &.close:hover { color: $red; }
+      &.maximize:hover { color: $lime; }
+      &.minimize:hover { color: $yellow; }
      }
    }
    %linked-header {
