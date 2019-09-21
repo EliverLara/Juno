@@ -2473,12 +2473,12 @@ headerbar {
       headerbar button.titlebutton:checked,
       headerbar button.titlebutton:hover,
       headerbar button.titlebutton:backdrop:hover {
-        color: #fefefe;
+        color: #7c84a8;
         border-radius: 4px;
         text-shadow: none;
         box-shadow: none;
-        border: 1px solid #12171a;
-        background: linear-gradient(to bottom, #1c2529, #1c2529); }
+        border: 1px solid #1d202c;
+        background: linear-gradient(to bottom, #272b3b, #272b3b); }
       .titlebar button.titlebutton.close:hover,
       headerbar button.titlebutton.close:hover {
         color: #FF5370; }
