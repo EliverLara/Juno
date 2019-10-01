@@ -1,8 +1,9 @@
-$base_color:#0F111A;
-$bg_color:#0D0E16; //252b2f
+
+$base_color:#292a2e;
+$bg_color:darken($base_color, 5%); //252b2f
 $main_dark: darken($bg_color, 5%);
 $gray: lighten($bg_color, 7%);
-$fg_color: #6F7678;
+$fg_color: #ebf0f5;
 $dracula: $bg_color;
 $topbar_color:  lighten($fg_color, 20%);
 
@@ -13,12 +14,13 @@ $yellow: #FFCB6B;
 $purple: #C792EA;
 $cyan: #89DDFF;
 $teal: #00A9A5;
+$blue: #367bf0;
 
-$g1: $teal;
-$g2: $teal;
+$g1: $blue;
+$g2: $blue;
 
 $selected_fg_color: #fefefe;
-$selected_bg_color: $teal;
+$selected_bg_color: $blue;
 $selected_borders_color: darken($selected_bg_color, 10%);
 $borders_color: darken($bg_color, 3%);
 $borders_edge: transparentize(white, 0.9);

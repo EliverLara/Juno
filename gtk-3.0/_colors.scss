@@ -2,10 +2,10 @@
 // it gets @if ed depending on $variant
 
 // Main definitions
-$base_color: if($variant == 'light', #ebf0f5, lighten(#1f2430, 2%));
-$text_color: if($variant == 'light', rgb(223, 226, 231), #707a8c);
-$bg_color: if($variant == 'light', darken( #EEEEEE, 3%), #1f2430);
-$fg_color: if($variant == 'light', #e69317, #707a8c);
+$base_color: if($variant == 'light', #ebf0f5, lighten(#1c1d1f, 2%));
+$text_color: if($variant == 'light', rgb(223, 226, 231), #a4a6ab);
+$bg_color: if($variant == 'light', darken( #EEEEEE, 3%), #1c1d1f);
+$fg_color: if($variant == 'light', #e69317, #ebf0f5);
 $switch_bg: if($variant == 'light', #ffffff, transparentize(black,1));
 $shadow_color: rgba(162, 162, 165, 0.21);
 
@@ -19,13 +19,15 @@ $orange: #F78C6C;
 $yellow: #fad07b;
 $purple: #cfbafa;
 $darkpurple: #bb80b3;
-$blue: #6dcbfa;
+//$blue: #6dcbfa;
 $cyan: #90e1c6;
 $slider: #7b7bbd;
 $teal: #00A9A5;
+$blue: #367bf0;
 
-$selected_fg_color: #1f2430;
-$selected_bg_color: #ffcc66;
+
+$selected_fg_color: darken($base_color, 15%);
+$selected_bg_color: $blue;
 /*$selected_bg_color: #00e8c6;06d6a0*/
 $selected_borders_color: darken($selected_bg_color, 10%);
 $borders_color: darken($main_dark_color, 5%);
