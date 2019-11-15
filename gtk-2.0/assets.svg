@@ -427,10 +427,10 @@
      borderopacity="1"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="39.043921"
-     inkscape:cx="306.7983"
-     inkscape:cy="467.60134"
-     inkscape:current-layer="tab-vert-gap"
+     inkscape:zoom="59.422383"
+     inkscape:cx="480.7473"
+     inkscape:cy="468.39169"
+     inkscape:current-layer="treeview-separator-rtl"
      inkscape:document-units="px"
      showgrid="true"
      inkscape:snap-bbox="true"
@@ -1461,7 +1461,7 @@
          height="2"
          width="2"
          id="rect4951"
-         style="opacity:1;fill:#46474f;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.1" />
+         style="opacity:1;fill:#243035;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.1" />
       <path
          inkscape:label="#rect4948"
          sodipodi:nodetypes="ccc"
@@ -1779,7 +1779,7 @@
          transform="translate(135,86)"
          id="g5358-2">
         <rect
-           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#f4f5f7;fill-opacity:1;stroke:none;stroke-width:1.0666666;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#a5a5a5;fill-opacity:1;stroke:none;stroke-width:1.0666666;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
            id="rect5270-11"
            width="16"
            height="16"
@@ -1907,7 +1907,7 @@
          id="g5284"
          transform="translate(135,86)">
         <rect
-           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#f4f5f7;fill-opacity:1;stroke:none;stroke-width:1.0666666;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#a5a5a5;fill-opacity:0.94117647;stroke:none;stroke-width:1.0666666;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
            id="rect5270-6"
            width="16"
            height="16"
@@ -1988,7 +1988,7 @@
            height="3"
            width="4"
            id="rect5402"
-           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#12171a;fill-opacity:1;stroke:#12171a;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate" />
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#2b3539;fill-opacity:1;stroke:#2b3539;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate" />
       </g>
     </g>
     <g
@@ -2040,7 +2040,7 @@
            height="4"
            width="5"
            id="rect5101-3"
-           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#c6c8cb;fill-opacity:1;stroke:none;stroke-width:1;marker:none;enable-background:accumulate" />
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#2b3539;fill-opacity:1;stroke:none;stroke-width:1;marker:none;enable-background:accumulate" />
       </g>
       <rect
          ry="1.3486539"
@@ -2065,7 +2065,7 @@
            height="5"
            width="4"
            id="rect5151"
-           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#c6c8cb;fill-opacity:1;stroke:none;stroke-width:1.29099441;marker:none;enable-background:accumulate" />
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#2b3539;fill-opacity:1;stroke:none;stroke-width:1.29099441;marker:none;enable-background:accumulate" />
       </g>
       <rect
          transform="rotate(90)"
@@ -2102,7 +2102,7 @@
            y="3.5"
            ry="1.5" />
         <rect
-           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#12171a;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#2b3539;fill-opacity:1;stroke:#2b3539;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
            id="use5047-1"
            width="4"
            height="3"
@@ -3112,7 +3112,7 @@
        id="treeview-separator-rtl"
        transform="matrix(-1,0,0,1,966,0)">
       <rect
-         style="opacity:1;fill:#46474f;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.1"
+         style="opacity:1;fill:#243035;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.1"
          id="rect5144"
          width="2"
          height="2"
@@ -4840,14 +4840,15 @@
        id="g1549">
       <g
          id="g1545"
-         transform="translate(119,29)">
+         transform="translate(119,29)"
+         style="fill:#0003a5;fill-opacity:1">
         <rect
-           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#12171a;fill-opacity:1;stroke:none;stroke-width:1.29099441;marker:none;enable-background:accumulate"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#2b3539;fill-opacity:1;stroke:none;stroke-width:1.29099441;marker:none;enable-background:accumulate"
            id="rect1543"
            width="4"
            height="5"
            x="31"
-           y="1"
+           y="-6"
            ry="0" />
       </g>
       <rect
@@ -4866,14 +4867,15 @@
        id="g1557">
       <g
          transform="translate(105,29)"
-         id="g1553">
+         id="g1553"
+         style="fill:#e800a5;fill-opacity:1">
         <rect
-           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#12171a;fill-opacity:1;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#2b3539;fill-opacity:1;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
            id="rect1551"
            width="5"
            height="4"
            x="31"
-           y="1" />
+           y="-5" />
       </g>
       <rect
          style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
