@@ -1085,9 +1085,9 @@ StScrollBar {
             background-color: darken($bg_color, 1%);
             box-shadow: 3px 0px 0px 0px $selected_bg_color inset;
            }
-          border: none;
-          border-radius: 1px;
-          background: transparent;
+          border: 1px solid $borders_color;
+          border-radius: 5px;
+          background: darken($bg_color, 0.7%);
         }
 
           .message-icon-bin {
