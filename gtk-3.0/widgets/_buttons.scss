@@ -45,10 +45,11 @@ button {
       &:hover {
         transition: $button_transition;
         transition-duration: 500ms;
-
+        
         &:active { transition: $button_transition; }
       }
       &.image-button:hover{
+        @include button(hover);
         color: lighten($fg_color, 35%);
       }
     }
