@@ -276,7 +276,7 @@ button {
   button.flat {
     background-color: transparent;
     background-image: none;
-    background-color: #2c3143;
+    border-color: transparent;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0);
     text-shadow: none;
     -gtk-icon-shadow: none;
@@ -288,6 +288,13 @@ button {
       notebook > header > tabs > arrow:hover:active,
       button.flat:hover:active {
         transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+    notebook > header > tabs > arrow.image-button:hover,
+    button.flat.image-button:hover {
+      color: #7c84a8;
+      outline-color: rgba(124, 132, 168, 0.3);
+      background-color: #2d3144;
+      text-shadow: none;
+      color: #e7e9ef; }
   notebook > header > tabs > arrow:hover,
   button:hover {
     color: #fefefe;
@@ -349,7 +356,7 @@ button {
   button.flat:backdrop:disabled {
     background-color: transparent;
     background-image: none;
-    background-color: #2c3143;
+    border-color: transparent;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0);
     text-shadow: none;
     -gtk-icon-shadow: none; }
@@ -536,7 +543,7 @@ button {
   button.flat {
     background-color: transparent;
     background-image: none;
-    background-color: #2c3143;
+    border-color: transparent;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0);
     text-shadow: none;
     -gtk-icon-shadow: none;
@@ -571,7 +578,7 @@ button {
     button.flat:backdrop {
       background-color: transparent;
       background-image: none;
-      background-color: #2c3143;
+      border-color: transparent;
       box-shadow: inset 0 1px rgba(255, 255, 255, 0);
       text-shadow: none;
       -gtk-icon-shadow: none; }
@@ -666,7 +673,7 @@ button.suggested-action {
   button.suggested-action.flat:backdrop:disabled {
     background-color: transparent;
     background-image: none;
-    background-color: #2c3143;
+    border-color: transparent;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0);
     text-shadow: none;
     -gtk-icon-shadow: none;
@@ -816,7 +823,7 @@ button.destructive-action {
   button.destructive-action.flat:backdrop:disabled {
     background-color: transparent;
     background-image: none;
-    background-color: #2c3143;
+    border-color: transparent;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0);
     text-shadow: none;
     -gtk-icon-shadow: none;
@@ -958,7 +965,7 @@ toolbar button:active {
 .inline-toolbar toolbutton > button {
   background-color: transparent;
   background-image: none;
-  background-color: #2c3143;
+  border-color: transparent;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0);
   text-shadow: none;
   -gtk-icon-shadow: none; }
@@ -2977,7 +2984,7 @@ menu,
   .context-menu > arrow {
     background-color: transparent;
     background-image: none;
-    background-color: #2c3143;
+    border-color: transparent;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0);
     text-shadow: none;
     -gtk-icon-shadow: none;
@@ -3156,7 +3163,7 @@ notebook > header {
     notebook > header > tabs > arrow:disabled {
       background-color: transparent;
       background-image: none;
-      background-color: #2c3143;
+      border-color: transparent;
       box-shadow: inset 0 1px rgba(255, 255, 255, 0);
       text-shadow: none;
       -gtk-icon-shadow: none; }
@@ -3918,7 +3925,7 @@ scrollbar {
     transition-property: min-height, min-width, color;
     background-color: transparent;
     background-image: none;
-    background-color: #2c3143;
+    border-color: transparent;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0);
     text-shadow: none;
     -gtk-icon-shadow: none;
@@ -3926,7 +3933,7 @@ scrollbar {
     scrollbar button:hover {
       background-color: transparent;
       background-image: none;
-      background-color: #2c3143;
+      border-color: transparent;
       box-shadow: inset 0 1px rgba(255, 255, 255, 0);
       text-shadow: none;
       -gtk-icon-shadow: none;
@@ -3934,7 +3941,7 @@ scrollbar {
     scrollbar button:active, scrollbar button:checked {
       background-color: transparent;
       background-image: none;
-      background-color: #2c3143;
+      border-color: transparent;
       box-shadow: inset 0 1px rgba(255, 255, 255, 0);
       text-shadow: none;
       -gtk-icon-shadow: none;
@@ -3942,7 +3949,7 @@ scrollbar {
     scrollbar button:disabled {
       background-color: transparent;
       background-image: none;
-      background-color: #2c3143;
+      border-color: transparent;
       box-shadow: inset 0 1px rgba(255, 255, 255, 0);
       text-shadow: none;
       -gtk-icon-shadow: none;
@@ -3950,7 +3957,7 @@ scrollbar {
     scrollbar button:backdrop {
       background-color: transparent;
       background-image: none;
-      background-color: #2c3143;
+      border-color: transparent;
       box-shadow: inset 0 1px rgba(255, 255, 255, 0);
       text-shadow: none;
       -gtk-icon-shadow: none;
@@ -3958,7 +3965,7 @@ scrollbar {
       scrollbar button:backdrop:disabled {
         background-color: transparent;
         background-image: none;
-        background-color: #2c3143;
+        border-color: transparent;
         box-shadow: inset 0 1px rgba(255, 255, 255, 0);
         text-shadow: none;
         -gtk-icon-shadow: none;
@@ -4154,7 +4161,7 @@ spinbutton:not(.vertical) {
 .osd spinbutton:not(.vertical) button {
   background-color: transparent;
   background-image: none;
-  background-color: #2c3143;
+  border-color: transparent;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0);
   text-shadow: none;
   -gtk-icon-shadow: none;
@@ -4169,7 +4176,7 @@ spinbutton:not(.vertical) {
   .osd spinbutton:not(.vertical) button:hover {
     background-color: transparent;
     background-image: none;
-    background-color: #2c3143;
+    border-color: transparent;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0);
     text-shadow: none;
     -gtk-icon-shadow: none;
@@ -4181,7 +4188,7 @@ spinbutton:not(.vertical) {
   .osd spinbutton:not(.vertical) button:backdrop {
     background-color: transparent;
     background-image: none;
-    background-color: #2c3143;
+    border-color: transparent;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0);
     text-shadow: none;
     -gtk-icon-shadow: none;
@@ -4192,7 +4199,7 @@ spinbutton:not(.vertical) {
   .osd spinbutton:not(.vertical) button:disabled {
     background-color: transparent;
     background-image: none;
-    background-color: #2c3143;
+    border-color: transparent;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0);
     text-shadow: none;
     -gtk-icon-shadow: none;
