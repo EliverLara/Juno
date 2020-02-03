@@ -1083,6 +1083,7 @@ StScrollBar {
         .message {
           &:hover,&:focus { 
             background-color: darken($bg_color, 1%);
+            border-radius: 0px 5px 5px 0px;
             box-shadow: 3px 0px 0px 0px $selected_bg_color inset;
           }
           background: darken($bg_color, 0.7%);
@@ -1616,7 +1617,7 @@ StScrollBar {
       spacing: 1px;
     }
     .notification-button {
-      padding: 4px 4px 5px;
+      padding: 0px;
       background-color: transparentize($bg_color, 0.1);
       &:first-child { border-radius: 0 0 0 3px; }
       &:last-child { border-radius: 0 0 3px 0; }
