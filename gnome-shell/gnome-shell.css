@@ -1001,6 +1001,7 @@ StScrollBar {
   background: #181e22; }
   .message:hover, .message:focus {
     background-color: #171d21;
+    border-radius: 0px 5px 5px 0px;
     box-shadow: 3px 0px 0px 0px #00A9A5 inset; }
 
 .message-icon-bin {
@@ -1504,7 +1505,7 @@ StScrollBar {
     padding-top: 2px;
     spacing: 1px; }
   .notification-banner .notification-button {
-    padding: 4px 4px 5px;
+    padding: 0px;
     background-color: rgba(25, 32, 36, 0.9); }
     .notification-banner .notification-button:first-child {
       border-radius: 0 0 0 3px; }
