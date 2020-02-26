@@ -4984,7 +4984,7 @@ button.raven-trigger {
     color: #7c84a8;
     font-weight: 700; }
   .budgie-panel.transparent {
-    background-color: rgba(9, 12, 14, 0.2); }
+    background-color: rgba(21, 23, 31, 0.2); }
     .top .budgie-panel.transparent {
       border-bottom-color: transparent; }
     .bottom .budgie-panel.transparent {
@@ -5825,7 +5825,7 @@ LibraryWindow .the-button-in-the-combobox {
 
 /**level bars**/
 .sidebar .source-list.view.level-bar, .sidebar iconview.source-list.level-bar, .sidebar .source-list.view.level-bar:selected, .sidebar iconview.source-list.level-bar:selected, .sidebar .source-list.view.level-bar:selected:focus, .sidebar iconview.source-list.level-bar:selected:focus {
-  background: linear-gradient(to right, #454c69);
+  background: linear-gradient(to right, #454c69, #454c69);
   border: 1px solid rgba(0, 0, 0, 0.14);
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
   border-radius: 2px; }
