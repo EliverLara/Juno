@@ -4321,12 +4321,12 @@ switch {
   background-color: #414c65;
   box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.05), 0px 1px rgba(0, 0, 0, 0.1); }
   switch:disabled {
-    background-color: #212632; }
+    background-color: #2f3749; }
   switch:backdrop {
-    background-color: #1f2430;
+    background-color: #333b4f;
     transition: 200ms ease-out; }
     switch:backdrop:disabled {
-      background-color: #212632; }
+      background-color: #2b3243; }
   switch:active, switch:checked {
     background-color: #ffcc66; }
     switch:active:backdrop, switch:checked:backdrop {
