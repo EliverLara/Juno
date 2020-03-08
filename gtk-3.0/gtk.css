@@ -4331,12 +4331,12 @@ switch {
   background-color: #415760;
   box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.05), 0px 1px rgba(0, 0, 0, 0.1); }
   switch:disabled {
-    background-color: #202a2e; }
+    background-color: #2f3e44; }
   switch:backdrop {
-    background-color: #1E282C;
+    background-color: #33444a;
     transition: 200ms ease-out; }
     switch:backdrop:disabled {
-      background-color: #202a2e; }
+      background-color: #2a393e; }
   switch:active, switch:checked {
     background-color: #00A9A5; }
     switch:active:backdrop, switch:checked:backdrop {
