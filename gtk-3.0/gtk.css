@@ -15,7 +15,7 @@
 /* text/foreground color of selections */
 @define-color theme_selected_fg_color #fefefe;
 /* base background color of disabled widgets */
-@define-color insensitive_bg_color #2b2f40;
+@define-color insensitive_bg_color #2f3346;
 /* text foreground color of disabled widgets */
 @define-color insensitive_fg_color #525973;
 /* disabled text widgets and the like base background color */
@@ -154,7 +154,7 @@ read if you used those and something break with a version upgrade you're on your
     background-color: #15171f; }
   .gtkstyle-fallback:disabled {
     color: #525973;
-    background-color: #2b2f40; }
+    background-color: #2f3346; }
   .gtkstyle-fallback:selected {
     color: #fefefe;
     background-color: #00A9A5; }
@@ -338,8 +338,8 @@ button {
     button:backdrop.flat:disabled,
     button:backdrop:disabled {
       color: #6c7495;
-      outline-color: rgba(124, 132, 168, 0.3);
-      background-color: #2b2f40;
+      border-color: rgba(29, 32, 44, 0.5);
+      background-color: #2f3346;
       text-shadow: none; }
       notebook > header > tabs > arrow:backdrop:disabled:active, notebook > header > tabs > arrow:backdrop:disabled:checked, notebook > header > tabs > arrow:backdrop:disabled:active, notebook > header > tabs > arrow:backdrop:disabled:checked,
       button:backdrop.flat:disabled:active,
@@ -363,8 +363,8 @@ button {
   notebook > header > tabs > arrow:disabled,
   button:disabled {
     color: #6c7495;
-    outline-color: rgba(124, 132, 168, 0.3);
-    background-color: #2b2f40;
+    border-color: rgba(29, 32, 44, 0.5);
+    background-color: #2f3346;
     text-shadow: none; }
     notebook > header > tabs > arrow:disabled:active, notebook > header > tabs > arrow:disabled:checked,
     button:disabled:active,
@@ -651,7 +651,7 @@ button.suggested-action {
     button.suggested-action:backdrop:disabled,
     button.suggested-action.flat:backdrop:disabled {
       color: white;
-      outline-color: rgba(255, 255, 255, 0.3);
+      border-color: rgba(29, 32, 44, 0.5);
       background-color: #F78C6C;
       text-shadow: none; }
       
@@ -681,7 +681,7 @@ button.suggested-action {
   
   button.suggested-action:disabled {
     color: white;
-    outline-color: rgba(255, 255, 255, 0.3);
+    border-color: rgba(29, 32, 44, 0.5);
     background-color: #F78C6C;
     text-shadow: none; }
     
@@ -801,7 +801,7 @@ button.destructive-action {
     button.destructive-action:backdrop:disabled,
     button.destructive-action.flat:backdrop:disabled {
       color: white;
-      outline-color: rgba(255, 255, 255, 0.3);
+      border-color: rgba(29, 32, 44, 0.5);
       background-color: #ff2046;
       text-shadow: none; }
       
@@ -831,7 +831,7 @@ button.destructive-action {
   
   button.destructive-action:disabled {
     color: white;
-    outline-color: rgba(255, 255, 255, 0.3);
+    border-color: rgba(29, 32, 44, 0.5);
     background-color: #ff2046;
     text-shadow: none; }
     
@@ -1000,6 +1000,12 @@ toolbar.inline-toolbar toolbutton:backdrop > button.flat:backdrop {
   border-radius: 0;
   border-right-style: none;
   box-shadow: none; }
+  .inline-toolbar button:disabled, .linked > button:disabled, .linked:not(.vertical) > spinbutton:disabled:not(.vertical), .linked:not(.vertical) > entry:disabled, .linked > combobox > box > button.combo:disabled:dir(ltr), .linked > combobox > box > button.combo:disabled:dir(rtl) {
+    color: #6c7495;
+    border-color: rgba(29, 32, 44, 0.5);
+    background-color: #2f3346;
+    text-shadow: none;
+    color: #525973; }
 
 .inline-toolbar button:first-child, .linked > button:first-child, combobox.linked button:nth-child(2):dir(rtl), .linked:not(.vertical) > combobox:first-child > box > button.combo, .linked:not(.vertical) > spinbutton:first-child:not(.vertical), .linked:not(.vertical) > entry:first-child {
   border-top-left-radius: 3px;
@@ -1752,8 +1758,8 @@ entry {
   spinbutton:disabled:not(.vertical),
   entry:disabled {
     color: #525973;
-    border-color: #1d202c;
-    background-color: #2b2f40;
+    border-color: rgba(29, 32, 44, 0.5);
+    background-color: #2f3346;
     box-shadow: none; }
   spinbutton:backdrop:not(.vertical),
   entry:backdrop {
@@ -1765,8 +1771,8 @@ entry {
   spinbutton:backdrop:disabled:not(.vertical),
   entry:backdrop:disabled {
     color: #474e6c;
-    border-color: #1e212d;
-    background-color: #2b2f40;
+    border-color: rgba(29, 32, 44, 0.5);
+    background-color: #2f3346;
     box-shadow: none; }
   spinbutton.error:not(.vertical),
   entry.error {
@@ -2403,7 +2409,7 @@ headerbar {
       .titlebar button.suggested-action:disabled,
       headerbar button.suggested-action:disabled {
         color: white;
-        outline-color: rgba(255, 255, 255, 0.3);
+        border-color: rgba(29, 32, 44, 0.5);
         background-color: #F78C6C;
         text-shadow: none; }
         .titlebar button.suggested-action:disabled label,
@@ -2419,7 +2425,7 @@ headerbar {
       .titlebar button.suggested-action:backdrop:disabled,
       headerbar button.suggested-action:backdrop:disabled {
         color: white;
-        outline-color: rgba(255, 255, 255, 0.3);
+        border-color: rgba(29, 32, 44, 0.5);
         background-color: #F78C6C;
         text-shadow: none; }
     .titlebar button.destructive-action,
@@ -2449,7 +2455,7 @@ headerbar {
       .titlebar button.destructive-action:disabled,
       headerbar button.destructive-action:disabled {
         color: white;
-        outline-color: rgba(255, 255, 255, 0.3);
+        border-color: rgba(29, 32, 44, 0.5);
         background-color: #ff2046;
         text-shadow: none; }
         .titlebar button.destructive-action:disabled label,
@@ -2465,7 +2471,7 @@ headerbar {
       .titlebar button.destructive-action:backdrop:disabled,
       headerbar button.destructive-action:backdrop:disabled {
         color: white;
-        outline-color: rgba(255, 255, 255, 0.3);
+        border-color: rgba(29, 32, 44, 0.5);
         background-color: #ff2046;
         text-shadow: none; }
     .titlebar button.titlebutton,
@@ -3450,7 +3456,7 @@ scale {
     scale slider:active {
       background-color: #00A9A5; }
       scale slider:active:disabled {
-        background-color: #2b2f40;
+        background-color: #2f3346;
         box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.05); }
   scale.fine-tune.horizontal {
     padding-top: 9px;
@@ -6098,8 +6104,8 @@ ConversationListView {
     text-shadow: none; }
   #content_frame button:disabled {
     color: #6c7495;
-    outline-color: rgba(124, 132, 168, 0.3);
-    background-color: #2b2f40;
+    border-color: rgba(29, 32, 44, 0.5);
+    background-color: #2f3346;
     text-shadow: none; }
 
 #buttonbox_frame {
