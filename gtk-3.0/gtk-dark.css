@@ -284,17 +284,14 @@ button {
     notebook > header > tabs > arrow:hover,
     button.flat:hover {
       transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-      transition-duration: 500ms; }
+      transition-duration: 500ms;
+      color: #fefefe;
+      outline-color: rgba(254, 254, 254, 0.3);
+      background-color: #00A9A5;
+      text-shadow: none; }
       notebook > header > tabs > arrow:hover:active,
       button.flat:hover:active {
         transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
-    notebook > header > tabs > arrow.image-button:hover,
-    button.flat.image-button:hover {
-      color: #fefefe;
-      outline-color: rgba(254, 254, 254, 0.3);
-      background-color: #222e32;
-      text-shadow: none;
-      color: white; }
   notebook > header > tabs > arrow:hover,
   button:hover {
     color: #fefefe;
@@ -970,21 +967,21 @@ toolbar button:active {
   text-shadow: none;
   -gtk-icon-shadow: none; }
   .inline-toolbar toolbutton > button:hover {
-    color: #00A9A5; }
+    color: #fefefe; }
   .inline-toolbar toolbutton > button:active, .inline-toolbar toolbutton > button:checked {
-    color: #00908c; }
+    color: #f1f1f1; }
   .inline-toolbar toolbutton > button:disabled {
     color: #d2d5d6; }
     .inline-toolbar toolbutton > button:disabled:active, .inline-toolbar toolbutton > button:disabled:checked {
-      color: rgba(0, 144, 140, 0.3); }
+      color: rgba(241, 241, 241, 0.3); }
   .inline-toolbar toolbutton > button:backdrop {
     color: #d2d5d6; }
     .inline-toolbar toolbutton > button:backdrop:active, .inline-toolbar toolbutton > button:backdrop:checked {
-      color: #00908c; }
+      color: #f1f1f1; }
     .inline-toolbar toolbutton > button:backdrop:disabled {
       color: #d2d5d6; }
       .inline-toolbar toolbutton > button:backdrop:disabled:active, .inline-toolbar toolbutton > button:backdrop:disabled:checked {
-        color: rgba(0, 144, 140, 0.3); }
+        color: rgba(241, 241, 241, 0.3); }
 
 toolbar.inline-toolbar toolbutton > button.flat:backdrop,
 toolbar.inline-toolbar toolbutton:backdrop > button.flat:backdrop {
