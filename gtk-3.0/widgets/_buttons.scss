@@ -51,6 +51,10 @@ button {
       }
     }
 
+    &.image-button:hover{
+      color: lighten($fg_color, 35%);
+    }
+
     &:hover {
       @include button(hover,$selected_bg_color,$selected_fg_color);
       -gtk-icon-effect: highlight;
