@@ -1524,8 +1524,10 @@ StScrollBar {
     padding-top: 2px;
     spacing: 1px; }
   .notification-banner .notification-button {
-    padding: 0px;
-    background-color: rgba(13, 14, 22, 0.9); }
+    padding: 5px;
+    background-color: #0D0E16;
+    box-shadow: none;
+    border: none; }
     .notification-banner .notification-button:first-child {
       border-radius: 0 0 0 3px; }
     .notification-banner .notification-button:last-child {
