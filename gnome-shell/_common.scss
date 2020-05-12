@@ -1645,8 +1645,10 @@ StScrollBar {
       spacing: 1px;
     }
     .notification-button {
-      padding: 0px;
-      background-color: transparentize($bg_color, 0.1);
+      padding: 5px;
+      background-color: $bg_color;
+      box-shadow: none;
+      border: none;
       &:first-child { border-radius: 0 0 0 3px; }
       &:last-child { border-radius: 0 0 3px 0; }
       &:hover, &focus { background-color: darken($bg_color,2%); color: $selected_bg_color;}
