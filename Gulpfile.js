@@ -6,6 +6,7 @@ gulp.task('styles', function(done) {
     gulp.src('gtk-3.0/**/*.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('./gtk-3.0/'))
+        .pipe(exec(' gsettings set org.gnome.desktop.interface gtk-theme "Nordic"'))
         .pipe(exec(' gsettings set org.gnome.desktop.interface gtk-theme "Juno"'))
     done();
 });
