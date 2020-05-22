@@ -707,7 +707,7 @@ StScrollBar {
 /* TOP BAR */
 #panel {
   background-gradient-direction: none;
-  background-color: rgba(34, 37, 51, 0.83);
+  background-color: rgba(34, 37, 51, 0.93);
   /* transition from solid to transparent */
   transition-duration: 500ms;
   font-weight: bold;
@@ -744,7 +744,7 @@ StScrollBar {
     #panel .panel-button .popup-menu-arrow {
       icon-shadow: 0px 0px 2px rgba(0, 0, 0, 0.9); }
     #panel .panel-button:hover {
-      background: rgba(54, 59, 82, 0.83);
+      background: rgba(54, 59, 82, 0.93);
       color: #d8dae5;
       transition-duration: 200ms; }
     #panel .panel-button:active, #panel .panel-button:overview, #panel .panel-button:focus, #panel .panel-button:checked {
@@ -914,7 +914,7 @@ StScrollBar {
 
 .calendar-change-month-back StIcon,
 .calendar-change-month-forward StIcon {
-  color: #63696b; }
+  color: #6d769e; }
 
 .calendar-day-base {
   font-size: 80%;
@@ -969,8 +969,8 @@ StScrollBar {
   border-radius: 2px;
   padding: 0.5em 0 0;
   margin: 6px;
-  background-color: rgba(124, 132, 168, 0.3);
-  color: #222533; }
+  background-color: #1e212d;
+  color: #7c84a8; }
 
 /* Message list */
 .message-list {
@@ -1071,6 +1071,38 @@ StScrollBar {
     border-radius: 2px;
     icon-size: 16px;
     padding: 8px; }
+
+/* World clocks */
+.world-clocks-button .world-clocks-city {
+  color: #7c84a8;
+  font-weight: normal; }
+
+.world-clocks-button .world-clocks-time {
+  font-weight: bold;
+  color: #7c84a8;
+  font-feature-settings: "lnum";
+  text-align: right; }
+
+.world-clocks-button .world-clocks-timezone {
+  color: #4c5372;
+  font-feature-settings: "tnum"; }
+
+/* Weather */
+.weather-button .weather-header {
+  color: #606991;
+  font-weight: bold; }
+  .weather-button .weather-header.location {
+    font-weight: normal; }
+
+.weather-button .weather-forecast-time {
+  color: #606991;
+  font-feature-settings: "tnum";
+  font-weight: normal;
+  padding-top: 0.2em;
+  padding-bottom: 0.4em; }
+
+.weather-button .weather-forecast-temp {
+  font-weight: bold; }
 
 .system-switch-user-submenu-icon.user-icon {
   icon-size: 20px;
@@ -1293,7 +1325,7 @@ StScrollBar {
 #dash {
   font-size: 9pt;
   color: #b9bed1;
-  background-color: rgba(34, 37, 51, 0.83);
+  background-color: rgba(34, 37, 51, 0.93);
   padding: 6px 0;
   border: 1px solid #1c1e2a;
   border-left: 0px;
@@ -1315,7 +1347,7 @@ StScrollBar {
   border-radius: 7px;
   padding: 4px 12px;
   color: #b9bed1;
-  background-color: rgba(34, 37, 51, 0.83);
+  background-color: rgba(34, 37, 51, 0.93);
   text-align: center;
   -x-offset: 8px; }
 
