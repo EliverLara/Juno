@@ -241,7 +241,7 @@ StScrollBar {
   border: none;
   & .modal-dialog-linked-button:last-child {
     @include gradient();
-    color: #fff;
+    color: $bg_color;
     &:hover, &:focus {
       background: darken($error_color, 3%);
       color: #fff;
@@ -543,7 +543,7 @@ StScrollBar {
       }
     }
     &.selected { background-color: transparentize($fg_color,0.9); color: $fg_color; }
-    &:active { background-color: $selected_bg_color; color: $selected_fg_color; }
+    &:active { background-color: $selected_bg_color; color: $bg_color }
     &:insensitive { color: transparentize($fg_color,.5); }
   }
 
@@ -810,7 +810,7 @@ StScrollBar {
     -minimum-hpadding: 6px;
     font-weight: bold;
     color: $topbar_color;
-    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.9);
+    text-shadow:none;
     transition-duration: 100ms;
 
     .app-menu-icon {
@@ -823,7 +823,7 @@ StScrollBar {
     .system-status-icon,
     .app-menu-icon > StIcon,
     .popup-menu-arrow {
-      icon-shadow: 0px 0px 2px rgba(0, 0, 0, 0.9);
+      icon-shadow: none;
     }
 
     &:hover {
@@ -837,14 +837,10 @@ StScrollBar {
       // a box-shadow
       box-shadow: none;
       @include gradient();
-      color: $selected_fg_color;
-      text-shadow: 0px 0px 2px rgba(92, 92, 92, 0.9);
+      color: $bg_color;
+      text-shadow: none;
       transition-duration: 200ms;
-      .system-status-icon,
-      .app-menu-icon > StIcon,
-      .popup-menu-arrow {
-        icon-shadow: 0px 0px 2px rgba(0, 0, 0, 0.9);
-      }
+
       & > .system-status-icon { icon-shadow: red 0 2px 2px; }
     }
 
@@ -1021,9 +1017,9 @@ StScrollBar {
       color: $fg_color;
       &:hover,&:focus { background-color: lighten($bg_color,5%); }
       &:active,&:selected {
-        color: $selected_fg_color;
+        color: $bg_color;
         background-color: $selected_bg_color;
-        border-color: transparent; //avoid jumparound due to today
+        border-color: $selected_bg_color; //avoid jumparound due to today
       }
       &.calendar-day-heading {  //day of week heading
         color: darken($fg_color, 10%);
