@@ -4497,6 +4497,7 @@ treeview.view {
     treeview.view.expander:backdrop {
       color: #3e4453; }
   treeview.view.progressbar {
+    color: #1f2430;
     border: 1px solid #ffbb33;
     border-radius: 4px;
     background-color: #ffcc66;
@@ -4504,6 +4505,7 @@ treeview.view {
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.15), 0 1px rgba(0, 0, 0, 0.1); }
     treeview.view.progressbar:selected:focus, treeview.view.progressbar:selected {
       border-radius: 4px;
+      color: #ffcc66;
       box-shadow: inset 0 1px rgba(255, 255, 255, 0.05);
       background-image: linear-gradient(to bottom, #232936, #0f1117); }
       treeview.view.progressbar:selected:focus:backdrop, treeview.view.progressbar:selected:backdrop {
