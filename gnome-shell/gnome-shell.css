@@ -235,6 +235,8 @@ StScrollBar {
     font-weight: bold;
     color: #606991;
     padding-bottom: .4em; }
+  .modal-dialog .run-dialog-description {
+    color: #7c84a8; }
 
 .mount-dialog-subject,
 .end-session-dialog-subject {
@@ -686,8 +688,9 @@ StScrollBar {
 .switcher-list, .workspace-switcher-container {
   color: #7c84a8;
   background-color: rgba(34, 37, 51, 0.95);
-  border: none;
-  border-radius: 2px;
+  border: 1px solid #1c1e2a;
+  border-radius: 5px;
+  box-shadow: 0px 0px 7px #1c1e2a;
   padding: 12px; }
 
 /* Tiled window previews */
