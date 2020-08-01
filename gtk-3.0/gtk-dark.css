@@ -2917,7 +2917,8 @@ menu,
   padding: 2px 0px;
   background: #272b3b;
   border: 1px solid #1d202c;
-  border-radius: 5px; }
+  border-radius: 5px;
+  font: initial; }
   .csd menu, .csd
   .menu, .csd
   .context-menu {
