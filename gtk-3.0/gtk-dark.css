@@ -2930,7 +2930,8 @@ menu,
   padding: 2px 0px;
   background: #1d222d;
   border: 1px solid #13161d;
-  border-radius: 5px; }
+  border-radius: 5px;
+  font: initial; }
   .csd menu, .csd
   .menu, .csd
   .context-menu {
