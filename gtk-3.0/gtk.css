@@ -5609,6 +5609,14 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
 .nautilus-window .searchbar-container {
   margin-top: -1px; }
 
+.nautilus-window .linked:not(.vertical) > entry {
+  border-radius: 10px;
+  margin-right: 5px; }
+  .nautilus-window .linked:not(.vertical) > entry:focus {
+    border-color: rgba(0, 169, 165, 0.3); }
+    .nautilus-window .linked:not(.vertical) > entry:focus + button {
+      border-left-color: #040407; }
+
 .nautilus-circular-button {
   border-radius: 20px;
   -gtk-outline-radius: 20px; }
