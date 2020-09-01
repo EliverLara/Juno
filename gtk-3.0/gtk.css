@@ -40,6 +40,18 @@
 @define-color warning_color #f4663c;
 @define-color error_color #ff3a5b;
 @define-color success_color #56ceff;
+@define-color fg_color #7c84a8;
+@define-color text_color #7c84a8;
+@define-color bg_color #292D3E;
+@define-color base_color #2d3144;
+@define-color selected_bg_color #00A9A5;
+@define-color selected_fg_color #fefefe;
+@define-color unfocused_fg_color #525973;
+@define-color unfocused_text_color #7c84a8;
+@define-color unfocused_bg_color #292D3E;
+@define-color unfocused_base_color #2f3447;
+@define-color unfocused_selected_bg_color #00A9A5;
+@define-color unfocused_selected_fg_color #fefefe;
 /* these colors are exported for the window manager and shouldn't be used in applications,
 read if you used those and something break with a version upgrade you're on your own... */
 @define-color wm_title shade(#7c84a8, 1.8);
@@ -5609,7 +5621,7 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   .nautilus-window .linked:not(.vertical) > entry:focus {
     border-color: rgba(0, 169, 165, 0.3); }
     .nautilus-window .linked:not(.vertical) > entry:focus + button {
-      border-left-color: #040407; }
+      border-left-color: #1d202c; }
 
 .nautilus-circular-button {
   border-radius: 20px;
