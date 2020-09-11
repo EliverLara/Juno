@@ -6211,7 +6211,7 @@ ConversationListView {
 .nemo-window .places-treeview {
   -NemoPlacesTreeView-disk-full-bg-color: #3b4f56;
   -NemoPlacesTreeView-disk-full-fg-color: #FFCB6B;
-  -GtkTreeView-vertical-separator: 1; }
+  -GtkTreeView-vertical-separator: 7; }
   .nemo-window .places-treeview .view.cell:hover, .nemo-window .places-treeview iconview.cell:hover,
   .nemo-window .places-treeview iconview.cell:hover {
     background: rgba(22, 29, 32, 0.7); }
