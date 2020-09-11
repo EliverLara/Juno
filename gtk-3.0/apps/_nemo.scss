@@ -1,0 +1,24 @@
+.nemo-window {
+    .places-treeview {
+        -NemoPlacesTreeView-disk-full-bg-color: lighten($_sidebar_color, 15%);
+        -NemoPlacesTreeView-disk-full-fg-color: $yellow;
+        -GtkTreeView-vertical-separator: 1; 
+        .view.cell,
+        iconview.cell {
+            &:hover {
+                background: transparentize(darken($_sidebar_color, 3%), 0.3);
+            }
+            &:selected {
+                background:  transparentize(darken($_sidebar_color, 3%), 0.07);
+            }
+        }
+    }
+
+    .sidebar {
+        color: #98abb2;
+        background-color: $_sidebar_color; 
+        .view, .iconview, row {
+            background-color: transparent;
+        }
+    }
+}
