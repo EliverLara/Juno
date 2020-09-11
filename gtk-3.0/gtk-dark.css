@@ -6197,18 +6197,18 @@ ConversationListView {
   font-weight: bold; }
 
 .nemo-window .places-treeview {
-  -NemoPlacesTreeView-disk-full-bg-color: #3b4f56;
+  -NemoPlacesTreeView-disk-full-bg-color: #454c69;
   -NemoPlacesTreeView-disk-full-fg-color: #FFCB6B;
   -GtkTreeView-vertical-separator: 7; }
   .nemo-window .places-treeview .view.cell:hover, .nemo-window .places-treeview iconview.cell:hover,
   .nemo-window .places-treeview iconview.cell:hover {
-    background: rgba(22, 29, 32, 0.7); }
+    background: rgba(33, 36, 50, 0.7); }
   .nemo-window .places-treeview .view.cell:selected, .nemo-window .places-treeview iconview.cell:selected,
   .nemo-window .places-treeview iconview.cell:selected {
-    background: rgba(22, 29, 32, 0.93); }
+    background: rgba(33, 36, 50, 0.93); }
 
 .nemo-window .sidebar {
   color: #98abb2;
-  background-color: #1c2529; }
+  background-color: #272b3b; }
   .nemo-window .sidebar .view, .nemo-window .sidebar iconview, .nemo-window .sidebar .iconview, .nemo-window .sidebar row {
     background-color: transparent; }
