@@ -6208,3 +6208,20 @@ ConversationListView {
 #greeter_infobar {
   border-bottom-width: 0;
   font-weight: bold; }
+
+.nemo-window .places-treeview {
+  -NemoPlacesTreeView-disk-full-bg-color: #3b4f56;
+  -NemoPlacesTreeView-disk-full-fg-color: #FFCB6B;
+  -GtkTreeView-vertical-separator: 1; }
+  .nemo-window .places-treeview .view.cell:hover, .nemo-window .places-treeview iconview.cell:hover,
+  .nemo-window .places-treeview iconview.cell:hover {
+    background: rgba(22, 29, 32, 0.7); }
+  .nemo-window .places-treeview .view.cell:selected, .nemo-window .places-treeview iconview.cell:selected,
+  .nemo-window .places-treeview iconview.cell:selected {
+    background: rgba(22, 29, 32, 0.93); }
+
+.nemo-window .sidebar {
+  color: #98abb2;
+  background-color: #1c2529; }
+  .nemo-window .sidebar .view, .nemo-window .sidebar iconview, .nemo-window .sidebar .iconview, .nemo-window .sidebar row {
+    background-color: transparent; }
