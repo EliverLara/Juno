@@ -2,10 +2,10 @@
 // it gets @if ed depending on $variant
 
 
-$base_color: #0F111A;
-$text_color: #6F7678;
-$bg_color: #0D0E16;
-$fg_color: #6F7678;
+$base_color: #1f2430;
+$text_color: #707a8c;
+$bg_color: #181C25;
+$fg_color: #707a8c;
 
 $main_dark_color: darken($bg_color, 5%);
 
@@ -18,8 +18,8 @@ $blue: #82AAFF;
 $cyan: #89DDFF;
 $teal: #00A9A5;
 
-$selected_fg_color: #fefefe;
-$selected_bg_color: $teal;
+$selected_fg_color: #1f2430;
+$selected_bg_color: #ffcc66;;
 $selected_borders_color: darken($selected_bg_color, 20%);
 $borders_color: transparentize(#191A22, 0.1);
 
