@@ -2915,7 +2915,7 @@ row {
  *********/
 menubar,
 .menubar {
-  background-color: #0F111A;
+  background-color: #0a0b11;
   color: #808789;
   -GtkWidget-window-dragging: true;
   padding: 0px;
@@ -5117,7 +5117,7 @@ button.raven-trigger {
     border-right: 2px solid #00A9A5; }
 
 .top .budgie-panel {
-  border-bottom: 1px solid rgba(2, 2, 3, 0.92); }
+  border-bottom: 1px solid rgba(0, 0, 0, 0.92); }
 
 .top .raven-frame {
   padding: 0;
@@ -5131,7 +5131,7 @@ button.raven-trigger {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), transparent); }
 
 .bottom .budgie-panel {
-  border-top: 1px solid rgba(2, 2, 3, 0.92); }
+  border-top: 1px solid rgba(0, 0, 0, 0.92); }
 
 .bottom .raven-frame {
   padding: 0;
@@ -5145,7 +5145,7 @@ button.raven-trigger {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), transparent); }
 
 .left .budgie-panel {
-  border-right: 1px solid rgba(2, 2, 3, 0.92); }
+  border-right: 1px solid rgba(0, 0, 0, 0.92); }
 
 .left .raven-frame {
   padding: 0;
@@ -5159,7 +5159,7 @@ button.raven-trigger {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), transparent); }
 
 .right .budgie-panel {
-  border-left: 1px solid rgba(2, 2, 3, 0.92); }
+  border-left: 1px solid rgba(0, 0, 0, 0.92); }
 
 .right .raven-frame {
   padding: 0;
@@ -5490,10 +5490,10 @@ calendar.raven-calendar {
   min-height: 16px; }
   .budgie-menubar arrow.top {
     -gtk-icon-source: -gtk-icontheme("pan-up-symbolic");
-    border-bottom: 1px solid rgba(28, 31, 39, 0.928); }
+    border-bottom: 1px solid rgba(24, 25, 31, 0.928); }
   .budgie-menubar arrow.bottom {
     -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
-    border-top: 1px solid rgba(28, 31, 39, 0.928); }
+    border-top: 1px solid rgba(24, 25, 31, 0.928); }
 
 .budgie-menubar menuitem accelerator {
   color: rgba(128, 135, 137, 0.35); }
@@ -6143,7 +6143,7 @@ ConversationListView {
   padding-top: 20px;
   padding-bottom: 0px;
   border-style: none;
-  background-color: #0F111A;
+  background-color: #0a0b11;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   border: solid rgba(0, 0, 0, 0.1);
@@ -6213,3 +6213,49 @@ ConversationListView {
   background-color: #0d0f17; }
   .nemo-window .sidebar .view, .nemo-window .sidebar iconview, .nemo-window .sidebar .iconview, .nemo-window .sidebar row {
     background-color: transparent; }
+
+.nemo-window .nemo-window-pane widget.entry {
+  background-clip: padding-box;
+  min-height: 28px;
+  padding: 5px;
+  color: #808789;
+  border: 1px solid #040407;
+  border-radius: 3px;
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.9), inset 1px 0 rgba(0, 0, 0, 0.96), inset -1px 0 rgba(0, 0, 0, 0.96), inset 0 -1px rgba(0, 0, 0, 0.98), 0 1px rgba(255, 255, 255, 0.6); }
+  .nemo-window .nemo-window-pane widget.entry:selected {
+    background-color: #00A9A5;
+    color: #fefefe; }
+
+.nemo-window toolbar.primary-toolbar {
+  margin-bottom: -1px;
+  background: #0a0b11; }
+  .nemo-window toolbar.primary-toolbar button {
+    color: #808789;
+    border-radius: 4px;
+    text-shadow: none;
+    box-shadow: none;
+    border: 1px solid #040407;
+    background: linear-gradient(to bottom, #0d0f17, #0d0f17);
+    min-height: 24px;
+    padding: 3px; }
+    .nemo-window toolbar.primary-toolbar button:hover {
+      color: #fefefe;
+      border-radius: 0;
+      text-shadow: none;
+      background-image: linear-gradient(to bottom, #131520, #0F111A); }
+    .nemo-window toolbar.primary-toolbar button:selected, .nemo-window toolbar.primary-toolbar button:active, .nemo-window toolbar.primary-toolbar button:checked {
+      background-color: rgba(8, 9, 13, 0.93);
+      color: #8d9395;
+      border-bottom: 1px solid #00A9A5; }
+      .nemo-window toolbar.primary-toolbar button:selected:backdrop, .nemo-window toolbar.primary-toolbar button:active:backdrop, .nemo-window toolbar.primary-toolbar button:checked:backdrop {
+        color: rgba(254, 254, 254, 0.5);
+        background-color: transparent;
+        border-radius: 0;
+        text-shadow: none;
+        box-shadow: none; }
+    .nemo-window toolbar.primary-toolbar button:backdrop, .nemo-window toolbar.primary-toolbar button:disabled, .nemo-window toolbar.primary-toolbar button:backdrop:disabled {
+      color: rgba(128, 135, 137, 0.2);
+      background-color: transparent;
+      border-radius: 0;
+      text-shadow: none;
+      box-shadow: none; }
