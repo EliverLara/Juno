@@ -6062,14 +6062,14 @@ SheetStyleDialog.unity-force-quit {
 
 MsdOsdWindow.background.osd {
   border-radius: 2px;
-  border: 1px solid #040407; }
+  border: 1px solid #13161d; }
   MsdOsdWindow.background.osd .progressbar {
-    background-color: #00A9A5;
+    background-color: #ffcc66;
     border: none;
-    border-color: #00A9A5;
+    border-color: #ffcc66;
     border-radius: 5px; }
   MsdOsdWindow.background.osd .trough {
-    background-color: rgba(0, 0, 0, 0.93);
+    background-color: rgba(13, 15, 20, 0.93);
     border: none;
     border-radius: 5px; }
 
