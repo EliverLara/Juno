@@ -33,6 +33,7 @@ Item {
     property Item clock
     property Item mainStack
     property Item footer
+    property Item formBg
     property alias source: wallpaperBlur.source
     state: lockScreenRoot.uiVisible ? "on" : "off"
     property real factor: 0
@@ -118,6 +119,10 @@ Item {
                 factor: 1
             }
             PropertyChanges {
+                target: formBg
+                opacity: 0.5
+            }
+            PropertyChanges {
                 target: clock.shadow
                 opacity: 0
             }
@@ -141,6 +146,10 @@ Item {
             PropertyChanges {
                 target: wallpaperFader
                 factor: 0
+            }
+            PropertyChanges {
+                target: formBg
+                opacity: 0
             }
             PropertyChanges {
                 target: clock.shadow

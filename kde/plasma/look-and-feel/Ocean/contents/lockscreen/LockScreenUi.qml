@@ -178,6 +178,7 @@ PlasmaCore.ColorScope {
             mainStack: mainStack
             footer: footer
             clock: clock
+            formBg: formBg
             z: -3
         }
 
@@ -310,8 +311,8 @@ PlasmaCore.ColorScope {
         }
         Rectangle {
             id: formBg
-            width: mainStack.width + actionButtonsColumn.width*2
-            height: mainStack.height
+            width: mainStack.width
+            height: mainStack.height / 3
             anchors.centerIn: mainStack
             radius: 10
             color: "#0F111A"
