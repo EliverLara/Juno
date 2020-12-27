@@ -5913,7 +5913,7 @@ LibraryWindow .the-button-in-the-combobox {
     border: none;
     background-color: #374055; }
   .xfce4-panel.panel button.flat:active, .xfce4-panel.panel button.flat:checked {
-    color: #1f2430;
+    color: white;
     border-bottom: 2px solid #ffcc66;
     background-color: #2d3446; }
     .xfce4-panel.panel button.flat:active label, .xfce4-panel.panel button.flat:active image, .xfce4-panel.panel button.flat:checked label, .xfce4-panel.panel button.flat:checked image {
