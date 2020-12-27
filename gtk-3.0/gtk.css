@@ -6277,3 +6277,39 @@ ConversationListView {
       border-radius: 0;
       text-shadow: none;
       box-shadow: none; }
+
+/* thunar */
+.thunar toolbar {
+  background-color: #0a0b11; }
+
+/* buttons in toolbar */
+.thunar toolbar.horizontal button image {
+  -gtk-icon-transform: scale(0.72); }
+
+scrolledwindow.sidebar treeview.view {
+  background: #0d0f17;
+  padding: 1.5px; }
+
+/* path-bar of thunar */
+window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar > button.toggle.path-bar-button:hover {
+  color: #00A9A5; }
+
+window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar > button.toggle.path-bar-button:checked {
+  background-color: rgba(8, 9, 13, 0.93);
+  color: #8d9395;
+  border-bottom: 1px solid #00A9A5; }
+
+window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar > button.path-bar-button {
+  background: none;
+  outline: none;
+  border: none;
+  box-shadow: none; }
+
+/* thunar sidepane */
+window.thunar paned > scrolledwindow treeview.view {
+  border-radius: 0;
+  box-shadow: none; }
+  window.thunar paned > scrolledwindow treeview.view:hover {
+    background: rgba(8, 9, 13, 0.7); }
+  window.thunar paned > scrolledwindow treeview.view:selected {
+    background: rgba(8, 9, 13, 0.93); }
