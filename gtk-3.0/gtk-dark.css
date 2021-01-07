@@ -6301,24 +6301,26 @@ ConversationListView {
 
 /* thunar */
 .thunar toolbar {
-  background-color: #0a0b11; }
+  background-color: #191d27; }
 
 /* buttons in toolbar */
 .thunar toolbar.horizontal button image {
   -gtk-icon-transform: scale(0.72); }
 
 scrolledwindow.sidebar treeview.view {
-  background: #0d0f17;
+  background: #1d222d;
   padding: 1.5px; }
 
 /* path-bar of thunar */
 window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar > button.toggle.path-bar-button:hover {
-  color: #00A9A5; }
+  color: #ffcc66; }
 
 window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar > button.toggle.path-bar-button:checked {
-  background-color: rgba(8, 9, 13, 0.93);
-  color: #8d9395;
-  border-bottom: 1px solid #00A9A5; }
+  background-color: rgba(23, 27, 36, 0.93);
+  color: #7e8798;
+  border-bottom: 1px solid #ffcc66; }
+  window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar > button.toggle.path-bar-button:checked:backdrop, window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar > button.toggle.path-bar-button:checked:backdrop label {
+    color: #7e8798; }
 
 window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar > button.path-bar-button {
   background: none;
@@ -6331,6 +6333,7 @@ window.thunar paned > scrolledwindow treeview.view {
   border-radius: 0;
   box-shadow: none; }
   window.thunar paned > scrolledwindow treeview.view:hover {
-    background: rgba(8, 9, 13, 0.7); }
+    background: rgba(23, 27, 36, 0.7); }
   window.thunar paned > scrolledwindow treeview.view:selected {
-    background: rgba(8, 9, 13, 0.93); }
+    background: rgba(23, 27, 36, 0.93);
+    color: #7e8798; }
