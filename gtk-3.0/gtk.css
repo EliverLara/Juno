@@ -955,9 +955,9 @@ button {
   button:focus, .primary-toolbar .raised
   button:hover, .primary-toolbar .raised
   button:focus {
-    color: #fefefe;
-    outline-color: rgba(254, 254, 254, 0.3);
-    background-color: #00A9A5;
+    color: #1f2430;
+    outline-color: rgba(31, 36, 48, 0.3);
+    background-color: #ffcc66;
     text-shadow: none; }
 
 .stack-switcher > button.needs-attention > label,
