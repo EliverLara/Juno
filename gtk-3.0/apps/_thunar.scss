@@ -41,7 +41,12 @@ window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-
             border-style: solid;
         }
         &:hover { color: $selected_bg_color; }
-        &:checked { @include button(active-header); }
+        &:checked { 
+            @include button(active-header); 
+            &:backdrop label {
+                color: $backdrop_headerbar_fg_color;
+            }
+        }
     }
     .toggle.path-bar-button:hover {
         @include button(active-header);
