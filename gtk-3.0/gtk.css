@@ -6282,11 +6282,13 @@ ConversationListView {
       color: #7e8798;
       border-bottom: 1px solid #ffcc66; }
       .nemo-window toolbar.primary-toolbar button:selected:backdrop, .nemo-window toolbar.primary-toolbar button:active:backdrop, .nemo-window toolbar.primary-toolbar button:checked:backdrop {
-        color: rgba(31, 36, 48, 0.7);
+        color: rgba(112, 122, 140, 0.8);
         background-color: transparent;
         border-radius: 0;
         text-shadow: none;
         box-shadow: none; }
+        .nemo-window toolbar.primary-toolbar button:selected:backdrop label, .nemo-window toolbar.primary-toolbar button:active:backdrop label, .nemo-window toolbar.primary-toolbar button:checked:backdrop label {
+          color: rgba(112, 122, 140, 0.8); }
     .nemo-window toolbar.primary-toolbar button:backdrop, .nemo-window toolbar.primary-toolbar button:disabled, .nemo-window toolbar.primary-toolbar button:backdrop:disabled {
       color: rgba(112, 122, 140, 0.2);
       background-color: transparent;
@@ -6337,6 +6339,8 @@ window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-
     background-color: rgba(23, 27, 36, 0.93);
     color: #7e8798;
     border-bottom: 1px solid #ffcc66; }
+    window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar .path-bar-button:checked:backdrop label {
+      color: rgba(112, 122, 140, 0.8); }
 
 window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar .toggle.path-bar-button:hover {
   background-color: rgba(23, 27, 36, 0.93);

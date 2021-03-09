@@ -57,7 +57,8 @@
             &:checked { 
                 @include button(active-header, $selected_bg_color, $selected_fg_color); 
                 &:backdrop {
-                    @include button(backdrop-header, $backdrop_selected_bg_color, $backdrop_selected_fg_color);
+                    @include button(backdrop-header, $backdrop_selected_bg_color, $backdrop_headerbar_fg_color);
+                    label { color: $backdrop_headerbar_fg_color; }
                 }
             }
 
