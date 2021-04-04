@@ -6335,3 +6335,10 @@ window.thunar paned > scrolledwindow treeview.view {
     background: rgba(8, 9, 13, 0.7); }
   window.thunar paned > scrolledwindow treeview.view:selected {
     background: rgba(8, 9, 13, 0.93); }
+
+.caja-notebook .entry {
+  background: #0F111A;
+  color: #808789; }
+  .caja-notebook .entry:selected {
+    background: #00A9A5;
+    color: #fefefe; }
