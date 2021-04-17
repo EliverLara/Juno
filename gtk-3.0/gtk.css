@@ -6357,9 +6357,90 @@ window.thunar paned > scrolledwindow treeview.view {
     background: rgba(23, 27, 36, 0.93);
     color: #7e8798; }
 
+.caja-notebook .frame {
+  border-width: 0 0 1px; }
+
 .caja-notebook .entry {
   background: #1f2430;
-  color: #707a8c; }
+  color: #707a8c;
+  border-color: #13161d; }
   .caja-notebook .entry:selected {
     background: #ffcc66;
     color: #1f2430; }
+
+/**************
+* Caja sidebar *
+**************/
+.caja-side-pane {
+  background: #1d222d; }
+  .caja-side-pane .frame {
+    border-width: 1px 0 0; }
+  .caja-side-pane treeview.view,
+  .caja-side-pane textview.view text,
+  .caja-side-pane viewport.frame,
+  .caja-side-pane widget .vertical {
+    background: #1d222d;
+    padding: 3px 2px; }
+    .caja-side-pane treeview.view:hover,
+    .caja-side-pane textview.view text:hover,
+    .caja-side-pane viewport.frame:hover,
+    .caja-side-pane widget .vertical:hover {
+      background-color: rgba(27, 31, 42, 0.95); }
+    .caja-side-pane treeview.view:selected,
+    .caja-side-pane textview.view text:selected,
+    .caja-side-pane viewport.frame:selected,
+    .caja-side-pane widget .vertical:selected {
+      color: #98abb2;
+      background: rgba(23, 27, 36, 0.93); }
+      .caja-side-pane treeview.view:selected:hover,
+      .caja-side-pane textview.view text:selected:hover,
+      .caja-side-pane viewport.frame:selected:hover,
+      .caja-side-pane widget .vertical:selected:hover {
+        background: rgba(23, 27, 36, 0.93);
+        color: #fff; }
+
+/**************
+* Caja pathbar *
+**************/
+.caja-navigation-window paned {
+  background: #232936; }
+
+.caja-navigation-window .primary-toolbar {
+  background: #191d27; }
+  .caja-navigation-window .primary-toolbar button, .caja-navigation-window .primary-toolbar button:backdrop {
+    background-color: transparent;
+    background-image: none;
+    border-color: transparent;
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0);
+    text-shadow: none;
+    -gtk-icon-shadow: none; }
+  .caja-navigation-window .primary-toolbar button:hover, .caja-navigation-window .primary-toolbar button:active, .caja-navigation-window .primary-toolbar button:backdrop:active, .caja-navigation-window .primary-toolbar button:backdrop:checked {
+    background: #ffcc66;
+    box-shadow: none; }
+    .caja-navigation-window .primary-toolbar button:hover, .caja-navigation-window .primary-toolbar button:hover label, .caja-navigation-window .primary-toolbar button:active, .caja-navigation-window .primary-toolbar button:active label, .caja-navigation-window .primary-toolbar button:backdrop:active, .caja-navigation-window .primary-toolbar button:backdrop:active label, .caja-navigation-window .primary-toolbar button:backdrop:checked, .caja-navigation-window .primary-toolbar button:backdrop:checked label {
+      color: #1f2430; }
+
+.caja-pathbar button {
+  color: #707a8c;
+  border-radius: 4px;
+  text-shadow: none;
+  box-shadow: none;
+  border: 1px solid #13161d;
+  background: linear-gradient(to bottom, #1d222d, #1d222d);
+  border-radius: 0px;
+  border-right: 1px solid #13161d;
+  border-left: none;
+  box-shadow: none;
+  min-height: 20px;
+  padding: 3px 5px;
+  margin-right: -3px; }
+  .caja-pathbar button:first-child {
+    border-left: 1px solid #13161d; }
+  .caja-pathbar button:hover {
+    color: #ffcc66; }
+  .caja-pathbar button:checked {
+    background-color: rgba(23, 27, 36, 0.93);
+    color: #7e8798;
+    border-bottom: 1px solid #ffcc66; }
+  .caja-pathbar button:backdrop:checked, .caja-pathbar button:backdrop:checked label {
+    color: rgba(112, 122, 140, 0.8); }
