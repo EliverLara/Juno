@@ -6360,9 +6360,88 @@ window.thunar paned > scrolledwindow treeview.view {
   window.thunar paned > scrolledwindow treeview.view:selected {
     background: rgba(33, 36, 50, 0.93); }
 
+.caja-notebook .frame {
+  border-width: 0 0 1px; }
+
 .caja-notebook .entry {
   background: #292D3E;
-  color: #7c84a8; }
+  color: #7c84a8;
+  border-color: #1d202c; }
   .caja-notebook .entry:selected {
     background: #00A9A5;
     color: #fefefe; }
+
+/**************
+* Caja sidebar *
+**************/
+.caja-side-pane {
+  background: #272b3b; }
+  .caja-side-pane .frame {
+    border-width: 1px 0 0; }
+  .caja-side-pane treeview.view,
+  .caja-side-pane textview.view text,
+  .caja-side-pane viewport.frame,
+  .caja-side-pane widget .vertical {
+    background: #272b3b;
+    padding: 3px 2px; }
+    .caja-side-pane treeview.view:hover,
+    .caja-side-pane textview.view text:hover,
+    .caja-side-pane viewport.frame:hover,
+    .caja-side-pane widget .vertical:hover {
+      background-color: rgba(37, 41, 56, 0.95); }
+    .caja-side-pane treeview.view:selected,
+    .caja-side-pane textview.view text:selected,
+    .caja-side-pane viewport.frame:selected,
+    .caja-side-pane widget .vertical:selected {
+      color: #98abb2;
+      background: rgba(33, 36, 50, 0.93); }
+      .caja-side-pane treeview.view:selected:hover,
+      .caja-side-pane textview.view text:selected:hover,
+      .caja-side-pane viewport.frame:selected:hover,
+      .caja-side-pane widget .vertical:selected:hover {
+        background: rgba(33, 36, 50, 0.93);
+        color: #fff; }
+
+/**************
+* Caja pathbar *
+**************/
+.caja-navigation-window paned {
+  background: #2d3144; }
+
+.caja-navigation-window .primary-toolbar {
+  background: #232735; }
+  .caja-navigation-window .primary-toolbar button, .caja-navigation-window .primary-toolbar button:backdrop {
+    background-color: transparent;
+    background-image: none;
+    border-color: transparent;
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0);
+    text-shadow: none;
+    -gtk-icon-shadow: none; }
+  .caja-navigation-window .primary-toolbar button:hover, .caja-navigation-window .primary-toolbar button:active, .caja-navigation-window .primary-toolbar button:backdrop:active, .caja-navigation-window .primary-toolbar button:backdrop:checked {
+    background: #00A9A5;
+    box-shadow: none; }
+    .caja-navigation-window .primary-toolbar button:hover, .caja-navigation-window .primary-toolbar button:hover label, .caja-navigation-window .primary-toolbar button:active, .caja-navigation-window .primary-toolbar button:active label, .caja-navigation-window .primary-toolbar button:backdrop:active, .caja-navigation-window .primary-toolbar button:backdrop:active label, .caja-navigation-window .primary-toolbar button:backdrop:checked, .caja-navigation-window .primary-toolbar button:backdrop:checked label {
+      color: #fefefe; }
+
+.caja-pathbar button {
+  color: #7c84a8;
+  border-radius: 4px;
+  text-shadow: none;
+  box-shadow: none;
+  border: 1px solid #1d202c;
+  background: linear-gradient(to bottom, #272b3b, #272b3b);
+  border-radius: 0px;
+  border-right: 1px solid #1d202c;
+  border-left: none;
+  box-shadow: none;
+  min-height: 20px;
+  padding: 3px 5px;
+  margin-right: -3px; }
+  .caja-pathbar button:first-child {
+    border-left: 1px solid #1d202c; }
+  .caja-pathbar button:hover {
+    color: #00A9A5; }
+  .caja-pathbar button:checked {
+    background-color: rgba(33, 36, 50, 0.93);
+    color: #8b92b2;
+    border-bottom: 1px solid #00A9A5; }
