@@ -1513,3 +1513,15 @@ StScrollBar {
   border: 0px;
   background-color: rgba(0, 0, 0, 0);
   border-radius: 0px; }
+
+.menu-category-button {
+  padding: 7px;
+  border: 1px solid rgba(0, 0, 0, 0); }
+  .menu-category-button-selected {
+    padding: 7px;
+    color: #fefefe;
+    background-color: #00A9A5;
+    border: 1px solid rgba(25, 26, 34, 0.9); }
+  .menu-category-button-hover {
+    background-color: rgba(0, 169, 165, 0.3);
+    border-radius: 2px; }
