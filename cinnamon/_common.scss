@@ -1824,5 +1824,6 @@ StScrollBar {
   &-hover {
     background-color: transparentize($selected_bg_color, 0.7);
     border-radius: 2px; 
+    color: inherit;
   }
 }
