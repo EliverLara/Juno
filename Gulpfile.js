@@ -35,7 +35,7 @@ gulp.task('default',function() {
 });
 
 gulp.task('shell',function() {
-    gulp.watch('gnome-shell/*.scss', gulp.series('shell-style'));
+    gulp.watch('gnome-shell/**/*.scss', gulp.series('shell-style'));
 });
 
 gulp.task('cinnamon',function() {
