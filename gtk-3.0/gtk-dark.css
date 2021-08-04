@@ -6295,7 +6295,8 @@ scrolledwindow.sidebar treeview.view {
   padding: 1.5px; }
 
 /* path-bar of thunar */
-window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar .path-bar-button {
+window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar .path-bar-button,
+.thunar toolbar .path-bar-button {
   color: #808789;
   border-radius: 4px;
   text-shadow: none;
@@ -6308,25 +6309,31 @@ window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-
   box-shadow: none;
   min-height: 20px;
   padding: 3px 4px; }
-  window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar .path-bar-button:first-child {
+  window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar .path-bar-button:first-child,
+  .thunar toolbar .path-bar-button:first-child {
     border-left: 1px solid #040407;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px; }
-  window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar .path-bar-button:last-child {
+  window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar .path-bar-button:last-child,
+  .thunar toolbar .path-bar-button:last-child {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
     border-right-style: solid; }
-  window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar .path-bar-button:only-child {
+  window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar .path-bar-button:only-child,
+  .thunar toolbar .path-bar-button:only-child {
     border-radius: 4px;
     border-style: solid; }
-  window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar .path-bar-button:hover {
+  window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar .path-bar-button:hover,
+  .thunar toolbar .path-bar-button:hover {
     color: #00A9A5; }
-  window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar .path-bar-button:checked {
+  window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar .path-bar-button:checked,
+  .thunar toolbar .path-bar-button:checked {
     background-color: rgba(8, 9, 13, 0.93);
     color: #8d9395;
     border-bottom: 1px solid #00A9A5; }
 
-window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar .toggle.path-bar-button:hover {
+window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar .toggle.path-bar-button:hover,
+.thunar toolbar .toggle.path-bar-button:hover {
   background-color: rgba(8, 9, 13, 0.93);
   color: #8d9395;
   border-bottom: 1px solid #00A9A5; }
