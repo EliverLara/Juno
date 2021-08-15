@@ -1255,7 +1255,7 @@ StScrollBar {
   spacing: 24px; }
 
 #overview.cosmic-solid-bg {
-  background-color: #0F111A !important; }
+  background-color: #292D3E !important; }
 
 .overview-controls {
   padding-bottom: 32px; }
@@ -2092,7 +2092,7 @@ StScrollBar {
 .cosmic-dock #dock {
   border-radius: 12px 12px 12px 12px !important;
   border: 0 !important;
-  background-color: #07080c;
+  background-color: #1c1e2a;
   margin: 4px !important; }
 
 .cosmic-dock.extended #dock {
