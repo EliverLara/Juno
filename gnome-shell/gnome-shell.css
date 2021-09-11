@@ -501,7 +501,9 @@ StScrollBar {
     background-color: rgba(0, 0, 0, 0.2);
     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.2); }
   .popup-menu .popup-menu-content {
-    padding: 16px 0; }
+    padding: 16px 0;
+    background-color: #192024;
+    border-radius: 7px; }
   .popup-menu .popup-menu-item {
     spacing: 6px;
     padding: 6px; }
@@ -1258,7 +1260,7 @@ StScrollBar {
   spacing: 24px; }
 
 #overview.cosmic-solid-bg {
-  background-color: #0F111A !important; }
+  background-color: #1E282C !important; }
 
 .overview-controls {
   padding-bottom: 32px; }
@@ -2095,7 +2097,7 @@ StScrollBar {
 .cosmic-dock #dock {
   border-radius: 12px 12px 12px 12px !important;
   border: 0 !important;
-  background-color: #07080c;
+  background-color: #13181b;
   margin: 4px !important; }
 
 .cosmic-dock.extended #dock {
