@@ -1189,8 +1189,8 @@ StScrollBar {
   icon-size: 1.09em; }
 
 .window-close {
-  background-color: rgba(13, 14, 22, 0.95);
-  color: #b0b5b6;
+  background-color: rgba(34, 37, 51, 0.95);
+  color: #c9ccdb;
   border-radius: 21px;
   padding: 3px;
   height: 30px;
@@ -1200,10 +1200,10 @@ StScrollBar {
   .window-close StIcon {
     icon-size: 22px; }
   .window-close:hover {
-    background-color: rgba(41, 45, 70, 0.95); }
+    background-color: rgba(65, 70, 97, 0.95); }
   .window-close:active {
-    color: rgba(111, 118, 120, 0.8);
-    background-color: rgba(4, 4, 6, 0.95); }
+    color: rgba(124, 132, 168, 0.8);
+    background-color: rgba(24, 26, 36, 0.95); }
 
 .window-close {
   -shell-close-overlap: 16px; }
