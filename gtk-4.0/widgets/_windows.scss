@@ -1,7 +1,7 @@
 /**********************
  * Window Decorations *
  *********************/
-decoration {
+decoration, window {
   border-radius: 4px 4px 0 0;
 
   // lamefun trick to get rounded borders regardless of CSD use
@@ -83,7 +83,7 @@ windowcontrols {
         box-shadow: none;
         color: transparent;
       }
-      
+
       &:backdrop { 
         -gtk-icon-shadow: none; 
         background-image: -gtk-scaled(url("../assets/close_unfocused.png"),url("../assets/close_unfocused@2.png"));
