@@ -28,7 +28,7 @@ ForegroundInactive=254,254,254
 ForegroundLink=41,128,185
 ForegroundNegative=255,83,112
 ForegroundNeutral=247,140,108
-ForegroundNormal=111,118,120
+ForegroundNormal=191,195,196
 ForegroundPositive=195,232,141
 ForegroundVisited=82,148,226
 
@@ -70,7 +70,7 @@ ForegroundInactive=254,254,254
 ForegroundLink=94,129,172
 ForegroundNegative=255,83,112
 ForegroundNeutral=247,140,108
-ForegroundNormal=111,118,120
+ForegroundNormal=191,195,196
 ForegroundPositive=195,232,141
 ForegroundVisited=124,183,255
 
@@ -84,7 +84,7 @@ ForegroundInactive=254,254,254
 ForegroundLink=41,128,185
 ForegroundNegative=255,83,112
 ForegroundNeutral=247,140,108
-ForegroundNormal=111,118,120
+ForegroundNormal=191,195,196
 ForegroundPositive=195,232,141
 ForegroundVisited=0,169,165
 
