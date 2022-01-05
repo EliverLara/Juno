@@ -4415,19 +4415,19 @@ windowcontrols button.close, windowcontrols button.maximize, windowcontrols butt
   min-width: 20px;
   min-height: 20px;
   margin-right: 1px;
-  color: #fefefe;
+  color: #7c84a8;
   border-color: transparent; }
   windowcontrols button.close, windowcontrols button.close:backdrop, windowcontrols button.close:backdrop:hover, windowcontrols button.maximize, windowcontrols button.maximize:backdrop, windowcontrols button.maximize:backdrop:hover, windowcontrols button.minimize, windowcontrols button.minimize:backdrop, windowcontrols button.minimize:backdrop:hover {
     background: transparent;
     box-shadow: none;
     border-color: transparent; }
   windowcontrols button.close:checked, windowcontrols button.close:hover, windowcontrols button.close:backdrop:hover, windowcontrols button.maximize:checked, windowcontrols button.maximize:hover, windowcontrols button.maximize:backdrop:hover, windowcontrols button.minimize:checked, windowcontrols button.minimize:hover, windowcontrols button.minimize:backdrop:hover {
-    color: #fefefe;
+    color: #7c84a8;
     border-radius: 4px;
     text-shadow: none;
     box-shadow: none;
-    border: 1px solid #12171a;
-    background: linear-gradient(to bottom, #1c2529, #1c2529); }
+    border: 1px solid #1d202c;
+    background: linear-gradient(to bottom, #272b3b, #272b3b); }
 windowcontrols button.close:hover, windowcontrols button.close:active {
   color: #FF5370; }
 windowcontrols button.maximize:hover, windowcontrols button.maximize:active {
