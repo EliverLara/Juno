@@ -17,7 +17,6 @@ stage {
   icon-shadow: 0 1px black;
   border: 1px solid #1c1e2a;
   border-radius: 4px;
-  border-width: 0;
   padding: 4px 32px; }
   .button:focus, .app-folder-dialog .edit-folder-button:focus {
     color: #00A9A5;
@@ -581,7 +580,7 @@ StScrollBar {
     color: #7c84a8;
     border: 1px solid #1c1e2a;
     -barlevel-height: 0.4em;
-    -barlevel-background-color: #283339;
+    -barlevel-background-color: #303548;
     -barlevel-active-background-color: #00A9A5;
     -barlevel-overdrive-color: #FF5370;
     -barlevel-overdrive-separator-width: 0.2em; }
@@ -992,22 +991,6 @@ StScrollBar {
   width: 31.5em; }
   .message-list .message-title, .message-list .message-content, .message-list .message-body {
     color: #7078a0; }
-
-.message-list-clear-button.button {
-  color: #7c84a8;
-  background-color: #181a24;
-  box-shadow: none;
-  border: 1px solid #1c1e2a;
-  text-shadow: 0 1px black;
-  icon-shadow: 0 1px black;
-  border: 1px solid #1c1e2a;
-  margin: 1.5em 1.5em 0; }
-  .message-list-clear-button.button:hover, .message-list-clear-button.button:focus {
-    color: #00A9A5;
-    background-color: #1c1e2a;
-    border: 1px solid #1c1e2a;
-    text-shadow: 0 1px black;
-    icon-shadow: 0 1px black; }
 
 .message-list-sections {
   spacing: 1em; }
