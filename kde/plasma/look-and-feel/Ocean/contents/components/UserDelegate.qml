@@ -54,12 +54,20 @@ Item {
     // Draw a translucent background circle under the user picture
     Rectangle {
         anchors.centerIn: imageSource
-        width: imageSource.width + 2 // Subtract to prevent fringing
+        width: imageSource.width + 4 // Subtract to prevent fringing
         height: width
         radius: width / 2
         color: "#0F111A"
     }
-
+    Rectangle {
+        anchors.centerIn: imageSource
+        width: imageSource.width + 10 // Subtract to prevent fringing
+        height: width
+        radius: width / 2
+        color: "#00A9A5"
+        opacity: 0.6
+        z:-1
+    }
 
     Item {
         id: imageSource
