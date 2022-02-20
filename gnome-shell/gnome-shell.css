@@ -10,7 +10,7 @@ stage {
 /* Buttons */
 .button, .app-folder-dialog .edit-folder-button {
   color: #BFC3C4;
-  background-color: #040406;
+  background-color: #131520;
   box-shadow: none;
   border: 1px solid #07080c;
   text-shadow: 0 1px black;
@@ -19,7 +19,8 @@ stage {
   border-radius: 4px;
   padding: 4px 32px; }
   .button:focus, .app-folder-dialog .edit-folder-button:focus {
-    color: #00A9A5;
+    background-color: #1a1e2d;
+    color: #fefefe;
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black;
     box-shadow: none;
@@ -38,8 +39,8 @@ stage {
     text-shadow: none;
     icon-shadow: none; }
   .button:hover, .app-folder-dialog .edit-folder-button:hover {
-    color: #00A9A5;
-    background-color: #07080c;
+    background-color: #181c2a;
+    color: #fefefe;
     border: 1px solid #07080c;
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black; }
@@ -66,20 +67,22 @@ stage {
     text-shadow: none;
     icon-shadow: none; }
   .modal-dialog-linked-button:focus {
-    color: #00A9A5;
+    background-color: #1a1e2d;
+    color: #fefefe;
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black;
     box-shadow: none;
     border: 1px solid #07080c; }
     .modal-dialog-linked-button:focus:hover {
-      color: #00A9A5;
+      background-color: #1a1e2d;
+      color: #fefefe;
       text-shadow: 0 1px black;
       icon-shadow: 0 1px black;
       box-shadow: none;
       border: 1px solid #07080c; }
   .modal-dialog-linked-button:hover {
-    color: #00A9A5;
-    background-color: #07080c;
+    background-color: #181c2a;
+    color: #fefefe;
     border: 1px solid #07080c;
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black; }
@@ -1671,7 +1674,7 @@ StScrollBar {
 
 .keyboard-key {
   color: #BFC3C4;
-  background-color: #040406;
+  background-color: #131520;
   box-shadow: none;
   border: 1px solid #07080c;
   text-shadow: 0 1px black;
@@ -1684,14 +1687,15 @@ StScrollBar {
   font-weight: bold;
   border-radius: 5px; }
   .keyboard-key:focus {
-    color: #00A9A5;
+    background-color: #1a1e2d;
+    color: #fefefe;
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black;
     box-shadow: none;
     border: 1px solid #07080c; }
   .keyboard-key:hover, .keyboard-key:checked {
-    color: #00A9A5;
-    background-color: #07080c;
+    background-color: #181c2a;
+    color: #fefefe;
     border: 1px solid #07080c;
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black; }
@@ -1775,15 +1779,15 @@ StScrollBar {
     padding: 3px 18px; }
     .login-dialog .modal-dialog-button:default {
       color: #BFC3C4;
-      background-color: #040406;
+      background-color: #131520;
       box-shadow: none;
       border: 1px solid #07080c;
       text-shadow: 0 1px black;
       icon-shadow: 0 1px black;
       border: 1px solid #07080c; }
       .login-dialog .modal-dialog-button:default:hover, .login-dialog .modal-dialog-button:default:focus {
-        color: #00A9A5;
-        background-color: rgba(0, 169, 165, 0.7);
+        background-color: #181c2a;
+        color: #fefefe;
         border: 1px solid #07080c;
         text-shadow: 0 1px black;
         icon-shadow: 0 1px black; }
