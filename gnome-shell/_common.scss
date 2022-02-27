@@ -19,7 +19,7 @@ stage {
 /* Buttons */
 .button, %button {
   @include button(normal);
-  border-radius: 4px;
+  border-radius: 6px;
   padding: 4px 32px;
   &:focus { @include button(focus); }
   &:insensitive { @include button(insensitive); }
@@ -937,10 +937,9 @@ StScrollBar {
 
     .datemenu-calendar-column {
       border: 0 solid transparent;
-      &:ltr { border-left-width: 1px; }
-      &:rtl { border-right-width: 1px; }
-      background: darken($bg_color, 0.7%);
-     //@include gradient();
+      background: lighten($base_color, 1%);
+      border-radius: 7px;
+      box-shadow: 0px 0px 1px 1px $borders_color inset;
     }
 
     .datemenu-today-button,
@@ -1144,13 +1143,13 @@ StScrollBar {
 
         .message {
           &:hover,&:focus { 
-            background-color: darken($bg_color, 1%);
-            border-radius: 0px 5px 5px 0px;
+            background-color: lighten($base_color, 4%);
+            border-radius: 0px 7px 7px 0px;
             box-shadow: 3px 0px 0px 0px $selected_bg_color inset;
           }
-          background: darken($bg_color, 0.7%);
+          background: lighten($base_color, 1%);
           border: 1px solid $borders_color;
-          border-radius: 5px;
+          border-radius: 7px;
         }
 
           .message-icon-bin {
