@@ -16,7 +16,7 @@ stage {
   text-shadow: 0 1px black;
   icon-shadow: 0 1px black;
   border: 1px solid #12151c;
-  border-radius: 4px;
+  border-radius: 6px;
   padding: 4px 32px; }
   .button:focus, .app-folder-dialog .edit-folder-button:focus {
     background-color: #2b3243;
@@ -829,11 +829,9 @@ StScrollBar {
 
 .datemenu-calendar-column {
   border: 0 solid transparent;
-  background: #171a23; }
-  .datemenu-calendar-column:ltr {
-    border-left-width: 1px; }
-  .datemenu-calendar-column:rtl {
-    border-right-width: 1px; }
+  background: #212633;
+  border-radius: 7px;
+  box-shadow: 0px 0px 1px 1px #12151c inset; }
 
 .datemenu-today-button,
 .world-clocks-button,
@@ -1014,12 +1012,12 @@ StScrollBar {
   background: transparent; }
 
 .message {
-  background: #171a23;
+  background: #212633;
   border: 1px solid #12151c;
-  border-radius: 5px; }
+  border-radius: 7px; }
   .message:hover, .message:focus {
-    background-color: #161a22;
-    border-radius: 0px 5px 5px 0px;
+    background-color: #272d3c;
+    border-radius: 0px 7px 7px 0px;
     box-shadow: 3px 0px 0px 0px #ffcc66 inset; }
 
 .message-icon-bin {
