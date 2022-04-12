@@ -154,10 +154,10 @@ StScrollBar {
 
 .popup-slider-menu-item, .slider {
   -slider-height: 0.3em;
-  -slider-background-color: #181c2a;
-  -slider-border-color: rgba(13, 14, 22, 0.3);
+  -slider-background-color: #28363b;
+  -slider-border-color: rgba(25, 32, 36, 0.3);
   -slider-active-background-color: #00A9A5;
-  -slider-active-border-color: rgba(13, 14, 22, 0.3);
+  -slider-active-border-color: rgba(25, 32, 36, 0.3);
   -slider-border-width: 1px;
   -slider-handle-radius: 0.5em;
   height: 1em;
