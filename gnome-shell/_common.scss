@@ -1609,6 +1609,8 @@ StScrollBar {
 // expanded folder
 .app-folder-dialog { //style like the dash
   background-color:  $_bubble_bg_color;
+  .folder-name-entry { color: $selected_fg_color; }
+
   .edit-folder-button {
     @extend %button;
 
