@@ -1431,6 +1431,8 @@ StScrollBar {
 
 .app-folder-dialog {
   background-color: rgba(24, 28, 37, 0.95); }
+  .app-folder-dialog .folder-name-entry {
+    color: #fefefe; }
   .app-folder-dialog .edit-folder-button {
     padding: 0;
     width: 36px;
