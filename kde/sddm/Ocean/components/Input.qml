@@ -11,7 +11,7 @@ TextField {
     background: Rectangle {
         color: "#0F111A"
         radius: parent.width / 2
-        height: 30
+        height: width / 9
         width: parent.width
         opacity: 0.5
         anchors.centerIn: parent

@@ -122,10 +122,12 @@ SessionManagementScreen {
         background: Rectangle {
             id: buttonBackground
             width: parent.width
-            height: 30
+            height: width / 9
             radius: width / 2
             color: config.selected_color
             opacity: enabled ? 1.0 : 0.3
+            anchors.centerIn: parent
+
         }
 
         onClicked: startLogin();
