@@ -527,16 +527,21 @@ StScrollBar {
     box-shadow: $depth6;
   }
 
-  .popup-menu-content { padding: 16px 0; }
+  .popup-menu-content { 
+    background-color: $bg_color;
+    border: none;
+    border-radius: 7px;
+    padding: 16px 0; }
   .popup-menu-item {
     spacing: 6px;
     padding: 6px;
+    border-radius: 0px;
 
     &:ltr { padding-right: 1.75em; padding-left: 0; }
     &:rtl { padding-right: 0; padding-left: 1.75em; }
     &:checked {
      // @include gradient();
-     background-color: transparentize(darken($bg_color, 4%), 0.07);
+      background-color: transparentize(darken($bg_color, 4%), 0.07) !important;
       color: $selected_fg_color;
       box-shadow: inset 1px 0px 0px lighten($selected_bg_color,5%);
       font-weight: normal;
@@ -545,8 +550,8 @@ StScrollBar {
         color: $selected_bg_color;
       }
     }
-    &.selected { background-color: transparentize($fg_color,0.9); color: $fg_color; }
-    &:active { background-color: $selected_bg_color; color: $selected_fg_color; }
+    &.selected { background-color: transparentize($fg_color,0.9) !important; color: $fg_color; }
+    &:active { background-color: $selected_bg_color !important; color: $selected_fg_color; }
     &:insensitive { color: transparentize($fg_color,.5); }
   }
 
@@ -1044,6 +1049,7 @@ StScrollBar {
         color: $selected_fg_color;
         background-color: $selected_bg_color;
         border-color: transparent; //avoid jumparound due to today
+        box-shadow: none;
       }
       &.calendar-day-heading {  //day of week heading
         color: darken($fg_color, 10%);
@@ -1111,6 +1117,7 @@ StScrollBar {
       /* Message list */
       .message-list {
         width: 31.5em;
+        border: none;
         .message-title, .message-content, .message-body {
           color: darken($fg_color,4%);
         }
@@ -1604,10 +1611,12 @@ StScrollBar {
     /* App Folders */
 .app-well-app.app-folder {
   background-color: lighten($base_color, 9%);
+  border-radius: 12px;
 }
 // expanded folder
 .app-folder-dialog { //style like the dash
   background-color:  $_bubble_bg_color;
+  border: none;
   .folder-name-entry { color: $selected_fg_color; }
 
   .edit-folder-button {
