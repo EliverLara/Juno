@@ -771,7 +771,7 @@ StScrollBar {
     #panel .panel-button:active, #panel .panel-button:overview, #panel .panel-button:focus, #panel .panel-button:checked {
       box-shadow: inset 0 0 0 100px #00A9A5;
       color: #fefefe;
-      text-shadow: 0px 0px 2px rgba(92, 92, 92, 0.9);
+      text-shadow: none;
       transition-duration: 200ms; }
       #panel .panel-button:active .system-status-icon,
       #panel .panel-button:active .app-menu-icon > StIcon,
@@ -783,8 +783,6 @@ StScrollBar {
       #panel .panel-button:checked .app-menu-icon > StIcon,
       #panel .panel-button:checked .popup-menu-arrow {
         icon-shadow: 0px 0px 2px rgba(0, 0, 0, 0.9); }
-      #panel .panel-button:active > .system-status-icon, #panel .panel-button:overview > .system-status-icon, #panel .panel-button:focus > .system-status-icon, #panel .panel-button:checked > .system-status-icon {
-        icon-shadow: red 0 2px 2px; }
       #panel .panel-button:active.clock-display, #panel .panel-button:overview.clock-display, #panel .panel-button:focus.clock-display, #panel .panel-button:checked.clock-display {
         box-shadow: none; }
         #panel .panel-button:active.clock-display .clock, #panel .panel-button:overview.clock-display .clock, #panel .panel-button:focus.clock-display .clock, #panel .panel-button:checked.clock-display .clock {
