@@ -148,14 +148,14 @@ StScrollBar {
   color: #bebebe;
   border-color: black;
   -slider-height: 0.1em;
-  -slider-background-color: #262c3b;
+  -slider-background-color: #30384a;
   -slider-border-color: black;
   -slider-active-background-color: #90e1c6;
   -slider-active-border-color: #a6cc70;
   -slider-border-width: 0;
   -slider-handle-radius: 6px;
   -barlevel-height: 0.1em;
-  -barlevel-background-color: #262c3b;
+  -barlevel-background-color: #30384a;
   -barlevel-border-color: black;
   -barlevel-active-background-color: #90e1c6;
   -barlevel-active-border-color: #a6cc70;
@@ -561,7 +561,7 @@ StScrollBar {
     margin-left: 6px; }
   .popup-separator-menu-item .popup-separator-menu-item-separator {
     height: 1px;
-    background-color: #262c3b; }
+    background-color: #30384a; }
   .popup-separator-menu-item .popup-menu-ornament {
     width: 0 !important; }
   .popup-sub-menu .popup-separator-menu-item {
@@ -571,7 +571,7 @@ StScrollBar {
     .popup-sub-menu .popup-separator-menu-item:rtl {
       margin-left: 2.5em; }
     .popup-sub-menu .popup-separator-menu-item .popup-separator-menu-item-separator {
-      background-color: #343d50; }
+      background-color: #3e4860; }
 
 .background-menu {
   -boxpointer-gap: 4px;
@@ -597,7 +597,7 @@ StScrollBar {
     color: #A4ABB6;
     border: 1px solid #12151c;
     -barlevel-height: 0.4em;
-    -barlevel-background-color: #262c3b;
+    -barlevel-background-color: #30384a;
     -barlevel-active-background-color: #ffcc66;
     -barlevel-overdrive-color: #ed8274;
     -barlevel-overdrive-separator-width: 0.2em; }
@@ -814,54 +814,23 @@ StScrollBar {
     #panel.solid .popup-menu-arrow {
       icon-shadow: none; }
 
-#calendarArea {
-  padding: 0.75em 1.0em; }
-
-.calendar {
-  margin-bottom: 1em; }
-
-.calendar, .world-clocks-button, .weather-button, .events-button {
-  background: transparent;
-  border: none;
-  color: #A4ABB6;
-  box-shadow: none; }
-
-.calendar,
-.datemenu-today-button,
-.datemenu-displays-box,
-.message-list-sections {
-  margin: 0 1.5em; }
-
-.datemenu-calendar-column {
-  spacing: 0.5em; }
-
-.datemenu-displays-section {
-  padding-bottom: 3em; }
-
-.datemenu-displays-box {
-  spacing: 1em; }
+.world-clocks-button, .weather-button, .events-button {
+  background: #202531;
+  border-radius: 7px; }
 
 .datemenu-calendar-column {
   border: 0 solid transparent;
-  background: #1f2430;
+  background: #1b202a;
   border-radius: 7px;
-  box-shadow: 0px 0px 1px 1px #12151c inset; }
+  box-shadow: 0px 0px 1px 1px #12151c inset;
+  padding: 6px; }
 
 .datemenu-today-button,
-.world-clocks-button,
-.weather-button,
 .events-section-title,
-.message-list-section-title,
-.events-button {
+.message-list-section-title {
   border-radius: 4px;
   color: #A4ABB6;
   padding: .4em; }
-
-.message-list-section-list:ltr {
-  padding-left: .4em; }
-
-.message-list-section-list:rtl {
-  padding-right: .4em; }
 
 .datemenu-today-button:hover, .datemenu-today-button:focus,
 .world-clocks-button:hover,
@@ -874,7 +843,7 @@ StScrollBar {
 .message-list-section-title:focus,
 .events-button:hover,
 .events-button:focus {
-  background-color: #222834; }
+  background-color: #262c3b; }
 .datemenu-today-button:active,
 .world-clocks-button:active,
 .weather-button:active,
@@ -940,7 +909,7 @@ StScrollBar {
   height: 2.4em;
   padding: 0.1em;
   margin: 2px;
-  border-radius: 1.4em;
+  border-radius: 99px;
   color: #A4ABB6; }
   .calendar-day-base:hover, .calendar-day-base:focus {
     background-color: #222834; }
@@ -1004,7 +973,6 @@ StScrollBar {
 
 /* Message list */
 .message-list {
-  width: 31.5em;
   border: none; }
   .message-list .message-title, .message-list .message-content, .message-list .message-body {
     color: #99a1ad; }
@@ -1028,11 +996,11 @@ StScrollBar {
   background: transparent; }
 
 .message {
-  background: #212633;
+  background: #1b202a;
   border: 1px solid #12151c;
   border-radius: 7px; }
   .message:hover, .message:focus {
-    background-color: #272d3c;
+    background-color: #202531;
     border-radius: 0px 7px 7px 0px;
     box-shadow: 3px 0px 0px 0px #ffcc66 inset; }
 
@@ -1348,7 +1316,7 @@ StScrollBar {
 
 .dash-separator {
   width: 1px;
-  background-color: #262c3b; }
+  background-color: #30384a; }
 
 .dash-label {
   border-radius: 7px;

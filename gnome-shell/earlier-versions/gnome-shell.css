@@ -147,14 +147,14 @@ StScrollBar {
   color: #bebebe;
   border-color: black;
   -slider-height: 0.1em;
-  -slider-background-color: #262c3b;
+  -slider-background-color: #30384a;
   -slider-border-color: black;
   -slider-active-background-color: #90e1c6;
   -slider-active-border-color: #a6cc70;
   -slider-border-width: 0;
   -slider-handle-radius: 6px;
   -barlevel-height: 0.1em;
-  -barlevel-background-color: #262c3b;
+  -barlevel-background-color: #30384a;
   -barlevel-border-color: black;
   -barlevel-active-background-color: #90e1c6;
   -barlevel-active-border-color: #a6cc70;
@@ -1322,7 +1322,7 @@ StScrollBar {
 
 .search-section-separator {
   height: 2px;
-  background-color: #262c3b; }
+  background-color: #30384a; }
 
 .list-search-result-content {
   spacing: 30px; }
