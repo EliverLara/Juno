@@ -148,14 +148,14 @@ StScrollBar {
   color: #bebebe;
   border-color: black;
   -slider-height: 0.1em;
-  -slider-background-color: #1a1c2c;
+  -slider-background-color: #292d46;
   -slider-border-color: black;
   -slider-active-background-color: #89DDFF;
   -slider-active-border-color: #C3E88D;
   -slider-border-width: 0;
   -slider-handle-radius: 6px;
   -barlevel-height: 0.1em;
-  -barlevel-background-color: #1a1c2c;
+  -barlevel-background-color: #292d46;
   -barlevel-border-color: black;
   -barlevel-active-background-color: #89DDFF;
   -barlevel-active-border-color: #C3E88D;
@@ -561,7 +561,7 @@ StScrollBar {
     margin-left: 6px; }
   .popup-separator-menu-item .popup-separator-menu-item-separator {
     height: 1px;
-    background-color: #1a1c2c; }
+    background-color: #292d46; }
   .popup-separator-menu-item .popup-menu-ornament {
     width: 0 !important; }
   .popup-sub-menu .popup-separator-menu-item {
@@ -571,7 +571,7 @@ StScrollBar {
     .popup-sub-menu .popup-separator-menu-item:rtl {
       margin-left: 2.5em; }
     .popup-sub-menu .popup-separator-menu-item .popup-separator-menu-item-separator {
-      background-color: #282b43; }
+      background-color: #373b5d; }
 
 .background-menu {
   -boxpointer-gap: 4px;
@@ -597,7 +597,7 @@ StScrollBar {
     color: #BFC3C4;
     border: 1px solid #07080c;
     -barlevel-height: 0.4em;
-    -barlevel-background-color: #1a1c2c;
+    -barlevel-background-color: #292d46;
     -barlevel-active-background-color: #00A9A5;
     -barlevel-overdrive-color: #FF5370;
     -barlevel-overdrive-separator-width: 0.2em; }
@@ -812,54 +812,23 @@ StScrollBar {
     #panel.solid .popup-menu-arrow {
       icon-shadow: none; }
 
-#calendarArea {
-  padding: 0.75em 1.0em; }
-
-.calendar {
-  margin-bottom: 1em; }
-
-.calendar, .world-clocks-button, .weather-button, .events-button {
-  background: transparent;
-  border: none;
-  color: #BFC3C4;
-  box-shadow: none; }
-
-.calendar,
-.datemenu-today-button,
-.datemenu-displays-box,
-.message-list-sections {
-  margin: 0 1.5em; }
-
-.datemenu-calendar-column {
-  spacing: 0.5em; }
-
-.datemenu-displays-section {
-  padding-bottom: 3em; }
-
-.datemenu-displays-box {
-  spacing: 1em; }
+.world-clocks-button, .weather-button, .events-button {
+  background: #161927;
+  border-radius: 7px; }
 
 .datemenu-calendar-column {
   border: 0 solid transparent;
   background: #11131d;
   border-radius: 7px;
-  box-shadow: 0px 0px 1px 1px #07080c inset; }
+  box-shadow: 0px 0px 1px 1px #07080c inset;
+  padding: 6px; }
 
 .datemenu-today-button,
-.world-clocks-button,
-.weather-button,
 .events-section-title,
-.message-list-section-title,
-.events-button {
+.message-list-section-title {
   border-radius: 4px;
   color: #BFC3C4;
   padding: .4em; }
-
-.message-list-section-list:ltr {
-  padding-left: .4em; }
-
-.message-list-section-list:rtl {
-  padding-right: .4em; }
 
 .datemenu-today-button:hover, .datemenu-today-button:focus,
 .world-clocks-button:hover,
@@ -872,7 +841,7 @@ StScrollBar {
 .message-list-section-title:focus,
 .events-button:hover,
 .events-button:focus {
-  background-color: #161826; }
+  background-color: #1c2031; }
 .datemenu-today-button:active,
 .world-clocks-button:active,
 .weather-button:active,
@@ -938,7 +907,7 @@ StScrollBar {
   height: 2.4em;
   padding: 0.1em;
   margin: 2px;
-  border-radius: 1.4em;
+  border-radius: 99px;
   color: #BFC3C4; }
   .calendar-day-base:hover, .calendar-day-base:focus {
     background-color: #161826; }
@@ -1346,7 +1315,7 @@ StScrollBar {
 
 .dash-separator {
   width: 1px;
-  background-color: #1a1c2c; }
+  background-color: #292d46; }
 
 .dash-label {
   border-radius: 7px;
