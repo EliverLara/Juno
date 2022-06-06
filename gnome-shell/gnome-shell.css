@@ -535,7 +535,7 @@ StScrollBar {
     background-color: #283339 !important;
     border-radius: 0px 6px 0px 0px;
     box-shadow: inset 1px 0px 0px #00A9A5;
-    color: #fefefe; }
+    color: #fefefe !important; }
   .popup-menu-item:insensitive {
     color: rgba(149, 155, 157, 0.5); }
 
@@ -782,7 +782,7 @@ StScrollBar {
       #panel .panel-button:focus .popup-menu-arrow, #panel .panel-button:checked .system-status-icon,
       #panel .panel-button:checked .app-menu-icon > StIcon,
       #panel .panel-button:checked .popup-menu-arrow {
-        icon-shadow: 0px 0px 2px rgba(0, 0, 0, 0.9); }
+        icon-shadow: none; }
       #panel .panel-button:active.clock-display, #panel .panel-button:overview.clock-display, #panel .panel-button:focus.clock-display, #panel .panel-button:checked.clock-display {
         box-shadow: none; }
         #panel .panel-button:active.clock-display .clock, #panel .panel-button:overview.clock-display .clock, #panel .panel-button:focus.clock-display .clock, #panel .panel-button:checked.clock-display .clock {
@@ -812,9 +812,15 @@ StScrollBar {
     #panel.solid .popup-menu-arrow {
       icon-shadow: none; }
 
+.calendar {
+  background: transparent;
+  border: none;
+  box-shadow: none; }
+
 .world-clocks-button, .weather-button, .events-button {
   background: #212b30;
-  border-radius: 7px; }
+  border-radius: 7px;
+  color: #959B9D; }
 
 .datemenu-calendar-column {
   border: 0 solid transparent;
@@ -935,10 +941,9 @@ StScrollBar {
 
 .calendar-today {
   font-weight: bold;
-  border: 1px solid rgba(22, 24, 25, 0.5);
   border: 1px solid #00A9A5;
   background-color: transparent;
-  color: #fefefe; }
+  color: #fefefe !important; }
   .calendar-today:hover, .calendar-today:focus {
     background-color: #00b8b4;
     color: #fefefe; }
