@@ -1008,18 +1008,6 @@ StScrollBar {
     border-radius: 0px 7px 7px 0px;
     box-shadow: 3px 0px 0px 0px #00A9A5 inset; }
 
-.message-icon-bin {
-  padding: 10px 3px 10px 10px; }
-  .message-icon-bin:rtl {
-    padding: 10px 10px 10px 3px; }
-
-.message-icon-bin > StIcon {
-  icon-size: 16px;
-  -st-icon-style: symbolic; }
-
-.message-secondary-bin {
-  padding: 0 12px; }
-
 .message-secondary-bin > .event-time {
   color: #979e9f;
   font-size: 0.7em;
@@ -1505,15 +1493,15 @@ StScrollBar {
   font-size: 11pt;
   width: 34em;
   margin: 5px;
-  border-radius: 3px;
+  border-radius: 12px;
   color: #f4f5f5;
   background-color: #0D0E16;
   border: 1px solid #07080c;
-  box-shadow: 0 1px 4px black; }
-  .notification-banner:hover {
-    background-color: rgba(13, 14, 22, 0.96); }
-  .notification-banner:focus {
-    background-color: rgba(13, 14, 22, 0.96); }
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.468); }
+  .notification-banner:hover, .notification-banner:focus {
+    background-color: #151623;
+    border-radius: 12px;
+    box-shadow: none; }
   .notification-banner * {
     color: #fefefe; }
   .notification-banner .notification-icon {
@@ -1526,19 +1514,30 @@ StScrollBar {
   .notification-banner .notification-actions {
     background-color: #090a10;
     padding-top: 2px;
-    spacing: 1px; }
+    spacing: 1px;
+    border-radius: 0px 0px 12px 12px; }
   .notification-banner .notification-button {
-    padding: 5px;
-    background-color: #0D0E16;
+    color: #BFC3C4;
+    background-color: #131520;
+    box-shadow: none;
+    border: 1px solid #07080c;
+    text-shadow: 0 1px black;
+    icon-shadow: 0 1px black;
+    border: 1px solid #07080c;
+    padding: 7px;
     box-shadow: none;
     border: none; }
     .notification-banner .notification-button:first-child {
-      border-radius: 0 0 0 3px; }
+      border-radius: 0 0 0 12px; }
     .notification-banner .notification-button:last-child {
-      border-radius: 0 0 3px 0; }
+      border-radius: 0 0 12px 0; }
     .notification-banner .notification-button:hover, .notification-banner .notification-buttonfocus {
-      background-color: #090a10;
-      color: #00A9A5; }
+      background-color: #181c2a;
+      color: #fefefe;
+      border: 1px solid #07080c;
+      text-shadow: 0 1px black;
+      icon-shadow: 0 1px black;
+      border: none; }
 
 .summary-source-counter {
   font-size: 10pt;
