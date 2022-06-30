@@ -104,7 +104,8 @@ SessionManagementScreen {
 
         Layout.topMargin: 10
         Layout.bottomMargin: 10
-        Layout.fillWidth: true
+        Layout.preferredWidth: 150
+        Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
         
         font.pointSize: config.fontSize
         font.family: config.font
@@ -122,8 +123,8 @@ SessionManagementScreen {
         background: Rectangle {
             id: buttonBackground
             width: parent.width
-            height: width / 9
-            radius: width / 2
+            height: 30
+            radius: 10
             color: config.selected_color
             opacity: enabled ? 1.0 : 0.3
             anchors.centerIn: parent

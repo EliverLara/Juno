@@ -9,8 +9,8 @@ TextField {
     font.pointSize: config.fontSize
     font.family: config.font
     background: Rectangle {
-        color: "#0F111A"
-        radius: parent.width / 2
+        color: "#1a1e2d"
+        radius: 10
         height: width / 9
         width: parent.width
         opacity: 0.5
