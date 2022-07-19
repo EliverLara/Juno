@@ -1189,12 +1189,12 @@ StScrollBar {
   // colors are lightened since the media controls are in a card
   &:hover {
     background-color: lighten($base_color, 8%);
-    color: $selected_fg_color;
+    color: $fg_color;
   }
 
   &:active { 
     background-color: lighten($base_color, 12%);
-    color: $selected_fg_color;
+    color: $fg_color;
   }
 
   &:insensitive { color: lighten($insensitive_fg_color, 5%); }
