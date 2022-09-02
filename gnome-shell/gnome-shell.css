@@ -386,7 +386,7 @@ StScrollBar {
 /* Password or Authentication Dialog */
 .prompt-dialog {
   width: 34em;
-  border: 1px solid #07080c;
+  border: 1px solid #1c1e2a;
   border-radius: 10px; }
   .prompt-dialog .message-dialog-main-layout {
     spacing: 24px;
@@ -916,7 +916,8 @@ StScrollBar {
   border-radius: 99px;
   color: #B6BACE; }
   .calendar-day-base:hover, .calendar-day-base:focus {
-    background-color: #2c3042; }
+    background-color: #414863;
+    box-shadow: none; }
   .calendar-day-base:active, .calendar-day-base:selected {
     color: #fefefe;
     background-color: #00A9A5;
