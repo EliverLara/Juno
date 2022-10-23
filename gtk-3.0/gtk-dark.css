@@ -2395,7 +2395,7 @@ GraniteWidgetsWelcome {
       headerbar button.titlebutton:checked,
       headerbar button.titlebutton:hover,
       headerbar button.titlebutton:backdrop:hover {
-        color: #707a8c;
+        color: #A4ABB6;
         border-radius: 4px;
         text-shadow: none;
         box-shadow: none;
@@ -6192,10 +6192,8 @@ window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-
 window.thunar paned > scrolledwindow treeview.view {
   border-radius: 0;
   box-shadow: none; }
-  window.thunar paned > scrolledwindow treeview.view:hover {
-    background: rgba(23, 27, 36, 0.7); }
-  window.thunar paned > scrolledwindow treeview.view:selected {
-    background: rgba(23, 27, 36, 0.93);
+  window.thunar paned > scrolledwindow treeview.view:hover, window.thunar paned > scrolledwindow treeview.view:selected {
+    background: #2b3243;
     color: #b2b8c1; }
 
 .caja-notebook .frame {
