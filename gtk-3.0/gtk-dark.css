@@ -6195,10 +6195,9 @@ window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-
 window.thunar paned > scrolledwindow treeview.view {
   border-radius: 0;
   box-shadow: none; }
-  window.thunar paned > scrolledwindow treeview.view:hover {
-    background: rgba(33, 36, 50, 0.7); }
-  window.thunar paned > scrolledwindow treeview.view:selected {
-    background: rgba(33, 36, 50, 0.93); }
+  window.thunar paned > scrolledwindow treeview.view:hover, window.thunar paned > scrolledwindow treeview.view:selected {
+    background: #353a50;
+    color: #8b92b2; }
 
 .caja-notebook .frame {
   border-width: 0 0 1px; }
