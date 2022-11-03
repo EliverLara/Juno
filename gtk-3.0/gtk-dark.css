@@ -2522,6 +2522,41 @@ GraniteWidgetsWelcome {
     .titlebar .path-bar-box widget > .text-button:last-child:only-child,
     headerbar .path-bar-box widget > .text-button:last-child:only-child {
       border-radius: 4px; }
+  .titlebar .path-buttons-box,
+  headerbar .path-buttons-box {
+    background-color: #1E282C;
+    border: 1px solid #12171a;
+    min-height: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px; }
+    .titlebar .path-buttons-box button > .horizontal > .dim-label, .titlebar .path-buttons-box button > .horizontal > label.separator, .titlebar .path-buttons-box button > .horizontal > .subtitle,
+    headerbar .path-buttons-box button > .horizontal > .dim-label,
+    headerbar .path-buttons-box button > .horizontal > label.separator,
+    headerbar .path-buttons-box button > .horizontal > .subtitle {
+      color: #fefefe;
+      padding: 3px 12px;
+      margin: 0; }
+    .titlebar .path-buttons-box button > .horizontal > image.dim-label, .titlebar .path-buttons-box button > .horizontal > image.subtitle,
+    headerbar .path-buttons-box button > .horizontal > image.dim-label,
+    headerbar .path-buttons-box button > .horizontal > image.subtitle {
+      padding: 3px 0px 3px 12px; }
+    .titlebar .path-buttons-box button,
+    headerbar .path-buttons-box button {
+      background: transparent;
+      border: none;
+      margin: 0;
+      padding: 0; }
+    .titlebar .path-buttons-box .current-dir label,
+    headerbar .path-buttons-box .current-dir label {
+      color: white;
+      border-bottom: 1px solid #00A9A5;
+      padding: 3px 12px; }
+    .titlebar .path-buttons-box button.current-dir:only-child,
+    headerbar .path-buttons-box button.current-dir:only-child {
+      padding: 3px 12px 0px 12px; }
+      .titlebar .path-buttons-box button.current-dir:only-child label,
+      headerbar .path-buttons-box button.current-dir:only-child label {
+        padding: 0px 12px 3px 12px; }
   .selection-mode.titlebar button:backdrop.flat:active, .selection-mode.titlebar button:backdrop.flat:checked, .selection-mode.titlebar button:backdrop:active, .selection-mode.titlebar button:backdrop:checked,
   headerbar.selection-mode button:backdrop.flat:active,
   headerbar.selection-mode button:backdrop.flat:checked,
