@@ -2527,8 +2527,8 @@ GraniteWidgetsWelcome {
       border-radius: 4px; }
   .titlebar .path-buttons-box,
   headerbar .path-buttons-box {
-    background-color: #1E282C;
-    border: 1px solid #12171a;
+    background-color: #1f2430;
+    border: 1px solid #13161d;
     min-height: 20px;
     margin-top: 5px;
     margin-bottom: 5px; }
@@ -2536,7 +2536,7 @@ GraniteWidgetsWelcome {
     headerbar .path-buttons-box button > .horizontal > .dim-label,
     headerbar .path-buttons-box button > .horizontal > label.separator,
     headerbar .path-buttons-box button > .horizontal > .subtitle {
-      color: #fefefe;
+      color: #A4ABB6;
       padding: 3px 12px;
       margin: 0; }
     .titlebar .path-buttons-box button > .horizontal > image.dim-label, .titlebar .path-buttons-box button > .horizontal > image.subtitle,
@@ -2551,8 +2551,8 @@ GraniteWidgetsWelcome {
       padding: 0; }
     .titlebar .path-buttons-box .current-dir label,
     headerbar .path-buttons-box .current-dir label {
-      color: white;
-      border-bottom: 1px solid #00A9A5;
+      color: #b2b8c1;
+      border-bottom: 1px solid #ffcc66;
       padding: 3px 12px; }
     .titlebar .path-buttons-box button.current-dir:only-child,
     headerbar .path-buttons-box button.current-dir:only-child {
