@@ -180,7 +180,7 @@
    .linked > button:hover,
    .linked > button:backdrop { @extend %linked-header; }
    // End reset style
- 
+
    .path-bar-box {
     .dim-label {
       color: transparent;
@@ -213,6 +213,41 @@
       &:only-child{
         border-radius: 4px;
       } 
+    }
+  }
+
+  // Gnome 42 path-bar
+  .path-buttons-box {
+    background-color: $bg_color;
+    border: 1px solid $borders_color;
+    min-height: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    button > .horizontal > .dim-label {
+      color: $headerbar_fg_color;
+      padding: 3px 12px;
+      margin: 0;
+    }
+
+    button > .horizontal > image.dim-label { padding: 3px 0px 3px 12px; }
+
+    button {
+      background: transparent;
+      border: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .current-dir label {
+      color: lighten($headerbar_fg_color, 5%);
+      border-bottom: 1px solid $selected_bg_color;
+      padding: 3px 12px;
+    }
+
+   button.current-dir:only-child {
+     padding: 3px 12px 0px 12px;
+     label { padding:0px 12px 3px 12px; }
     }
   }
 
