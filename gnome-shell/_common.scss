@@ -546,7 +546,7 @@ StScrollBar {
     &:active,
     &.selected,
     &:hover,
-    &:focus { background-color: lighten($bg_color, 9%) !important; color: $fg_color; }
+    &:focus { background-color: lighten($bg_color, 9%) !important; color: $fg_color !important; }
   }
 
 }
@@ -569,7 +569,7 @@ StScrollBar {
   &:active,
   &.selected,
   &:hover,
-  &:focus { background-color: lighten($bg_color, 6%) !important; color: $fg_color; }
+  &:focus { background-color: lighten($bg_color, 6%) !important; color: $fg_color !important; }
 
   &:checked { 
     background-color: lighten($bg_color, 7%) !important;
