@@ -298,3 +298,7 @@
     &:backdrop { background-color: $backdrop_base_color; }
   }
 }
+
+tabbox{
+  background-color: darken($bg_color, 10%);
+}
