@@ -2028,14 +2028,12 @@ StScrollBar {
 
 .quick-toggle {
   border-radius: 99px;
-  min-width: 12em;
-  max-width: 12em;
   min-height: 40px;
   /* Move padding into the box; this is to allow menu arrows
       to extend to the border */ }
   .quick-toggle:checked {
     color: #00A9A5;
-    background-color: rgba(0, 169, 165, 0.2);
+    background-color: rgba(0, 169, 165, 0.4);
     border: 1px solid #1c1e2a;
     text-shadow: none;
     icon-shadow: none;
