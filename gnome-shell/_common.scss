@@ -2230,12 +2230,10 @@ $base_padding: 6px;
 
 .quick-toggle {
   border-radius: 99px;
-  min-width: 12em;
-  max-width: 12em;
   min-height: 40px;
 
   &:checked { 
-    @include button(active, transparentize($selected_bg_color, 0.8));
+    @include button(active, transparentize($selected_bg_color, 0.6));
     color: $selected_fg_color;
   }
 
