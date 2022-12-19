@@ -2230,13 +2230,11 @@ $base_padding: 6px;
 
 .quick-toggle {
   border-radius: 99px;
-  min-width: 12em;
-  max-width: 12em;
   min-height: 40px;
 
   &:checked { 
-    @include button(active, transparentize($selected_bg_color, 0.8));
-    color: $fg_color;
+    @include button(active, transparentize($selected_bg_color, 0.3));
+    color: $selected_fg_color;
   }
 
   & > StBoxLayout { spacing: $base_padding; }
