@@ -2766,7 +2766,7 @@ columnview > listview > row {
     columnview > listview > row > cell:not(:first-child) {
       border-left: 1px solid transparent; }
 columnview.column-separators > listview > row > cell {
-  border-left-color: #040407; }
+  border-left-color: #13161d; }
 columnview.data-table > listview > row > cell {
   padding-top: 2px;
   padding-bottom: 2px; }
@@ -2780,17 +2780,17 @@ treeexpander {
  * https://gitlab.gnome.org/GNOME/gtk/-/issues/2929     *
  ********************************************************/
 columnview row:not(:selected) cell editablelabel:not(.editing):focus-within {
-  outline: 2px solid #040407; }
+  outline: 2px solid #13161d; }
 
 columnview row:not(:selected) cell editablelabel.editing:focus-within {
-  outline: 2px solid #00A9A5; }
+  outline: 2px solid #ffcc66; }
 
 columnview row:not(:selected) cell editablelabel.editing text selection {
-  background-color: rgba(0, 169, 165, 0.6);
+  background-color: rgba(255, 204, 102, 0.6);
   color: transparent; }
   columnview row:not(:selected) cell editablelabel.editing text selection:focus-within {
-    background-color: #00A9A5;
-    color: #BFC3C4; }
+    background-color: #ffcc66;
+    color: #A4ABB6; }
 
 /*******************************************************
  * Rich Lists                                          *
