@@ -5754,7 +5754,7 @@ radiobutton.color-button:active > radio {
   color: rgba(255, 255, 255, 0.8);
   border-radius: 0;
   border: none;
-  background-color: rgba(34, 46, 50, 0); }
+  background-color: #222e32; }
   #tasklist-button:hover {
     color: white;
     background-color: rgba(0, 0, 0, 0.17); }
@@ -5767,7 +5767,7 @@ radiobutton.color-button:active > radio {
   color: white;
   border-radius: 0;
   border: none;
-  background-color: rgba(34, 46, 50, 0); }
+  background-color: #222e32; }
   .xfce4-panel.panel button.flat:hover {
     border: none;
     background-color: #374950; }
