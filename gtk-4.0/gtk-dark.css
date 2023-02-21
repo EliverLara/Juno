@@ -2844,7 +2844,6 @@ menu, .menu, .context-menu {
   margin: 4px;
   padding: 2px 0px;
   background: #272b3b;
-  border: 1px solid #1d202c;
   border-radius: 5px;
   font: initial; }
   .csd menu,
@@ -3235,7 +3234,8 @@ popover.background {
     background-color: #272b3b;
     background-clip: padding-box;
     border: 1px solid #1d202c;
-    box-shadow: 0 4px 6px #1d202c; }
+    box-shadow: 0 4px 6px #1d202c;
+    color: #7c84a8; }
   popover.background:backdrop {
     background-color: transparent;
     box-shadow: none; }
@@ -3296,6 +3296,7 @@ popover.menu {
         border-color: #393f57; }
   popover.menu > arrow, popover.menu.background > contents {
     background-color: #272b3b;
+    color: #7c84a8;
     padding: 5px; }
   popover.menu.background separator {
     margin: 6px 0; }
