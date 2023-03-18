@@ -299,6 +299,22 @@
   }
 }
 
-tabbox{
-  background-color: darken($bg_color, 3%);
+tabbar {
+  &:backdrop .box {
+    > scrolledwindow,
+    > .start-action,
+    > .end-action {
+      filter: opacity(1);
+    }
+  }
+  tabbox {
+    background-color: darken($base_color, 5%);
+    padding: 0px;
+    color: $fg_color;
+
+    > tab,
+    > tabboxchild > tab {
+      &:checked, &:selected { background-color: $base_color; }
+    }
+  }
 }
