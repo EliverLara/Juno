@@ -1016,7 +1016,7 @@ popover.background radiobutton,
   modelbutton.flat:hover, popover.background checkbutton:hover,
   popover.background radiobutton:hover,
   .menuitem.button.flat:hover {
-    background-color: #28363b; }
+    background-color: #2f3e44; }
   modelbutton.flat check:last-child, popover.background checkbutton check:last-child,
   popover.background radiobutton check:last-child,
   modelbutton.flat radio:last-child,
@@ -2690,7 +2690,8 @@ infobar {
       box-shadow: none; }
 
 .info {
-  background-color: #C3E88D; }
+  background-color: #C3E88D;
+  color: #000; }
   .info:backdrop {
     background-color: #d9f1b7;
     color: rgba(254, 254, 254, 0.5); }
@@ -2702,7 +2703,8 @@ infobar {
     color: rgba(254, 254, 254, 0.5); }
 
 .question {
-  background-color: #89DDFF; }
+  background-color: #89DDFF;
+  color: #000; }
   .question:backdrop {
     background-color: #bcecff;
     color: rgba(254, 254, 254, 0.5); }
