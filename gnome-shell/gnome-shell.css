@@ -973,8 +973,9 @@ StScrollBar {
 /* Message list */
 .message-list {
   border: none; }
-  .message-list .message-title, .message-list .message-content, .message-list .message-body {
-    color: #99a1ad; }
+
+.message-title, .message-content, .message-body {
+  color: #99a1ad; }
 
 .message-list-sections {
   spacing: 1em; }
@@ -2034,7 +2035,8 @@ StScrollBar {
   padding: 14px;
   border-radius: 12px; }
   .quick-settings .icon-button, .quick-settings .button {
-    padding: 10.5px; }
+    padding: 10.5px;
+    color: #A4ABB6; }
 
 .quick-toggle {
   border-radius: 99px;
@@ -2080,7 +2082,8 @@ StScrollBar {
 .quick-menu-toggle .quick-toggle-arrow {
   background-color: #232936;
   padding: 6px 10.5px;
-  border-width: 0; }
+  border-width: 0;
+  color: #A4ABB6; }
   .quick-menu-toggle .quick-toggle-arrow:checked {
     color: #ffcc66;
     background-color: rgba(255, 204, 102, 0.8);
@@ -2095,7 +2098,7 @@ StScrollBar {
     border-radius: 99px 0 0 99px; }
 
 .quick-toggle-menu {
-  background-color: #1f2430;
+  background-color: #1f2430 !important;
   border-radius: 12px;
   padding: 12px;
   margin: 12px 18px 0;
@@ -2111,7 +2114,8 @@ StScrollBar {
       padding: 9px;
       background-color: #2c3344; }
       .quick-toggle-menu .header .icon.active {
-        background-color: #ffcc66; }
+        background-color: #ffcc66;
+        color: #1f2430; }
 
 .quick-settings-system-item > StBoxLayout {
   spacing: 12px; }
