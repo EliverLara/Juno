@@ -1119,9 +1119,10 @@ $slider_size: 16px;
       /* Message list */
       .message-list {
         border: none;
-        .message-title, .message-content, .message-body {
-          color: darken($fg_color,4%);
-        }
+      }
+
+      .message-title, .message-content, .message-body {
+        color: darken($fg_color, 4%);
       }
         .message-list-sections {
           spacing: 1em;
@@ -2234,6 +2235,7 @@ $slider_size: 16px;
 
   .icon-button, .button {
     padding: 6px*1.75;
+    color: $fg_color;
   }
 }
 
@@ -2282,6 +2284,7 @@ $base_padding: 6px;
     background-color: lighten($base_color, 2%);
     padding: $base_padding $base_padding*1.75;
     border-width: 0;
+    color: $fg_color;
     &:checked { 
       @include button(active, transparentize($selected_bg_color, 0.4));
       color: $selected_fg_color;
@@ -2295,7 +2298,7 @@ $base_padding: 6px;
 }
 
 .quick-toggle-menu {
-  background-color: $base_color;
+  background-color: $base_color !important;
   border-radius: 12px;
   padding: $base_padding*2;
   margin: $base_padding*2 $base_padding*3 0;
@@ -2314,7 +2317,10 @@ $base_padding: 6px;
       padding: 1.5 * $base_padding;
       background-color: lighten($bg_color, 10%);
 
-      &.active { background-color: $selected_bg_color; }
+      &.active { 
+        background-color: $selected_bg_color; 
+        color: $selected_fg_color;
+      }
     }
   }
 }
