@@ -1,9 +1,14 @@
-.xfce4-panel.panel {
+.xfce4-panel {
+
+  border-radius: 0;
+  &.panel {
+
     background-color: $panel_bg_color;
     text-shadow: none;
     -gtk-icon-shadow: none;
 
     button.flat { @extend %panelbutton; }
+  }
 }
 
 #tasklist-button {
