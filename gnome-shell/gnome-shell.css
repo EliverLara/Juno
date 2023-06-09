@@ -518,7 +518,7 @@ StScrollBar {
   spacing: 6px;
   border-radius: 6px;
   background-gradient-direction: none;
-  color: #BFC3C4 !important; }
+  color: #D5D7D8 !important; }
   .popup-menu-item:ltr {
     padding-left: 6px; }
   .popup-menu-item:rtl {
@@ -1393,7 +1393,8 @@ StScrollBar {
   border: none;
   transition-duration: 100ms;
   text-align: center;
-  box-shadow: none; }
+  box-shadow: none;
+  border-radius: 12px; }
 
 /* App Folders */
 .app-well-app.app-folder {
@@ -1402,7 +1403,9 @@ StScrollBar {
 
 .app-folder-dialog {
   background-color: rgba(25, 32, 36, 0.95);
-  border: none; }
+  border: none;
+  box-shadow: none;
+  border-radius: 30px; }
   .app-folder-dialog .folder-name-label {
     color: #D5D7D8; }
   .app-folder-dialog .folder-name-entry {
