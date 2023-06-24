@@ -2247,8 +2247,8 @@ $base_padding: 6px;
   border-radius: 99px;
 
   &:checked { 
-    @include button(active, transparentize($selected_bg_color, 0.1));
-    color: $selected_fg_color;
+    @include button(active, lighten($base_color, 10%));
+    color: #fff;
   }
 
   &, &:hover, &:checked { border: none; }
@@ -2288,8 +2288,8 @@ $base_padding: 6px;
     border-width: 0;
     color: $fg_color;
     &:checked { 
-      @include button(active, transparentize($selected_bg_color, 0.2));
-      color: $selected_fg_color;
+      @include button(active, lighten($base_color, 10%));
+      color: #fff;
       border-width: 0;
     }
   
