@@ -1,7 +1,7 @@
 # Text/base colors
-gtk-color-scheme = "text_color:#7c84a8\nbase_color:#2d3144"
+gtk-color-scheme = "text_color:#B6BACE\nbase_color:#2d3144"
 # Foreground/background colors
-gtk-color-scheme = "fg_color:#7c84a8\nbg_color:#292D3E"
+gtk-color-scheme = "fg_color:#B6BACE\nbg_color:#292D3E"
 # Selection colors
 gtk-color-scheme = "selected_fg_color:#fefefe\nselected_bg_color:#00A9A5"
 # Tooltip colors
@@ -11,11 +11,11 @@ gtk-color-scheme = "wm_color:#31363d\nunfocused_wm_color:#31363d"
 # Panel colors
 gtk-color-scheme = "panel_bg_color:#2d3144\npanel_fg_color:#ffffff"
 # Dark Theme - Text/base colors
-gtk-color-scheme = "dark_text_color:#7c84a8\ndark_base_color:#2d3144"
+gtk-color-scheme = "dark_text_color:#B6BACE\ndark_base_color:#2d3144"
 # Dark Theme - Foreground/background colors
-gtk-color-scheme = "dark_fg_color:#7c84a8\ndark_bg_color:#292D3E"
+gtk-color-scheme = "dark_fg_color:#B6BACE\ndark_bg_color:#292D3E"
 gtk-color-scheme = "sidebar_bg:#2e3440"
-gtk-color-scheme = "sidebar_fg:#7c84a8"
+gtk-color-scheme = "sidebar_fg:#B6BACE"
 
 gtk-auto-mnemonics = 1
 gtk-primary-button-warps-slider = 1
