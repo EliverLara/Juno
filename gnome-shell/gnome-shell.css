@@ -214,7 +214,9 @@ StScrollBar {
   background-color: #222533;
   box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.2); }
   .modal-dialog .modal-dialog-content-box {
-    padding: 24px; }
+    margin: 32px 40px;
+    spacing: 32px;
+    max-width: 28em; }
   .modal-dialog .run-dialog-entry {
     width: 20em;
     margin-bottom: 6px; }
@@ -258,7 +260,6 @@ StScrollBar {
 
 /* End Session Dialog */
 .end-session-dialog {
-  spacing: 42px;
   border: none; }
   .end-session-dialog .modal-dialog-linked-button:last-child {
     background-gradient-start: #00A9A5;
@@ -378,7 +379,7 @@ StScrollBar {
 
 /* Password or Authentication Dialog */
 .prompt-dialog {
-  width: 34em;
+  width: 28em;
   border: 1px solid #1c1e2a;
   border-radius: 10px; }
   .prompt-dialog .message-dialog-main-layout {
@@ -502,7 +503,7 @@ StScrollBar {
   .popup-sub-menu .popup-menu-item {
     border-radius: 0;
     margin: 0;
-    background-color: #212b30 !important; }
+    background-color: #2a2e3f !important; }
     .popup-sub-menu .popup-menu-item:last-child {
       border-radius: 0 0 6px 6px; }
     .popup-sub-menu .popup-menu-item:active, .popup-sub-menu .popup-menu-item.selected, .popup-sub-menu .popup-menu-item:hover, .popup-sub-menu .popup-menu-item:focus {
