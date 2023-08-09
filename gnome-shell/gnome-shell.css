@@ -208,7 +208,7 @@ StScrollBar {
   background-color: white; }
 
 .modal-dialog {
-  border: 1px solid #07080c;
+  border: 1px solid #181a29 !important;
   border-radius: 10px;
   color: #BFC3C4;
   background-color: #0D0E16;
@@ -259,16 +259,14 @@ StScrollBar {
   font-weight: bold; }
 
 /* End Session Dialog */
-.end-session-dialog {
-  border: none; }
-  .end-session-dialog .modal-dialog-linked-button:last-child {
-    background-gradient-start: #00A9A5;
-    background-gradient-end: #00A9A5;
-    background-gradient-direction: horizontal;
+.end-session-dialog .modal-dialog-linked-button:last-child {
+  background-gradient-start: #00A9A5;
+  background-gradient-end: #00A9A5;
+  background-gradient-direction: horizontal;
+  color: #fff; }
+  .end-session-dialog .modal-dialog-linked-button:last-child:hover, .end-session-dialog .modal-dialog-linked-button:last-child:focus {
+    background: #ff2a4e;
     color: #fff; }
-    .end-session-dialog .modal-dialog-linked-button:last-child:hover, .end-session-dialog .modal-dialog-linked-button:last-child:focus {
-      background: #ff2a4e;
-      color: #fff; }
 
 .end-session-dialog-list {
   padding-top: 20px; }

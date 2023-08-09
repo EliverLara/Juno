@@ -176,7 +176,7 @@ $slider_size: 16px;
 .flashspot { background-color: white; }
 
 .modal-dialog {
-  border: 1px solid $borders_color;
+  border: 1px solid lighten($bg_color, 6%) !important;
   border-radius: 10px;
   color: $osd_fg_color;
   background-color: $bg_color;
@@ -242,7 +242,6 @@ $slider_size: 16px;
 
 /* End Session Dialog */
 .end-session-dialog {
-  border: none;
   & .modal-dialog-linked-button:last-child {
     @include gradient();
     color: #fff;
