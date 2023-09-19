@@ -999,13 +999,21 @@ StScrollBar {
   background: transparent; }
 
 .message {
-  background: #1b2327;
+  color: #D5D7D8;
+  background-color: #222e32;
+  box-shadow: none;
   border: 1px solid #161819;
-  border-radius: 7px; }
+  text-shadow: 0 1px black;
+  icon-shadow: 0 1px black;
+  border: 1px solid #161819;
+  text-shadow: none; }
   .message:hover, .message:focus {
-    background-color: #212b30;
-    border-radius: 0px 7px 7px 0px;
-    box-shadow: 3px 0px 0px 0px #00A9A5 inset; }
+    background-color: #28363b;
+    color: #fefefe;
+    border: 1px solid #161819;
+    text-shadow: 0 1px black;
+    icon-shadow: 0 1px black;
+    text-shadow: none; }
 
 .message-secondary-bin > .event-time {
   color: #adb1b3;
@@ -1019,9 +1027,19 @@ StScrollBar {
 
 .message-content {
   padding: 10px; }
-  .message-content *:hover > StIcon,
-  .message-content *:focus > StIcon {
-    color: #FF5370; }
+
+.message-close-button {
+  color: #D5D7D8;
+  background-color: rgba(213, 215, 216, 0.2);
+  border-radius: 99px; }
+  .message-close-button:hover {
+    background-color: #FF5370; }
+    .message-close-button:hover > StIcon {
+      color: #fefefe; }
+  .message-close-button:active {
+    background-color: #FF5370; }
+    .message-close-button:active > StIcon {
+      color: #fefefe; }
 
 /* Media Controls */
 .message-media-control {
