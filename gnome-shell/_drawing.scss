@@ -149,7 +149,7 @@
   //
 
     color: $fg_color;
-    background-color: lighten($base_color, 2%);
+    background-color: lighten($base_color, 5%);
     box-shadow: none;
     border: 1px solid $borders_color;
     text-shadow: 0 1px black;
@@ -160,10 +160,10 @@
   //
   // focused button
   //
-    $_bg: if($c!=$osd_bg_color, transparentize($c, 0.5),
+    $_bg: if($c!=$osd_bg_color, transparentize($c, 0.4),
                           $osd_bg_color);
 
-    background-color: lighten($base_color, 6%);
+    background-color: lighten($base_color, 9%);
     color: $selected_fg_color;
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black;
@@ -178,7 +178,7 @@
     $_bg: if($c!=$osd_bg_color, transparentize($c, 0.3),
                             lighten($main_dark, 2%));
 
-    background-color: lighten($base_color, 5%);
+    background-color: lighten($base_color, 9%);
     color: $selected_fg_color;
     border: 1px solid $borders_color;
     text-shadow: 0 1px black;
