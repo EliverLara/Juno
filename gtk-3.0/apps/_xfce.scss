@@ -7,7 +7,7 @@
     text-shadow: none;
     -gtk-icon-shadow: none;
 
-    button.flat { @extend %panelbutton; }
+    button.flat:not(.open_group) { @extend %panelbutton; }
   }
 }
 
@@ -59,4 +59,12 @@
     &:hover, &:checked {
         background-color: $selected_bg_color;
     }
+}
+
+/* Vala-appmenu-plugin*/
+
+.-vala-panel-appmenu-core scrolledwindow,
+.-vala-panel-appmenu-private > menuitem,
+.-vala-panel-appmenu-private > menuitem:first-child > label {
+    color: $panel_fg_color;
 }
