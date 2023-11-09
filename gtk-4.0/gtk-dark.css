@@ -2570,7 +2570,7 @@ window.csd > .titlebar:not(headerbar) {
   background: #232735; }
 
 .nautilus-window .sidebar-pane .top-bar headerbar, .nautilus-window .sidebar-pane .top-bar:backdrop {
-  background-color: #0d0f17; }
+  background-color: #272b3b; }
 
 /**************
  * GtkInfoBar *
@@ -4588,14 +4588,14 @@ windowcontrols button.close, windowcontrols button.maximize, windowcontrols butt
   min-width: 20px;
   min-height: 20px;
   margin-right: 1px;
-  color: #7c84a8;
+  color: #B6BACE;
   border-color: transparent; }
   windowcontrols button.close, windowcontrols button.close:backdrop, windowcontrols button.close:backdrop:hover, windowcontrols button.maximize, windowcontrols button.maximize:backdrop, windowcontrols button.maximize:backdrop:hover, windowcontrols button.minimize, windowcontrols button.minimize:backdrop, windowcontrols button.minimize:backdrop:hover {
     background: transparent;
     box-shadow: none;
     border-color: transparent; }
   windowcontrols button.close:checked, windowcontrols button.close:hover, windowcontrols button.close:backdrop:hover, windowcontrols button.maximize:checked, windowcontrols button.maximize:hover, windowcontrols button.maximize:backdrop:hover, windowcontrols button.minimize:checked, windowcontrols button.minimize:hover, windowcontrols button.minimize:backdrop:hover {
-    color: #7c84a8;
+    color: #B6BACE;
     border-radius: 4px;
     text-shadow: none;
     box-shadow: none;
