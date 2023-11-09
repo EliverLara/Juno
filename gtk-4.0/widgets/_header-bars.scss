@@ -330,3 +330,10 @@
  .titlebar{
    @extend %titlebar;
  }
+
+// Gnome 45
+.nautilus-window .sidebar-pane .top-bar {
+  headerbar, &:backdrop {
+    background-color: $_sidebar_color; 
+  }
+}
