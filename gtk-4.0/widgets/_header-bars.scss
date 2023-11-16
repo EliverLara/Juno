@@ -3,7 +3,7 @@
  ***************/
  %titlebar,
  headerbar {
-   padding: 0 13px;
+   padding: 0 6px;
    min-height: 34px;
    background: $headerbar_color;
    color: $headerbar_fg_color;
@@ -332,8 +332,15 @@
  }
 
 // Gnome 45
-.nautilus-window .sidebar-pane .top-bar {
-  headerbar, &:backdrop {
-    background-color: $_sidebar_color; 
+.sidebar-pane, .content-pane {
+  .top-bar {
+    &, headerbar {
+      background-color: $headerbar_color;
+    }
   }
+}
+
+.nautilus-window .sidebar-pane .top-bar headerbar {
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
