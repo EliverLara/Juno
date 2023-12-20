@@ -1215,7 +1215,7 @@ StScrollBar {
   padding-left: 8px;
   padding-right: 8px;
   transition-duration: 100;
-  color: rgba(31, 36, 48, 0.6); }
+  color: rgba(164, 171, 182, 0.6); }
   .grouped-window-list-item-box.top, .grouped-window-list-item-box.bottom {
     border-bottom-width: 2px; }
     .grouped-window-list-item-box.top StLabel, .grouped-window-list-item-box.bottom StLabel {
@@ -1233,10 +1233,10 @@ StScrollBar {
     .grouped-window-list-item-box.left StBin {
       padding-left: 1px; }
   .grouped-window-list-item-box:active, .grouped-window-list-item-box:checked {
-    color: #1f2430;
+    color: #A4ABB6;
     border-color: #404b63; }
   .grouped-window-list-item-box:hover, .grouped-window-list-item-box:active:hover, .grouped-window-list-item-box:focus, .grouped-window-list-item-box:active:focus, .grouped-window-list-item-box:focus:hover, .grouped-window-list-item-box:active:focus:hover {
-    color: #1f2430;
+    color: #A4ABB6;
     border-color: #ffcc66; }
   .grouped-window-list-item-box .progress {
     background-color: rgba(255, 204, 102, 0.8); }
@@ -1392,7 +1392,7 @@ StScrollBar {
 .workspace-button {
   width: 20px;
   height: 10px;
-  color: #1f2430;
+  color: #A4ABB6;
   padding: 3px;
   padding-top: 4px;
   transition-duration: 300; }
