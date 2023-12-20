@@ -1557,7 +1557,7 @@ StScrollBar {
     padding-left: 8px;
     padding-right: 8px;
     transition-duration: 100;
-    color: transparentize($selected_fg_color, 0.4);
+    color: transparentize($fg_color, 0.4);
 
     &.top,
     &.bottom {
@@ -1584,7 +1584,7 @@ StScrollBar {
 
     &:active,
     &:checked {
-      color: $selected_fg_color;
+      color: $fg_color;
       border-color: lighten($panel_bg, 20%);
     }
 
@@ -1594,7 +1594,7 @@ StScrollBar {
     &:active:focus,
     &:focus:hover,
     &:active:focus:hover {
-      color: $selected_fg_color;
+      color: $fg_color;
       border-color: $selected_bg_color;
     }
 
@@ -1805,7 +1805,7 @@ StScrollBar {
 .workspace-button {
   width: 20px;
   height: 10px;
-  color: $selected_fg_color;
+  color: $fg_color;
   padding: 3px;
   padding-top: 4px;
   transition-duration: 300;
