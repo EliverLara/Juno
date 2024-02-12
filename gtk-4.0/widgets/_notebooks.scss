@@ -309,11 +309,19 @@ tabbar {
   }
   tabbox {
     background-color: darken($base_color, 5%);
-    padding: 0px;
+    padding: 4px 0;
     color: $fg_color;
 
     > tab,
     > tabboxchild > tab {
+      button.flat {
+        padding: 0;
+        margin: 4px;
+        min-width: 20px;
+        min-height: 20px;
+        border-radius: 10px;
+        &:hover { background-color: $red; }
+      }
       &:checked, &:selected { background-color: $base_color; }
     }
   }
