@@ -41,7 +41,7 @@
     }
     &:active, &:checked {
       color: $selected_fg_color;
-      border-bottom: 2px solid $selected_bg_color;
+      box-shadow: 0 -2px 0 $selected_bg_color inset;
       background-color: lighten($panel_bg_color, 5%);
 
       label, image { color: inherit; }

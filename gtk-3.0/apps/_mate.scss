@@ -1,0 +1,66 @@
+.mate-panel-menu-bar,
+panel-toplevel.background {
+
+  &, menubar { background-color: $panel_bg_color; }
+
+  menubar,
+  #PanelApplet label,
+  #PanelApplet image { color: $panel_fg_color; }
+
+  // Panel buttons
+  button:not(#tasklist-button) {
+    @extend %panelbutton;
+  }
+
+  button,
+  #tasklist-button {
+    label, image { color: inherit; }
+  }
+
+  .wnck-pager {
+    color: mix($panel_fg_color, black, 50%);
+    background-color: darken($panel_bg_color, 3%);
+
+    &:hover {
+      background-color: lighten($panel_bg_color, 5%);
+    }
+
+    &:selected {
+      color: lighten($selected_bg_color, 20%);
+      background-color: $selected_bg_color;
+    }
+  }
+
+  na-tray-applet {
+    -NaTrayApplet-icon-padding: 0;
+    -NaTrayApplet-icon-size: 16px;
+  }
+}
+
+//
+// Mate OSD Window
+//
+
+MsdOsdWindow.background.osd {
+    border-radius: 2px;
+    border: 1px solid $borders_color;
+  
+    .progressbar {
+      background-color: $selected_bg_color;
+      border: none;
+      border-color: $selected_bg_color;
+      border-radius: 5px;
+    }
+    .trough {
+      background-color: darken($osd_bg_color, 5%);
+      border: none;
+      border-radius: 5px;
+    }
+  }
+
+//
+// Mate panel
+//
+.mate-panel-menu-bar {
+  &, button { border-radius: 0; }
+}
