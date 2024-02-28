@@ -5718,19 +5718,27 @@ radiobutton.color-button:active > radio {
     background-color: rgba(0, 0, 0, 0.25);
     box-shadow: inset 0 -2px #00A9A5; }
 
-.xfce4-panel.panel button.flat:not(.open_group) {
+.xfce4-panel.panel button.flat:not(.open_group), .mate-panel-menu-bar button:not(#tasklist-button),
+panel-toplevel.background button:not(#tasklist-button) {
   color: white;
   border-radius: 0;
   border: none;
   background-color: #222e32; }
-  .xfce4-panel.panel button.flat:hover:not(.open_group) {
+  .xfce4-panel.panel button.flat:hover:not(.open_group), .mate-panel-menu-bar button:hover:not(#tasklist-button),
+  panel-toplevel.background button:hover:not(#tasklist-button) {
     border: none;
     background-color: #374950; }
-  .xfce4-panel.panel button.flat:active:not(.open_group), .xfce4-panel.panel button.flat:checked:not(.open_group) {
+  .xfce4-panel.panel button.flat:active:not(.open_group), .mate-panel-menu-bar button:active:not(#tasklist-button),
+  panel-toplevel.background button:active:not(#tasklist-button), .xfce4-panel.panel button.flat:checked:not(.open_group), .mate-panel-menu-bar button:checked:not(#tasklist-button),
+  panel-toplevel.background button:checked:not(#tasklist-button) {
     color: #fefefe;
-    border-bottom: 2px solid #00A9A5;
+    box-shadow: 0 -2px 0 #00A9A5 inset;
     background-color: #2c3b41; }
-    .xfce4-panel.panel button.flat:active:not(.open_group) label, .xfce4-panel.panel button.flat:active:not(.open_group) image, .xfce4-panel.panel button.flat:checked:not(.open_group) label, .xfce4-panel.panel button.flat:checked:not(.open_group) image {
+    .xfce4-panel.panel button.flat:active:not(.open_group) label, .mate-panel-menu-bar button:active:not(#tasklist-button) label,
+    panel-toplevel.background button:active:not(#tasklist-button) label, .xfce4-panel.panel button.flat:active:not(.open_group) image, .mate-panel-menu-bar button:active:not(#tasklist-button) image,
+    panel-toplevel.background button:active:not(#tasklist-button) image, .xfce4-panel.panel button.flat:checked:not(.open_group) label, .mate-panel-menu-bar button:checked:not(#tasklist-button) label,
+    panel-toplevel.background button:checked:not(#tasklist-button) label, .xfce4-panel.panel button.flat:checked:not(.open_group) image, .mate-panel-menu-bar button:checked:not(#tasklist-button) image,
+    panel-toplevel.background button:checked:not(#tasklist-button) image {
       color: inherit; }
 
 #whiskermenu-window button {
@@ -5894,6 +5902,41 @@ SheetStyleDialog.unity-force-quit {
   animation: playbackmenuitem_spinner 1s infinite linear;
   color: #00A9A5; }
 
+.mate-panel-menu-bar, .mate-panel-menu-bar menubar,
+panel-toplevel.background,
+panel-toplevel.background menubar {
+  background-color: #222e32; }
+.mate-panel-menu-bar menubar,
+.mate-panel-menu-bar #PanelApplet label,
+.mate-panel-menu-bar #PanelApplet image,
+panel-toplevel.background menubar,
+panel-toplevel.background #PanelApplet label,
+panel-toplevel.background #PanelApplet image {
+  color: white; }
+.mate-panel-menu-bar button label, .mate-panel-menu-bar button image,
+.mate-panel-menu-bar #tasklist-button label,
+.mate-panel-menu-bar #tasklist-button image,
+panel-toplevel.background button label,
+panel-toplevel.background button image,
+panel-toplevel.background #tasklist-button label,
+panel-toplevel.background #tasklist-button image {
+  color: inherit; }
+.mate-panel-menu-bar .wnck-pager,
+panel-toplevel.background .wnck-pager {
+  color: gray;
+  background-color: #1c2529; }
+  .mate-panel-menu-bar .wnck-pager:hover,
+  panel-toplevel.background .wnck-pager:hover {
+    background-color: #2c3b41; }
+  .mate-panel-menu-bar .wnck-pager:selected,
+  panel-toplevel.background .wnck-pager:selected {
+    color: #10fff9;
+    background-color: #00A9A5; }
+.mate-panel-menu-bar na-tray-applet,
+panel-toplevel.background na-tray-applet {
+  -NaTrayApplet-icon-padding: 0;
+  -NaTrayApplet-icon-size: 16px; }
+
 MsdOsdWindow.background.osd {
   border-radius: 2px;
   border: 1px solid #12171a; }
@@ -5906,6 +5949,9 @@ MsdOsdWindow.background.osd {
     background-color: rgba(11, 15, 17, 0.93);
     border: none;
     border-radius: 5px; }
+
+.mate-panel-menu-bar, .mate-panel-menu-bar button {
+  border-radius: 0; }
 
 /***********************
  * App-Specific Styles *
