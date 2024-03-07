@@ -322,7 +322,10 @@ tabbar {
         border-radius: 10px;
         &:hover { background-color: $red; }
       }
-      &:checked, &:selected { background-color: $base_color; }
+      &:checked, &:selected { 
+        background-color: $base_color; 
+        color: $fg_color;
+      }
     }
   }
 }

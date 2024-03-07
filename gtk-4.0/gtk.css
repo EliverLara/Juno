@@ -3188,7 +3188,8 @@ tabbar tabbox {
   tabbar tabbox > tab:checked, tabbar tabbox > tab:selected,
   tabbar tabbox > tabboxchild > tab:checked,
   tabbar tabbox > tabboxchild > tab:selected {
-    background-color: #232936; }
+    background-color: #232936;
+    color: #A4ABB6; }
 
 /*********
  * Paned *
