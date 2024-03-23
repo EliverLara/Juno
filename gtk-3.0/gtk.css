@@ -6099,7 +6099,8 @@ ConversationListView {
   .nemo-window .places-treeview .view.cell:hover, .nemo-window .places-treeview iconview.cell:hover, .nemo-window .places-treeview .view.cell:selected, .nemo-window .places-treeview iconview.cell:selected,
   .nemo-window .places-treeview iconview.cell:hover,
   .nemo-window .places-treeview iconview.cell:selected {
-    background-color: #2b3243; }
+    background-color: #2b3243;
+    color: #A4ABB6; }
 .nemo-window .sidebar {
   color: #A4ABB6;
   background-color: #1d222d; }
@@ -6215,7 +6216,8 @@ window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-
   border-radius: 0;
   box-shadow: none; }
   .thunar scrolledwindow.sidebar treeview.view:hover, .thunar scrolledwindow.sidebar treeview.view:selected {
-    background-color: #2b3243; }
+    background-color: #2b3243;
+    color: #A4ABB6; }
 
 .caja-notebook .frame {
   border-width: 0 0 1px; }
@@ -6247,7 +6249,8 @@ window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-
     .caja-side-pane viewport.frame:selected,
     .caja-side-pane widget .vertical:hover,
     .caja-side-pane widget .vertical:selected {
-      background-color: #2b3243; }
+      background-color: #2b3243;
+      color: #A4ABB6; }
 
 /**************
 * Caja pathbar *
