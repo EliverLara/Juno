@@ -7,6 +7,7 @@
         iconview.cell {
             &:hover, &:selected {
                 background-color: lighten($_sidebar_color, 7%);
+                color: $fg_color;
             }
         }
     }

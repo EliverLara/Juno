@@ -55,6 +55,7 @@ window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-
     padding: 1.5px;
     &:hover, &:selected {
         background-color: lighten($_sidebar_color, 7%);
+        color: $fg_color;
     }
     border-radius: 0;
     box-shadow: none;
