@@ -1,0 +1,27 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "eliverlara@gmail.com",
+                "Name": "EliverLara"
+            }
+        ],
+        "Category": "Plasma Look And Feel",
+        "EnabledByDefault": true,
+        "Id": "Ocean",
+        "License": "GPL 3+",
+        "Name": "Ocean",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "Version": "0.1",
+        "Website": "https://github.com/EliverLara/Juno/tree/ocean/kde"
+    },
+    "X-KPackage-Dependencies": [
+        "kns://colorschemes.knsrc/api.kde-look.org/1427565",
+        "kns://plasma-themes.knsrc/api.kde-look.org/1427568",
+        "kns://aurorae.knsrc/api.kde-look.org/1427566",
+        "kns://sddmtheme.knsrc/api.kde-look.org/1430814"
+    ]
+}
