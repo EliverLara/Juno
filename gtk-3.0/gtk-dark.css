@@ -6099,14 +6099,12 @@ ConversationListView {
   -NemoPlacesTreeView-disk-full-bg-color: #292f47;
   -NemoPlacesTreeView-disk-full-fg-color: #FFCB6B;
   -GtkTreeView-vertical-separator: 7; }
-  .nemo-window .places-treeview .view.cell:hover, .nemo-window .places-treeview iconview.cell:hover,
-  .nemo-window .places-treeview iconview.cell:hover {
-    background: rgba(8, 9, 13, 0.7); }
-  .nemo-window .places-treeview .view.cell:selected, .nemo-window .places-treeview iconview.cell:selected,
+  .nemo-window .places-treeview .view.cell:hover, .nemo-window .places-treeview iconview.cell:hover, .nemo-window .places-treeview .view.cell:selected, .nemo-window .places-treeview iconview.cell:selected,
+  .nemo-window .places-treeview iconview.cell:hover,
   .nemo-window .places-treeview iconview.cell:selected {
-    background: rgba(8, 9, 13, 0.93); }
+    background-color: #1a1e2d; }
 .nemo-window .sidebar {
-  color: #98abb2;
+  color: #BFC3C4;
   background-color: #0d0f17; }
   .nemo-window .sidebar .view, .nemo-window .sidebar iconview, .nemo-window .sidebar .iconview, .nemo-window .sidebar row {
     background-color: transparent; }
@@ -6115,9 +6113,8 @@ ConversationListView {
   min-height: 28px;
   padding: 5px;
   color: #BFC3C4;
-  border: 1px solid #040407;
-  border-radius: 3px;
-  box-shadow: inset 0 1px rgba(0, 0, 0, 0.9), inset 1px 0 rgba(0, 0, 0, 0.96), inset -1px 0 rgba(0, 0, 0, 0.96), inset 0 -1px rgba(0, 0, 0, 0.98), 0 1px rgba(255, 255, 255, 0.6); }
+  border: 1px solid #00A9A5;
+  border-radius: 3px; }
   .nemo-window .nemo-window-pane widget.entry:selected {
     background-color: #00A9A5;
     color: #fefefe; }
@@ -6216,15 +6213,14 @@ window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-
   border-radius: 0;
   box-shadow: none; }
   .thunar scrolledwindow.sidebar treeview.view:hover, .thunar scrolledwindow.sidebar treeview.view:selected {
-    background: #1a1e2d;
-    color: #cccfd0; }
+    background-color: #1a1e2d; }
 
 .caja-notebook .frame {
   border-width: 0 0 1px; }
 .caja-notebook .entry {
   background: #0F111A;
   color: #BFC3C4;
-  border-color: #040407; }
+  border-color: #00A9A5; }
   .caja-notebook .entry:selected {
     background: #00A9A5;
     color: #fefefe; }
@@ -6242,23 +6238,14 @@ window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-
   .caja-side-pane widget .vertical {
     background: #0d0f17;
     padding: 3px 2px; }
-    .caja-side-pane treeview.view:hover,
+    .caja-side-pane treeview.view:hover, .caja-side-pane treeview.view:selected,
     .caja-side-pane textview.view text:hover,
-    .caja-side-pane viewport.frame:hover,
-    .caja-side-pane widget .vertical:hover {
-      background-color: rgba(11, 13, 20, 0.95); }
-    .caja-side-pane treeview.view:selected,
     .caja-side-pane textview.view text:selected,
+    .caja-side-pane viewport.frame:hover,
     .caja-side-pane viewport.frame:selected,
+    .caja-side-pane widget .vertical:hover,
     .caja-side-pane widget .vertical:selected {
-      color: #98abb2;
-      background: rgba(8, 9, 13, 0.93); }
-      .caja-side-pane treeview.view:selected:hover,
-      .caja-side-pane textview.view text:selected:hover,
-      .caja-side-pane viewport.frame:selected:hover,
-      .caja-side-pane widget .vertical:selected:hover {
-        background: rgba(8, 9, 13, 0.93);
-        color: #fff; }
+      background-color: #1a1e2d; }
 
 /**************
 * Caja pathbar *
