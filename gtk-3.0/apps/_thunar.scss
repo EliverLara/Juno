@@ -53,9 +53,8 @@ window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-
 .thunar scrolledwindow.sidebar treeview.view {
     background: $_sidebar_color;
     padding: 1.5px;
-    &:hover, &:selected { 
-        background: lighten($_sidebar_color, 7%); 
-        color: lighten($headerbar_fg_color, 5%);
+    &:hover, &:selected {
+        background-color: lighten($_sidebar_color, 7%);
     }
     border-radius: 0;
     box-shadow: none;
