@@ -5,7 +5,7 @@
   .entry {
       background: $bg_color;
       color: $fg_color;
-      border-color: $borders_color;
+      border-color: $selected_bg_color;
       &:selected {
         background: $selected_bg_color;
         color: $selected_fg_color;
@@ -30,16 +30,8 @@
   widget .vertical {
     background: $_sidebar_color;
     padding: 3px 2px;
-    &:hover {
-      background-color: transparentize(darken($_sidebar_color, 1%), 0.05);
-    }
-    &:selected {
-      color: #98abb2;
-      background: transparentize(darken($_sidebar_color, 3%), 0.07);
-      &:hover {
-        background:  transparentize(darken($_sidebar_color, 3%), 0.07);
-        color: #fff;
-      }
+    &:hover, &:selected {
+      background-color: lighten($_sidebar_color, 7%);
     }
   }
 }
