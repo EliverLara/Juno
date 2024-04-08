@@ -106,8 +106,8 @@ StEntry {
   selection-background-color: #00A9A5;
   selected-color: #fefefe; }
   StEntry:focus {
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(0, 169, 165, 0.8); }
+    border: 1px solid rgba(0, 169, 165, 0.8);
+    box-shadow: none !important; }
   StEntry:insensitive {
     color: #66696d;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
