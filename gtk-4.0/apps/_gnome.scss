@@ -148,15 +148,6 @@
     margin-top: -1px;
   }
 
-  .linked:not(.vertical) > entry { 
-    border-radius: 10px;
-    margin-right: 5px;
-    &:focus {
-      border-color: transparentize($selected_bg_color, 0.7);
-      + button { border-left-color: $borders_color; }
-    }
-  }
-  
  }
 
 .nautilus-circular-button {
