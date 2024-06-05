@@ -226,10 +226,9 @@ button {
         //color: $b_color; //FIXME: does it work on the dark variant?
       }
 
-      &:hover { @include button(hover, $b_color, white); }
-
+      &:hover,
       &:active,
-      &:checked { @include button(active, $b_color, white); }
+      &:checked { opacity: 0.9; }
 
       &:backdrop,
       &.flat:backdrop {
