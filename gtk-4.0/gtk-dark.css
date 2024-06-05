@@ -635,16 +635,8 @@ button.suggested-action {
     color: white;
     border-radius: 4px;
     background: linear-gradient(to right, #F78C6C 0%, #F78C6C 100%); }
-  button.suggested-action:hover {
-    color: white;
-    outline-color: rgba(255, 255, 255, 0.3);
-    background-color: #F78C6C;
-    text-shadow: none; }
-  button.suggested-action:active, button.suggested-action:checked {
-    color: white;
-    outline-color: rgba(255, 255, 255, 0.3);
-    background: #F78C6C;
-    text-shadow: none; }
+  button.suggested-action:hover, button.suggested-action:active, button.suggested-action:checked {
+    opacity: 0.9; }
   .selection-mode windowcontrols button:backdrop, button.suggested-action:backdrop, button.suggested-action.flat:backdrop {
     color: rgba(255, 255, 255, 0.4);
     outline-color: rgba(255, 255, 255, 0.3);
@@ -742,16 +734,8 @@ button.destructive-action {
     color: white;
     border-radius: 4px;
     background: linear-gradient(to right, #F78C6C 0%, #F78C6C 100%); }
-  button.destructive-action:hover {
-    color: white;
-    outline-color: rgba(255, 255, 255, 0.3);
-    background-color: #ff2046;
-    text-shadow: none; }
-  button.destructive-action:active, button.destructive-action:checked {
-    color: white;
-    outline-color: rgba(255, 255, 255, 0.3);
-    background: #ff2046;
-    text-shadow: none; }
+  button.destructive-action:hover, button.destructive-action:active, button.destructive-action:checked {
+    opacity: 0.9; }
   button.destructive-action:backdrop, button.destructive-action.flat:backdrop {
     color: rgba(255, 255, 255, 0.4);
     outline-color: rgba(255, 255, 255, 0.3);
