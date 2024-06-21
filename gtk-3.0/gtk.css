@@ -5448,6 +5448,16 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   #gnc-id-main-window .arrow.button.toggle:hover {
     border-color: #00A9A5; }
 
+/*******************
+ * Calendar events *
+********************/
+.color-light.timed label {
+  color: #BFC3C4;
+  opacity: 1; }
+.week-view .color-light.timed label, .color-light label, .year-view .color-light:not(.timed) label {
+  color: #0F111A;
+  opacity: 1; }
+
 /********
  * Gala *
  *******/
