@@ -43,7 +43,10 @@
             @include button(normal-header);
             min-height: 24px;
             padding: 3px;
-            &:hover { @include button(hover-header, $selected_bg_color, $selected_fg_color); }
+            &:hover { 
+                @include button(hover-header, $selected_bg_color, $selected_fg_color); 
+                color: $selected_bg_color;
+            }
 
             &:selected,
             &:active,

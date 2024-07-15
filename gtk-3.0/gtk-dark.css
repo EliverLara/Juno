@@ -6142,7 +6142,8 @@ ConversationListView {
       color: #1f2430;
       border-radius: 0;
       text-shadow: none;
-      background-image: linear-gradient(to bottom, #232936, #1f2430); }
+      background-image: linear-gradient(to bottom, #232936, #1f2430);
+      color: #ffcc66; }
     .nemo-window toolbar.primary-toolbar button:selected, .nemo-window toolbar.primary-toolbar button:active, .nemo-window toolbar.primary-toolbar button:checked {
       background-color: rgba(23, 27, 36, 0.93);
       color: #b2b8c1;
