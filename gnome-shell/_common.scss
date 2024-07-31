@@ -1211,12 +1211,12 @@ $slider_size: 16px;
 
   // colors are lightened since the media controls are in a card
   &:hover {
-    background-color: lighten($base_color, 8%);
+    background-color: lighten($base_color, 14%);
     color: $selected_fg_color;
   }
 
   &:active { 
-    background-color: lighten($base_color, 12%);
+    background-color: lighten($base_color, 15%);
     color: $selected_fg_color;
   }
 
