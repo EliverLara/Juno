@@ -1047,10 +1047,10 @@ StScrollBar {
 .message-media-control {
   color: #B6BACE; }
   .message-media-control:hover {
-    background-color: #393f57;
+    background-color: #454c69;
     color: #fefefe; }
   .message-media-control:active {
-    background-color: #414863;
+    background-color: #474e6c;
     color: #fefefe; }
   .message-media-control:insensitive {
     color: #787c8e; }
