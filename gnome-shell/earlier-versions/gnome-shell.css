@@ -34,9 +34,15 @@ stage {
     text-shadow: none;
     icon-shadow: none; }
   .button:active {
+<<<<<<< HEAD
     color: #00A9A5;
     background-color: rgba(25, 32, 36, 0.95);
     border: 1px solid #161819;
+=======
+    color: #fefefe;
+    background-color: #00A9A5;
+    border: 1px solid #07080c;
+>>>>>>> e6408d4 (Gnome-shell: Improve screenshot dialog buttons appearance)
     text-shadow: none;
     icon-shadow: none; }
   .button:hover {
@@ -62,9 +68,15 @@ stage {
     text-shadow: none;
     icon-shadow: none; }
   .modal-dialog-linked-button:active {
+<<<<<<< HEAD
     color: #00A9A5;
     background-color: rgba(25, 32, 36, 0.95);
     border: 1px solid #161819;
+=======
+    color: #fefefe;
+    background-color: #00A9A5;
+    border: 1px solid #07080c;
+>>>>>>> e6408d4 (Gnome-shell: Improve screenshot dialog buttons appearance)
     text-shadow: none;
     icon-shadow: none; }
   .modal-dialog-linked-button:focus {
@@ -1405,9 +1417,15 @@ StScrollBar {
 .app-view-control {
   padding: 4px 32px; }
   .app-view-control:checked {
+<<<<<<< HEAD
     color: #00A9A5;
     background-color: rgba(25, 32, 36, 0.95);
     border: 1px solid #161819;
+=======
+    color: #fefefe;
+    background-color: #00A9A5;
+    border: 1px solid #07080c;
+>>>>>>> e6408d4 (Gnome-shell: Improve screenshot dialog buttons appearance)
     text-shadow: none;
     icon-shadow: none; }
   .app-view-control:first-child {
@@ -1723,9 +1741,15 @@ StScrollBar {
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black; }
   .keyboard-key:active {
+<<<<<<< HEAD
     color: #00A9A5;
     background-color: rgba(25, 32, 36, 0.95);
     border: 1px solid #161819;
+=======
+    color: #fefefe;
+    background-color: #00A9A5;
+    border: 1px solid #07080c;
+>>>>>>> e6408d4 (Gnome-shell: Improve screenshot dialog buttons appearance)
     text-shadow: none;
     icon-shadow: none; }
   .keyboard-key:grayed {
@@ -1815,7 +1839,7 @@ StScrollBar {
         text-shadow: 0 1px black;
         icon-shadow: 0 1px black; }
       .login-dialog .modal-dialog-button:default:active {
-        color: #00A9A5;
+        color: #fefefe;
         background-color: #00A9A5;
         border: 1px solid #161819;
         text-shadow: none;
