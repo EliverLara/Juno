@@ -34,9 +34,6 @@
   row{
     padding: 8px 12px;
     transition: all .12s ease-in;
-    label{
-      color: #98abb2;
-    }
     &:selected{
       color: $selected_fg_color;
       // border-left: 4px solid $selected_bg_color;
@@ -121,22 +118,21 @@ stacksidebar {
 
 /*--*/
 
-placessidebar.sidebar, .nautilus-window .navigation-sidebar{
+placessidebar {
 
 		background-color: $_sidebar_color;
 		row{
+      padding: 1px 11px;
 			&.sidebar-row {
 				&.sidebar-row{
           margin: 0;
           border-radius: 0;
-          padding: 1px 11px;
           label { padding-left: 8px; }
 					.sidebar-icon {
 						margin-left:-14px;
 						margin-right: 5px;
 						padding-left: 14px;
 						padding-right: 5px;
-						color: #98abb2;
 					}
 				}
 				&:hover, &:active, &:selected{
