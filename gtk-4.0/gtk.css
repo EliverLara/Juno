@@ -4038,8 +4038,6 @@ treeview ~ scrollbar.vertical {
   .sidebar row {
     padding: 8px 12px;
     transition: all .12s ease-in; }
-    .sidebar row label {
-      color: #98abb2; }
     .sidebar row:selected {
       color: #fefefe; }
       .sidebar row:selected:backdrop {
@@ -4082,46 +4080,46 @@ stacksidebar row {
 /*                  PLACESSIDEBAR                                  */
 /*******************************************************************/
 /*--*/
-placessidebar.sidebar, .nautilus-window .navigation-sidebar {
+placessidebar {
   background-color: #1c2529; }
-  placessidebar.sidebar row.sidebar-row.sidebar-row, .nautilus-window .navigation-sidebar row.sidebar-row.sidebar-row {
-    margin: 0;
-    border-radius: 0;
+  placessidebar row {
     padding: 1px 11px; }
-    placessidebar.sidebar row.sidebar-row.sidebar-row label, .nautilus-window .navigation-sidebar row.sidebar-row.sidebar-row label {
-      padding-left: 8px; }
-    placessidebar.sidebar row.sidebar-row.sidebar-row .sidebar-icon, .nautilus-window .navigation-sidebar row.sidebar-row.sidebar-row .sidebar-icon {
-      margin-left: -14px;
-      margin-right: 5px;
-      padding-left: 14px;
-      padding-right: 5px;
-      color: #98abb2; }
-  placessidebar.sidebar row.sidebar-row:hover, placessidebar.sidebar row.sidebar-row:active, placessidebar.sidebar row.sidebar-row:selected, .nautilus-window .navigation-sidebar row.sidebar-row:hover, .nautilus-window .navigation-sidebar row.sidebar-row:active, .nautilus-window .navigation-sidebar row.sidebar-row:selected {
-    background-color: #2a393e; }
-    placessidebar.sidebar row.sidebar-row:hover, placessidebar.sidebar row.sidebar-row:hover label, placessidebar.sidebar row.sidebar-row:active, placessidebar.sidebar row.sidebar-row:active label, placessidebar.sidebar row.sidebar-row:selected, placessidebar.sidebar row.sidebar-row:selected label, .nautilus-window .navigation-sidebar row.sidebar-row:hover, .nautilus-window .navigation-sidebar row.sidebar-row:hover label, .nautilus-window .navigation-sidebar row.sidebar-row:active, .nautilus-window .navigation-sidebar row.sidebar-row:active label, .nautilus-window .navigation-sidebar row.sidebar-row:selected, .nautilus-window .navigation-sidebar row.sidebar-row:selected label {
-      color: #fefefe;
-      font-weight: normal; }
-  placessidebar.sidebar row.sidebar-row:selected:backdrop, .nautilus-window .navigation-sidebar row.sidebar-row:selected:backdrop {
-    color: #d2d5d6;
-    background-color: transparent;
-    background-image: linear-gradient(to right, rgba(22, 29, 32, 0.93) 40px, rgba(22, 29, 32, 0.93) 36px, rgba(22, 29, 32, 0.93) 97%); }
-    placessidebar.sidebar row.sidebar-row:selected:backdrop label, .nautilus-window .navigation-sidebar row.sidebar-row:selected:backdrop label {
-      color: #d2d5d6; }
-  placessidebar.sidebar row.sidebar-row:selected .sidebar-icon, .nautilus-window .navigation-sidebar row.sidebar-row:selected .sidebar-icon {
-    color: inherit; }
-  placessidebar.sidebar row.sidebar-row.sidebar-new-bookmark-row, placessidebar.sidebar row.sidebar-row.sidebar-new-bookmark-row label, placessidebar.sidebar row.sidebar-row.sidebar-new-bookmark-row .sidebar-icon, .nautilus-window .navigation-sidebar row.sidebar-row.sidebar-new-bookmark-row, .nautilus-window .navigation-sidebar row.sidebar-row.sidebar-new-bookmark-row label, .nautilus-window .navigation-sidebar row.sidebar-row.sidebar-new-bookmark-row .sidebar-icon {
-    color: #FFCB6B; }
-  placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled), .nautilus-window .navigation-sidebar row.sidebar-row:drop(active):not(:disabled) {
-    box-shadow: inset 0 1px #00A9A5, inset 0 -1px #00A9A5; }
-    placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled), placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled) label, placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled) image, .nautilus-window .navigation-sidebar row.sidebar-row:drop(active):not(:disabled), .nautilus-window .navigation-sidebar row.sidebar-row:drop(active):not(:disabled) label, .nautilus-window .navigation-sidebar row.sidebar-row:drop(active):not(:disabled) image {
-      color: #00A9A5; }
-    placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected, .nautilus-window .navigation-sidebar row.sidebar-row:drop(active):not(:disabled):selected {
-      background: #00A9A5; }
-      placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected, placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected label, placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected image, .nautilus-window .navigation-sidebar row.sidebar-row:drop(active):not(:disabled):selected, .nautilus-window .navigation-sidebar row.sidebar-row:drop(active):not(:disabled):selected label, .nautilus-window .navigation-sidebar row.sidebar-row:drop(active):not(:disabled):selected image {
-        color: #fefefe; }
-  placessidebar.sidebar list, .nautilus-window .navigation-sidebar list {
+    placessidebar row.sidebar-row.sidebar-row {
+      margin: 0;
+      border-radius: 0; }
+      placessidebar row.sidebar-row.sidebar-row label {
+        padding-left: 8px; }
+      placessidebar row.sidebar-row.sidebar-row .sidebar-icon {
+        margin-left: -14px;
+        margin-right: 5px;
+        padding-left: 14px;
+        padding-right: 5px; }
+    placessidebar row.sidebar-row:hover, placessidebar row.sidebar-row:active, placessidebar row.sidebar-row:selected {
+      background-color: #2a393e; }
+      placessidebar row.sidebar-row:hover, placessidebar row.sidebar-row:hover label, placessidebar row.sidebar-row:active, placessidebar row.sidebar-row:active label, placessidebar row.sidebar-row:selected, placessidebar row.sidebar-row:selected label {
+        color: #fefefe;
+        font-weight: normal; }
+    placessidebar row.sidebar-row:selected:backdrop {
+      color: #d2d5d6;
+      background-color: transparent;
+      background-image: linear-gradient(to right, rgba(22, 29, 32, 0.93) 40px, rgba(22, 29, 32, 0.93) 36px, rgba(22, 29, 32, 0.93) 97%); }
+      placessidebar row.sidebar-row:selected:backdrop label {
+        color: #d2d5d6; }
+    placessidebar row.sidebar-row:selected .sidebar-icon {
+      color: inherit; }
+    placessidebar row.sidebar-row.sidebar-new-bookmark-row, placessidebar row.sidebar-row.sidebar-new-bookmark-row label, placessidebar row.sidebar-row.sidebar-new-bookmark-row .sidebar-icon {
+      color: #FFCB6B; }
+    placessidebar row.sidebar-row:drop(active):not(:disabled) {
+      box-shadow: inset 0 1px #00A9A5, inset 0 -1px #00A9A5; }
+      placessidebar row.sidebar-row:drop(active):not(:disabled), placessidebar row.sidebar-row:drop(active):not(:disabled) label, placessidebar row.sidebar-row:drop(active):not(:disabled) image {
+        color: #00A9A5; }
+      placessidebar row.sidebar-row:drop(active):not(:disabled):selected {
+        background: #00A9A5; }
+        placessidebar row.sidebar-row:drop(active):not(:disabled):selected, placessidebar row.sidebar-row:drop(active):not(:disabled):selected label, placessidebar row.sidebar-row:drop(active):not(:disabled):selected image {
+          color: #fefefe; }
+  placessidebar list {
     background-color: transparent; }
-    placessidebar.sidebar list:backdrop, .nautilus-window .navigation-sidebar list:backdrop {
+    placessidebar list:backdrop {
       background-color: transparent; }
 
 .bottom-bar {
