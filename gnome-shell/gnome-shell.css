@@ -1611,6 +1611,9 @@ StScrollBar {
       icon-shadow: 0 1px black;
       border: none; }
 
+.notification-buttons-bin .notification-button {
+  border-radius: 10px !important; }
+
 .summary-source-counter {
   font-size: 10pt;
   font-weight: bold;
