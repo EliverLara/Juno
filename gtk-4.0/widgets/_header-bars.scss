@@ -3,8 +3,8 @@
  ***************/
  %titlebar,
  headerbar {
-   padding: 0 13px;
-   min-height: 34px;
+   padding: 0 6px;
+   min-height: 38px;
    background: $headerbar_color;
    color: $headerbar_fg_color;
    border-radius: 0;
@@ -31,119 +31,10 @@
   
    entry { min-height: 24px;}  
    
-   button {
-     @include button(normal-header);
-     min-height: 20px;
-     margin-top: 5px;
-     margin-bottom: 5px;
-     box-shadow: none;
-     &.image-button{
-        padding: 3px 4px;
-     }
-     &.suggested-action{
-       box-shadow: none;
-       border: none;
-       background-image: $suggested_bg_color;
-         &:disabled, &:disabled:backdrop, &:backdrop {
-           border: none;
-           background-image: $suggested_bg_color;
-           &:hover,
-           &:active,
-           &:checked {
-             border: none;
-             background-image: $suggested_bg_color;
-           }
-         }
-         
-       }
-       
-     &.appmenu{
-       background: transparent;
-       &:backdrop{background: transparent;}
-     }
-     &:hover,
-     &:active,
-     &:checked {
-       background-color: transparent;
-       color: $selected_bg_color;
-       box-shadow: none;
-       //@include button(hover-header);
-     }
- 
-     &:backdrop,
-     &:disabled,
-     &:backdrop:disabled {
-       @include button(backdrop-header,red,transparentize($fg_color,0.8));
-       background-image: linear-gradient(to bottom, $main_dark_color, $main_dark_color);
-       border: 1px solid $borders_color;
-       border-radius: 4px;
-     }
- 
-     &:backdrop {
-       &:hover,
-       &:active,
-       &:checked {
-       background-color: transparent;
-       color: $selected_bg_color;
-       box-shadow: none;
-        // @include button(hover-header,transparent,transparentize(white,0.7));
-       }
-     }
- 
-     @each $b_type, $b_color in (suggested-action, $orange),
-                                (destructive-action, $destructive_color) {
-       &.#{$b_type} {
-         font-weight: bold;
-         min-height: 14px;
-         margin-top: 5px;
-         margin-bottom: 5px;
-         border-radius: 4px;
-         @include button(normal, $b_color, white);
-         box-shadow: none;
- 
-         &:hover { @include button(hover, $b_color, white); }
- 
-         &:active { @include button(active, $b_color, white); }
- 
-         &:disabled {
-           @include button(insensitive, $b_color, white);
-           label {color: transparentize(white,0.5);}
-         }
- 
-         &:backdrop {
-           @include button(backdrop, $b_color, white);
-           border-radius: 3px;
-         }
- 
-         &:backdrop:disabled { @include button(backdrop-insensitive, $b_color, white); }
- 
-       }
-     }
- 
-     //Reset style
-     &.titlebutton {
-       color: transparent;
-       box-shadow: none;
-       border: none;
-       background-color: transparent;
-       background-repeat: no-repeat;
-       &:hover,
-       &:active,
-       &:checked,
-       &:backdrop,
-       &:backdrop:hover,* {
-         color: transparent;
-         box-shadow: none;
-         background-color: transparent;
-       }
-     }
-   }
    %linked-header {
      border-radius: 0;
      border-right-style: none;
      box-shadow: none;
-     margin: 5px 0px;
-     min-height: 20px;
      &:first-child {
        border-top-left-radius: 6px;
        border-bottom-left-radius: 6px;
@@ -271,8 +162,7 @@
    menubutton > button,
    spinbutton > button,
    splitbutton > button,
-   splitbutton > menubutton,
-   entry > menubutton {
+   splitbutton > menubutton {
      margin-top: 0px;
      margin-bottom: 0px;
    }
@@ -339,10 +229,3 @@
     }
   }
 }
-
-.nautilus-window, #NautilusFileChooser {
-  .sidebar-pane .top-bar headerbar {
-    padding-top: 3px;
-    padding-bottom: 3px;
-  }
-} 

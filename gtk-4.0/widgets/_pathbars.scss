@@ -30,9 +30,7 @@
 
 // Nautilus, filechooser(gnome 47) path bar
 #NautilusPathBar {
-  margin-top: 6px;
-  margin-bottom: 6px;
-  @include button(normal-header);
+  @include button(normal);
 
   .dim-label {
     color: transparent;
@@ -92,19 +90,9 @@
 
 // search entry
 #NautilusQueryEditor { 
-  margin-top: 6px;
-  #NautilusQueryEditorTag {
-    > button {
-      margin: 0;
-    }
-  }
-
   > menubutton > button {
-    min-width: 16px;
-    min-height: 16px;
-    margin: 0;
     -gtk-icon-size: 12px;
-    padding: 0 4px;
+    padding: 0 2px;
   }
 
   > text, > image { margin: 0; }
