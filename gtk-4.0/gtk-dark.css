@@ -2194,7 +2194,7 @@ GraniteWidgetsWelcome {
  ***************/
 .titlebar:not(headerbar), .titlebar, headerbar {
   padding: 0 6px;
-  min-height: 34px;
+  min-height: 38px;
   background: #191d27;
   color: #A4ABB6;
   border-radius: 0; }
@@ -2215,184 +2215,6 @@ GraniteWidgetsWelcome {
   .titlebar entry,
   headerbar entry {
     min-height: 24px; }
-  .titlebar button,
-  headerbar button {
-    color: #A4ABB6;
-    border-radius: 6px;
-    text-shadow: none;
-    box-shadow: none;
-    border: 1px solid #13161d;
-    background: linear-gradient(to bottom, #1d222d, #1d222d);
-    min-height: 20px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    box-shadow: none; }
-    .titlebar button.image-button,
-    headerbar button.image-button {
-      padding: 3px 4px; }
-    .titlebar button.suggested-action,
-    headerbar button.suggested-action {
-      box-shadow: none;
-      border: none;
-      background-image: linear-gradient(to right, #fad07b 0%, #fad07b 100%); }
-      .titlebar button.suggested-action:disabled, .titlebar button.suggested-action:disabled:backdrop, .titlebar button.suggested-action:backdrop,
-      headerbar button.suggested-action:disabled,
-      headerbar button.suggested-action:disabled:backdrop,
-      headerbar button.suggested-action:backdrop {
-        border: none;
-        background-image: linear-gradient(to right, #fad07b 0%, #fad07b 100%); }
-        .titlebar button.suggested-action:disabled:hover, .titlebar button.suggested-action:disabled:active, .titlebar button.suggested-action:disabled:checked, .titlebar button.suggested-action:disabled:backdrop:hover, .titlebar button.suggested-action:disabled:backdrop:active, .titlebar button.suggested-action:disabled:backdrop:checked, .titlebar button.suggested-action:backdrop:hover, .titlebar button.suggested-action:backdrop:active, .titlebar button.suggested-action:backdrop:checked,
-        headerbar button.suggested-action:disabled:hover,
-        headerbar button.suggested-action:disabled:active,
-        headerbar button.suggested-action:disabled:checked,
-        headerbar button.suggested-action:disabled:backdrop:hover,
-        headerbar button.suggested-action:disabled:backdrop:active,
-        headerbar button.suggested-action:disabled:backdrop:checked,
-        headerbar button.suggested-action:backdrop:hover,
-        headerbar button.suggested-action:backdrop:active,
-        headerbar button.suggested-action:backdrop:checked {
-          border: none;
-          background-image: linear-gradient(to right, #fad07b 0%, #fad07b 100%); }
-    .titlebar button.appmenu,
-    headerbar button.appmenu {
-      background: transparent; }
-      .titlebar button.appmenu:backdrop,
-      headerbar button.appmenu:backdrop {
-        background: transparent; }
-    .titlebar button:hover, .titlebar button:active, .titlebar button:checked,
-    headerbar button:hover,
-    headerbar button:active,
-    headerbar button:checked {
-      background-color: transparent;
-      color: #ffcc66;
-      box-shadow: none; }
-    .titlebar button:backdrop, .titlebar button:disabled, .titlebar button:backdrop:disabled,
-    headerbar button:backdrop,
-    headerbar button:disabled,
-    headerbar button:backdrop:disabled {
-      color: rgba(164, 171, 182, 0.2);
-      background-color: transparent;
-      text-shadow: none;
-      box-shadow: none;
-      background-image: linear-gradient(to bottom, #1d222d, #1d222d);
-      border: 1px solid #13161d;
-      border-radius: 4px; }
-    .titlebar button:backdrop:hover, .titlebar button:backdrop:active, .titlebar button:backdrop:checked,
-    headerbar button:backdrop:hover,
-    headerbar button:backdrop:active,
-    headerbar button:backdrop:checked {
-      background-color: transparent;
-      color: #ffcc66;
-      box-shadow: none; }
-    .titlebar button.suggested-action,
-    headerbar button.suggested-action {
-      font-weight: bold;
-      min-height: 14px;
-      margin-top: 5px;
-      margin-bottom: 5px;
-      border-radius: 4px;
-      font-weight: normal;
-      color: white;
-      background-color: #2a3141;
-      text-shadow: none;
-      box-shadow: none; }
-      .titlebar button.suggested-action:hover,
-      headerbar button.suggested-action:hover {
-        color: white;
-        outline-color: rgba(255, 255, 255, 0.3);
-        background-color: #fad07b;
-        text-shadow: none; }
-      .titlebar button.suggested-action:active,
-      headerbar button.suggested-action:active {
-        color: white;
-        outline-color: rgba(255, 255, 255, 0.3);
-        background: #fad07b;
-        text-shadow: none; }
-      .titlebar button.suggested-action:disabled,
-      headerbar button.suggested-action:disabled {
-        color: white;
-        border-color: rgba(19, 22, 29, 0.5);
-        background-color: #fad07b;
-        text-shadow: none; }
-        .titlebar button.suggested-action:disabled label,
-        headerbar button.suggested-action:disabled label {
-          color: rgba(255, 255, 255, 0.5); }
-      .titlebar button.suggested-action:backdrop,
-      headerbar button.suggested-action:backdrop {
-        color: rgba(255, 255, 255, 0.4);
-        outline-color: rgba(255, 255, 255, 0.3);
-        background-color: #fad07b;
-        text-shadow: none;
-        border-radius: 3px; }
-      .titlebar button.suggested-action:backdrop:disabled,
-      headerbar button.suggested-action:backdrop:disabled {
-        color: white;
-        border-color: rgba(19, 22, 29, 0.5);
-        background-color: #fad07b;
-        text-shadow: none; }
-    .titlebar button.destructive-action,
-    headerbar button.destructive-action {
-      font-weight: bold;
-      min-height: 14px;
-      margin-top: 5px;
-      margin-bottom: 5px;
-      border-radius: 4px;
-      font-weight: normal;
-      color: white;
-      background-color: #2a3141;
-      text-shadow: none;
-      box-shadow: none; }
-      .titlebar button.destructive-action:hover,
-      headerbar button.destructive-action:hover {
-        color: white;
-        outline-color: rgba(255, 255, 255, 0.3);
-        background-color: #e75947;
-        text-shadow: none; }
-      .titlebar button.destructive-action:active,
-      headerbar button.destructive-action:active {
-        color: white;
-        outline-color: rgba(255, 255, 255, 0.3);
-        background: #e75947;
-        text-shadow: none; }
-      .titlebar button.destructive-action:disabled,
-      headerbar button.destructive-action:disabled {
-        color: white;
-        border-color: rgba(19, 22, 29, 0.5);
-        background-color: #e75947;
-        text-shadow: none; }
-        .titlebar button.destructive-action:disabled label,
-        headerbar button.destructive-action:disabled label {
-          color: rgba(255, 255, 255, 0.5); }
-      .titlebar button.destructive-action:backdrop,
-      headerbar button.destructive-action:backdrop {
-        color: rgba(255, 255, 255, 0.4);
-        outline-color: rgba(255, 255, 255, 0.3);
-        background-color: #e75947;
-        text-shadow: none;
-        border-radius: 3px; }
-      .titlebar button.destructive-action:backdrop:disabled,
-      headerbar button.destructive-action:backdrop:disabled {
-        color: white;
-        border-color: rgba(19, 22, 29, 0.5);
-        background-color: #e75947;
-        text-shadow: none; }
-    .titlebar button.titlebutton,
-    headerbar button.titlebutton {
-      color: transparent;
-      box-shadow: none;
-      border: none;
-      background-color: transparent;
-      background-repeat: no-repeat; }
-      .titlebar button.titlebutton:hover, .titlebar button.titlebutton:active, .titlebar button.titlebutton:checked, .titlebar button.titlebutton:backdrop, .titlebar button.titlebutton:backdrop:hover, .titlebar button.titlebutton *,
-      headerbar button.titlebutton:hover,
-      headerbar button.titlebutton:active,
-      headerbar button.titlebutton:checked,
-      headerbar button.titlebutton:backdrop,
-      headerbar button.titlebutton:backdrop:hover,
-      headerbar button.titlebutton * {
-        color: transparent;
-        box-shadow: none;
-        background-color: transparent; }
   .titlebar .linked > button, .titlebar .path-bar-box button,
   .titlebar headerbar .linked > button,
   headerbar .path-bar-box .titlebar button, .titlebar .linked > button:hover,
@@ -2412,9 +2234,7 @@ GraniteWidgetsWelcome {
   headerbar .linked > button:backdrop {
     border-radius: 0;
     border-right-style: none;
-    box-shadow: none;
-    margin: 5px 0px;
-    min-height: 20px; }
+    box-shadow: none; }
     .titlebar .linked > button:first-child, .titlebar .path-bar-box button:first-child,
     .titlebar headerbar .linked > button:first-child,
     headerbar .path-bar-box .titlebar button:first-child,
@@ -2555,8 +2375,7 @@ headerbar menubutton {
 headerbar menubutton > button,
 headerbar spinbutton > button,
 headerbar splitbutton > button,
-headerbar splitbutton > menubutton,
-headerbar entry > menubutton {
+headerbar splitbutton > menubutton {
   margin-top: 0px;
   margin-bottom: 0px; }
 headerbar switch {
@@ -2592,10 +2411,6 @@ window.csd > .titlebar:not(headerbar) {
 
 .sidebar-pane .top-bar, .sidebar-pane .top-bar headerbar, .content-pane .top-bar, .content-pane .top-bar headerbar {
   background-color: #191d27; }
-
-.nautilus-window .sidebar-pane .top-bar headerbar, #NautilusFileChooser .sidebar-pane .top-bar headerbar {
-  padding-top: 3px;
-  padding-bottom: 3px; }
 
 /**************
  * GtkInfoBar *
@@ -3271,14 +3086,10 @@ paned.vertical > separator {
   padding-right: 0; }
 
 #NautilusPathBar {
-  margin-top: 6px;
-  margin-bottom: 6px;
+  font-weight: normal;
   color: #A4ABB6;
-  border-radius: 6px;
-  text-shadow: none;
-  box-shadow: none;
-  border: 1px solid #13161d;
-  background: linear-gradient(to bottom, #1d222d, #1d222d); }
+  background-color: #2a3141;
+  text-shadow: none; }
   #NautilusPathBar .dim-label, #NautilusPathBar label.separator, #NautilusPathBar .titlebar .subtitle, .titlebar #NautilusPathBar .subtitle,
   #NautilusPathBar headerbar .subtitle,
   headerbar #NautilusPathBar .subtitle {
@@ -3323,18 +3134,11 @@ paned.vertical > separator {
     padding: 0px 0px 0px 12px;
     border-radius: 6px 0px 0px 6px; }
 
-#NautilusQueryEditor {
-  margin-top: 6px; }
-  #NautilusQueryEditor #NautilusQueryEditorTag > button {
-    margin: 0; }
-  #NautilusQueryEditor > menubutton > button {
-    min-width: 16px;
-    min-height: 16px;
-    margin: 0;
-    -gtk-icon-size: 12px;
-    padding: 0 4px; }
-  #NautilusQueryEditor > text, #NautilusQueryEditor > image {
-    margin: 0; }
+#NautilusQueryEditor > menubutton > button {
+  -gtk-icon-size: 12px;
+  padding: 0 2px; }
+#NautilusQueryEditor > text, #NautilusQueryEditor > image {
+  margin: 0; }
 
 /***************
  * Popovers   *
@@ -4714,7 +4518,7 @@ windowcontrols button.close, windowcontrols button.maximize, windowcontrols butt
     border-color: transparent; }
   windowcontrols button.close:checked, windowcontrols button.close:hover, windowcontrols button.close:backdrop:hover, windowcontrols button.maximize:checked, windowcontrols button.maximize:hover, windowcontrols button.maximize:backdrop:hover, windowcontrols button.minimize:checked, windowcontrols button.minimize:hover, windowcontrols button.minimize:backdrop:hover {
     color: #A4ABB6;
-    border-radius: 4px;
+    border-radius: 6px;
     text-shadow: none;
     box-shadow: none;
     border: 1px solid #13161d;
