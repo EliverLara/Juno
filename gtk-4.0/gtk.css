@@ -2602,8 +2602,8 @@ row.activatable:selected:backdrop {
   background-color: rgba(0, 169, 165, 0.6); }
 row.activatable.button {
   font-weight: normal;
-  color: #fefefe;
-  background-color: #29383d;
+  color: #B6BACE;
+  background-color: #34394f;
   text-shadow: none; }
 
 columnview > listview > row {
