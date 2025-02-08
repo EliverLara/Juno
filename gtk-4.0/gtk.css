@@ -4006,13 +4006,13 @@ placessidebar {
     placessidebar list:backdrop {
       background-color: transparent; }
 
-.bottom-bar {
+.sidebar-pane .bottom-bar {
   background-color: #0d0f17; }
-  .bottom-bar button {
+  .sidebar-pane .bottom-bar button {
     background-color: transparent;
     border-radius: 0px;
     border: none; }
-    .bottom-bar button .view, .bottom-bar button iconview {
+    .sidebar-pane .bottom-bar button .view, .sidebar-pane .bottom-bar button iconview {
       background-color: transparent; }
 
 /*****************
