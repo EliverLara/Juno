@@ -5769,28 +5769,28 @@ panel-toplevel.background button:not(#tasklist-button) {
   color: white; }
 
 #XfceNotifyWindow {
-  background-color: #1a2226;
+  background-color: #1b1f2a;
   border-radius: 12px;
   border-width: 1px;
-  border: 1px solid #12171a;
-  color: #fefefe;
+  border: 1px solid #13161d;
+  color: #A4ABB6;
   padding: 40px; }
   #XfceNotifyWindow:hover, #XfceNotifyWindow:focus {
-    background-color: #1E282C; }
+    background-color: #1f2430; }
   #XfceNotifyWindow label, #XfceNotifyWindow image {
-    color: #fefefe; }
+    color: #A4ABB6; }
   #XfceNotifyWindow button {
     font-weight: normal;
-    color: #fefefe;
-    background-color: #29383d;
+    color: #A4ABB6;
+    background-color: #2a3141;
     text-shadow: none; }
     #XfceNotifyWindow button:hover {
-      color: #fefefe;
-      outline-color: rgba(254, 254, 254, 0.3);
-      background-color: #00A9A5;
+      color: #A4ABB6;
+      outline-color: rgba(164, 171, 182, 0.3);
+      background-color: #ffcc66;
       text-shadow: none; }
       #XfceNotifyWindow button:hover label {
-        color: #fefefe; }
+        color: #1f2430; }
 
 /********
 * Unity *
