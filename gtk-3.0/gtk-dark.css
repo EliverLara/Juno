@@ -5753,6 +5753,30 @@ panel-toplevel.background button:not(#tasklist-button) {
 .-vala-panel-appmenu-private > menuitem:first-child > label {
   color: white; }
 
+#XfceNotifyWindow {
+  background-color: #1b1f2a;
+  border-radius: 12px;
+  border-width: 1px;
+  border: 1px solid #13161d;
+  color: #A4ABB6;
+  padding: 40px; }
+  #XfceNotifyWindow:hover, #XfceNotifyWindow:focus {
+    background-color: #1f2430; }
+  #XfceNotifyWindow label, #XfceNotifyWindow image {
+    color: #A4ABB6; }
+  #XfceNotifyWindow button {
+    font-weight: normal;
+    color: #A4ABB6;
+    background-color: #2a3141;
+    text-shadow: none; }
+    #XfceNotifyWindow button:hover {
+      color: #A4ABB6;
+      outline-color: rgba(164, 171, 182, 0.3);
+      background-color: #ffcc66;
+      text-shadow: none; }
+      #XfceNotifyWindow button:hover label {
+        color: #1f2430; }
+
 /********
 * Unity *
 *********/
