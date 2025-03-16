@@ -13,8 +13,8 @@ stage {
   background-color: #222e32;
   box-shadow: none;
   border: 1px solid #161819;
-  text-shadow: 0 1px black;
-  icon-shadow: 0 1px black;
+  text-shadow: none;
+  icon-shadow: none;
   border: 1px solid #161819;
   border-radius: 4px;
   border-width: 0;
@@ -22,8 +22,8 @@ stage {
   .button:focus {
     background-color: #2a393e;
     color: #fefefe;
-    text-shadow: 0 1px black;
-    icon-shadow: 0 1px black;
+    text-shadow: none;
+    icon-shadow: none;
     box-shadow: none !important;
     border: 1px solid #161819; }
   .button:insensitive {
@@ -34,23 +34,17 @@ stage {
     text-shadow: none;
     icon-shadow: none; }
   .button:active {
-<<<<<<< HEAD
-    color: #00A9A5;
-    background-color: rgba(25, 32, 36, 0.95);
-    border: 1px solid #161819;
-=======
     color: #fefefe;
     background-color: #00A9A5;
-    border: 1px solid #07080c;
->>>>>>> e6408d4 (Gnome-shell: Improve screenshot dialog buttons appearance)
+    border: 1px solid #161819;
     text-shadow: none;
     icon-shadow: none; }
   .button:hover {
     background-color: #28363b;
     color: #fefefe;
     border: 1px solid #161819;
-    text-shadow: 0 1px black;
-    icon-shadow: 0 1px black; }
+    text-shadow: none;
+    icon-shadow: none; }
 
 .modal-dialog-linked-button {
   padding: 10px;
@@ -68,37 +62,31 @@ stage {
     text-shadow: none;
     icon-shadow: none; }
   .modal-dialog-linked-button:active {
-<<<<<<< HEAD
-    color: #00A9A5;
-    background-color: rgba(25, 32, 36, 0.95);
-    border: 1px solid #161819;
-=======
     color: #fefefe;
     background-color: #00A9A5;
-    border: 1px solid #07080c;
->>>>>>> e6408d4 (Gnome-shell: Improve screenshot dialog buttons appearance)
+    border: 1px solid #161819;
     text-shadow: none;
     icon-shadow: none; }
   .modal-dialog-linked-button:focus {
     background-color: #2a393e;
     color: #fefefe;
-    text-shadow: 0 1px black;
-    icon-shadow: 0 1px black;
+    text-shadow: none;
+    icon-shadow: none;
     box-shadow: none !important;
     border: 1px solid #161819; }
     .modal-dialog-linked-button:focus:hover {
       background-color: #2a393e;
       color: #fefefe;
-      text-shadow: 0 1px black;
-      icon-shadow: 0 1px black;
+      text-shadow: none;
+      icon-shadow: none;
       box-shadow: none !important;
       border: 1px solid #161819; }
   .modal-dialog-linked-button:hover {
     background-color: #28363b;
     color: #fefefe;
     border: 1px solid #161819;
-    text-shadow: 0 1px black;
-    icon-shadow: 0 1px black; }
+    text-shadow: none;
+    icon-shadow: none; }
   .modal-dialog-linked-button:first-child {
     border-radius: 0px 0px 0px 2px; }
   .modal-dialog-linked-button:last-child {
@@ -1013,16 +1001,16 @@ StScrollBar {
   background-color: #222e32;
   box-shadow: none;
   border: 1px solid #161819;
-  text-shadow: 0 1px black;
-  icon-shadow: 0 1px black;
+  text-shadow: none;
+  icon-shadow: none;
   border: 1px solid #161819;
   margin: 1.5em 1.5em 0; }
   .message-list-clear-button.button:hover, .message-list-clear-button.button:focus {
     background-color: #28363b;
     color: #fefefe;
     border: 1px solid #161819;
-    text-shadow: 0 1px black;
-    icon-shadow: 0 1px black; }
+    text-shadow: none;
+    icon-shadow: none; }
 
 .message-list-sections {
   spacing: 1em; }
@@ -1417,15 +1405,9 @@ StScrollBar {
 .app-view-control {
   padding: 4px 32px; }
   .app-view-control:checked {
-<<<<<<< HEAD
-    color: #00A9A5;
-    background-color: rgba(25, 32, 36, 0.95);
-    border: 1px solid #161819;
-=======
     color: #fefefe;
     background-color: #00A9A5;
-    border: 1px solid #07080c;
->>>>>>> e6408d4 (Gnome-shell: Improve screenshot dialog buttons appearance)
+    border: 1px solid #161819;
     text-shadow: none;
     icon-shadow: none; }
   .app-view-control:first-child {
@@ -1718,8 +1700,8 @@ StScrollBar {
   background-color: #222e32;
   box-shadow: none;
   border: 1px solid #161819;
-  text-shadow: 0 1px black;
-  icon-shadow: 0 1px black;
+  text-shadow: none;
+  icon-shadow: none;
   border: 1px solid #161819;
   background-color: #1E282C;
   min-height: 2em;
@@ -1730,26 +1712,20 @@ StScrollBar {
   .keyboard-key:focus {
     background-color: #2a393e;
     color: #fefefe;
-    text-shadow: 0 1px black;
-    icon-shadow: 0 1px black;
+    text-shadow: none;
+    icon-shadow: none;
     box-shadow: none !important;
     border: 1px solid #161819; }
   .keyboard-key:hover, .keyboard-key:checked {
     background-color: #28363b;
     color: #fefefe;
     border: 1px solid #161819;
-    text-shadow: 0 1px black;
-    icon-shadow: 0 1px black; }
+    text-shadow: none;
+    icon-shadow: none; }
   .keyboard-key:active {
-<<<<<<< HEAD
-    color: #00A9A5;
-    background-color: rgba(25, 32, 36, 0.95);
-    border: 1px solid #161819;
-=======
     color: #fefefe;
     background-color: #00A9A5;
-    border: 1px solid #07080c;
->>>>>>> e6408d4 (Gnome-shell: Improve screenshot dialog buttons appearance)
+    border: 1px solid #161819;
     text-shadow: none;
     icon-shadow: none; }
   .keyboard-key:grayed {
@@ -1829,15 +1805,15 @@ StScrollBar {
       background-color: #222e32;
       box-shadow: none;
       border: 1px solid #161819;
-      text-shadow: 0 1px black;
-      icon-shadow: 0 1px black;
+      text-shadow: none;
+      icon-shadow: none;
       border: 1px solid #161819; }
       .login-dialog .modal-dialog-button:default:hover, .login-dialog .modal-dialog-button:default:focus {
         background-color: #28363b;
         color: #fefefe;
         border: 1px solid #161819;
-        text-shadow: 0 1px black;
-        icon-shadow: 0 1px black; }
+        text-shadow: none;
+        icon-shadow: none; }
       .login-dialog .modal-dialog-button:default:active {
         color: #fefefe;
         background-color: #00A9A5;
