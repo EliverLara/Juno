@@ -2123,27 +2123,27 @@ StScrollBar {
   .quick-toggle .quick-toggle-label {
     font-weight: bold; }
 
-.quick-menu-toggle:ltr > StBoxLayout {
+.quick-menu-toggle:ltr > StBoxLayout, .quick-toggle-has-menu:ltr > StBoxLayout {
   padding-right: 0; }
-.quick-menu-toggle:rtl > StBoxLayout {
+.quick-menu-toggle:rtl > StBoxLayout, .quick-toggle-has-menu:rtl > StBoxLayout {
   padding-left: 0; }
-.quick-menu-toggle .quick-toggle {
+.quick-menu-toggle .quick-toggle, .quick-toggle-has-menu .quick-toggle {
   min-width: auto;
   max-width: auto; }
-  .quick-menu-toggle .quick-toggle:ltr {
+  .quick-menu-toggle .quick-toggle:ltr, .quick-toggle-has-menu .quick-toggle:ltr {
     border-radius: 99px 0 0 99px; }
-  .quick-menu-toggle .quick-toggle:rtl {
+  .quick-menu-toggle .quick-toggle:rtl, .quick-toggle-has-menu .quick-toggle:rtl {
     border-radius: 0 99px 99px 0; }
-  .quick-menu-toggle .quick-toggle:ltr:last-child {
+  .quick-menu-toggle .quick-toggle:ltr:last-child, .quick-toggle-has-menu .quick-toggle:ltr:last-child {
     border-radius: 99px; }
-  .quick-menu-toggle .quick-toggle:rtl:last-child {
+  .quick-menu-toggle .quick-toggle:rtl:last-child, .quick-toggle-has-menu .quick-toggle:rtl:last-child {
     border-radius: 99px; }
-.quick-menu-toggle .quick-toggle-arrow {
+.quick-menu-toggle .quick-toggle-arrow, .quick-menu-toggle .quick-toggle-menu-button, .quick-toggle-has-menu .quick-toggle-arrow, .quick-toggle-has-menu .quick-toggle-menu-button {
   background-color: #131520;
   padding: 6px 10.5px;
   border-width: 0;
   color: #BFC3C4; }
-  .quick-menu-toggle .quick-toggle-arrow:checked {
+  .quick-menu-toggle .quick-toggle-arrow:checked, .quick-menu-toggle .quick-toggle-menu-button:checked, .quick-toggle-has-menu .quick-toggle-arrow:checked, .quick-toggle-has-menu .quick-toggle-menu-button:checked {
     color: #fefefe;
     background-color: rgba(0, 169, 165, 0.6);
     border: 1px solid #07080c;
@@ -2151,10 +2151,12 @@ StScrollBar {
     icon-shadow: none;
     color: #fefefe;
     border-width: 0; }
-  .quick-menu-toggle .quick-toggle-arrow:ltr {
+  .quick-menu-toggle .quick-toggle-arrow:ltr, .quick-menu-toggle .quick-toggle-menu-button:ltr, .quick-toggle-has-menu .quick-toggle-arrow:ltr, .quick-toggle-has-menu .quick-toggle-menu-button:ltr {
     border-radius: 0 99px 99px 0; }
-  .quick-menu-toggle .quick-toggle-arrow:rtl {
+  .quick-menu-toggle .quick-toggle-arrow:rtl, .quick-menu-toggle .quick-toggle-menu-button:rtl, .quick-toggle-has-menu .quick-toggle-arrow:rtl, .quick-toggle-has-menu .quick-toggle-menu-button:rtl {
     border-radius: 99px 0 0 99px; }
+.quick-menu-toggle .quick-toggle-separator, .quick-toggle-has-menu .quick-toggle-separator {
+  width: 0px; }
 
 .quick-toggle-menu {
   background-color: #0F111A !important;
