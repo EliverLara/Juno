@@ -3100,19 +3100,24 @@ paned.vertical > separator {
   padding-left: 0;
   padding-right: 0; }
 
-#NautilusPathBar {
+#NautilusPathBar, .pathbar {
   font-weight: normal;
   color: #A4ABB6;
   background-color: #2a3141;
-  text-shadow: none; }
+  text-shadow: none;
+  border-radius: 6px; }
   #NautilusPathBar .dim-label, #NautilusPathBar label.separator, #NautilusPathBar .titlebar .subtitle, .titlebar #NautilusPathBar .subtitle,
   #NautilusPathBar headerbar .subtitle,
-  headerbar #NautilusPathBar .subtitle {
+  headerbar #NautilusPathBar .subtitle, .pathbar .dim-label, .pathbar label.separator, .pathbar .titlebar .subtitle, .titlebar .pathbar .subtitle,
+  .pathbar headerbar .subtitle,
+  headerbar .pathbar .subtitle {
     color: transparent;
     margin-right: -5px; }
   #NautilusPathBar button .horizontal > .dim-label, #NautilusPathBar button .horizontal > label.separator, #NautilusPathBar button .titlebar .horizontal > .subtitle, .titlebar #NautilusPathBar button .horizontal > .subtitle,
   #NautilusPathBar button headerbar .horizontal > .subtitle,
-  headerbar #NautilusPathBar button .horizontal > .subtitle {
+  headerbar #NautilusPathBar button .horizontal > .subtitle, .pathbar button .horizontal > .dim-label, .pathbar button .horizontal > label.separator, .pathbar button .titlebar .horizontal > .subtitle, .titlebar .pathbar button .horizontal > .subtitle,
+  .pathbar button headerbar .horizontal > .subtitle,
+  headerbar .pathbar button .horizontal > .subtitle {
     color: #A4ABB6;
     padding: 3px 12px;
     margin: 0;
@@ -3121,30 +3126,36 @@ paned.vertical > separator {
   #NautilusPathBar button:hover headerbar .subtitle,
   headerbar #NautilusPathBar button:hover .subtitle, #NautilusPathBar button:focus .dim-label, #NautilusPathBar button:focus label.separator, #NautilusPathBar button:focus .titlebar .subtitle, .titlebar #NautilusPathBar button:focus .subtitle,
   #NautilusPathBar button:focus headerbar .subtitle,
-  headerbar #NautilusPathBar button:focus .subtitle {
-    background-color: #171b24;
-    color: #b2b8c1;
-    box-shadow: 0px -1px 0px #ffcc66 inset; }
+  headerbar #NautilusPathBar button:focus .subtitle, .pathbar button:hover .dim-label, .pathbar button:hover label.separator, .pathbar button:hover .titlebar .subtitle, .titlebar .pathbar button:hover .subtitle,
+  .pathbar button:hover headerbar .subtitle,
+  headerbar .pathbar button:hover .subtitle, .pathbar button:focus .dim-label, .pathbar button:focus label.separator, .pathbar button:focus .titlebar .subtitle, .titlebar .pathbar button:focus .subtitle,
+  .pathbar button:focus headerbar .subtitle,
+  headerbar .pathbar button:focus .subtitle {
+    background-color: #374056; }
   #NautilusPathBar button > .horizontal > image.dim-label, #NautilusPathBar .titlebar button > .horizontal > image.subtitle, .titlebar #NautilusPathBar button > .horizontal > image.subtitle,
   #NautilusPathBar headerbar button > .horizontal > image.subtitle,
-  headerbar #NautilusPathBar button > .horizontal > image.subtitle {
+  headerbar #NautilusPathBar button > .horizontal > image.subtitle, .pathbar button > .horizontal > image.dim-label, .pathbar .titlebar button > .horizontal > image.subtitle, .titlebar .pathbar button > .horizontal > image.subtitle,
+  .pathbar headerbar button > .horizontal > image.subtitle,
+  headerbar .pathbar button > .horizontal > image.subtitle {
     padding: 3px 0px 3px 12px;
     border-right: none;
-    margin-right: -6px; }
-  #NautilusPathBar button {
+    margin-right: -6px;
+    border-radius: 6px 0px 0px 6px; }
+  #NautilusPathBar button, .pathbar button {
     background: transparent;
     border: none;
     margin: 0;
     padding: 0; }
-  #NautilusPathBar .current-dir label {
-    background-color: #171b24;
+  #NautilusPathBar .current-dir label, .pathbar .current-dir label {
     color: #b2b8c1;
-    box-shadow: 0px -1px 0px #ffcc66 inset;
+    background: linear-gradient(to right, #ffcc66, #ffcc66) left bottom #374056 no-repeat;
+    background-size: 100% 1.5px;
     padding: 1px 12px; }
-  #NautilusPathBar .current-dir image {
-    background-color: rgba(23, 27, 36, 0.93);
-    border-bottom: 1px solid #ffcc66; }
-  #NautilusPathBar button.current-dir:only-child image {
+  #NautilusPathBar .current-dir image, .pathbar .current-dir image {
+    color: #b2b8c1;
+    background: linear-gradient(to right, #ffcc66, #ffcc66) left bottom #374056 no-repeat;
+    background-size: 100% 1.5px; }
+  #NautilusPathBar button.current-dir:only-child image, .pathbar button.current-dir:only-child image {
     margin-right: -6px;
     padding: 0px 0px 0px 12px;
     border-radius: 6px 0px 0px 6px; }
@@ -6183,9 +6194,9 @@ ConversationListView .view .cell, ConversationListView iconview .cell {
       text-shadow: none;
       background-image: linear-gradient(to bottom, #232936, #1f2430); }
     .nemo-window toolbar.primary-toolbar button:selected, .nemo-window toolbar.primary-toolbar button:active, .nemo-window toolbar.primary-toolbar button:checked {
-      background-color: #171b24;
       color: #b2b8c1;
-      box-shadow: 0px -1px 0px #ffcc66 inset; }
+      background: linear-gradient(to right, #ffcc66, #ffcc66) left bottom #374056 no-repeat;
+      background-size: 100% 1.5px; }
       .nemo-window toolbar.primary-toolbar button:selected:backdrop, .nemo-window toolbar.primary-toolbar button:active:backdrop, .nemo-window toolbar.primary-toolbar button:checked:backdrop {
         color: rgba(164, 171, 182, 0.8);
         background-color: transparent;
@@ -6248,17 +6259,17 @@ window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-
     color: #ffcc66; }
   window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar .path-bar-button:checked,
   .thunar toolbar .path-bar-button:checked {
-    background-color: #171b24;
     color: #b2b8c1;
-    box-shadow: 0px -1px 0px #ffcc66 inset; }
+    background: linear-gradient(to right, #ffcc66, #ffcc66) left bottom #374056 no-repeat;
+    background-size: 100% 1.5px; }
     window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar .path-bar-button:checked:backdrop label,
     .thunar toolbar .path-bar-button:checked:backdrop label {
       color: rgba(164, 171, 182, 0.8); }
 window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar .toggle.path-bar-button:hover,
 .thunar toolbar .toggle.path-bar-button:hover {
-  background-color: #171b24;
   color: #b2b8c1;
-  box-shadow: 0px -1px 0px #ffcc66 inset; }
+  background: linear-gradient(to right, #ffcc66, #ffcc66) left bottom #374056 no-repeat;
+  background-size: 100% 1.5px; }
 
 /* thunar sidepane */
 window.thunar paned > scrolledwindow treeview.view {
@@ -6351,9 +6362,9 @@ window.thunar paned > scrolledwindow treeview.view {
   .caja-pathbar button:hover {
     color: #ffcc66; }
   .caja-pathbar button:checked {
-    background-color: #171b24;
     color: #b2b8c1;
-    box-shadow: 0px -1px 0px #ffcc66 inset; }
+    background: linear-gradient(to right, #ffcc66, #ffcc66) left bottom #374056 no-repeat;
+    background-size: 100% 1.5px; }
   .caja-pathbar button:backdrop:checked, .caja-pathbar button:backdrop:checked label {
     color: rgba(164, 171, 182, 0.8); }
 
