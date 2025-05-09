@@ -266,9 +266,14 @@
 }
 
 @else if $t==active-header { 
-  background-color:  darken($_sidebar_color, 3%);
   color: lighten($headerbar_fg_color, 5%);
-  box-shadow: 0px -1px 0px $selected_bg_color inset;
+  background:
+  linear-gradient(to  right, $selected_bg_color, $selected_bg_color)
+  left 
+  bottom
+  lighten($headerbar_color, 15%)
+  no-repeat; 
+  background-size: 100% 1.5px;
 }
 
 @else if $t==backdrop-header {
