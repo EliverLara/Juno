@@ -29,9 +29,9 @@
 }
 
 // Nautilus, filechooser(gnome 47) path bar
-#NautilusPathBar {
+#NautilusPathBar, .pathbar {
   @include button(normal);
-
+  border-radius: 6px;
   .dim-label {
     color: transparent;
     margin-right: -5px;
@@ -46,7 +46,7 @@
       border-right: 1px solid $borders_color;
     }
     &:hover, &:focus {
-      .dim-label {@include button(active-header); }
+      .dim-label { background-color: lighten($headerbar_color, 15%); }
     }
   }
   
@@ -55,6 +55,7 @@
     padding: 3px 0px 3px 12px; 
     border-right: none;
     margin-right: -6px;
+    border-radius: 6px 0px 0px 6px;
   }
 
   // Reset path buttons appearance
@@ -74,8 +75,7 @@
     }
 
     image { 
-      background-color: transparentize(darken($_sidebar_color, 3%), 0.07);
-      border-bottom: 1px solid $selected_bg_color; 
+      @include button(active-header); 
     }
   }
 
