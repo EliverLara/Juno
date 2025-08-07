@@ -1064,7 +1064,7 @@ button.accent-button, button.accent-button:backdrop {
   box-shadow: none;
   border: none; }
 button.accent-button:hover {
-  box-shadow: 0 0 0 3px #232635; }
+  box-shadow: 0 0 0 3px #090b10; }
 button.accent-button:checked, button.accent-button:checked:backdrop {
   box-shadow: 0 0 0 3px var(--accent-bg-color); }
 
@@ -6416,7 +6416,7 @@ window.thunar paned > scrolledwindow treeview.view {
     filter: brightness(100%); }
 
 .overlay_toolbar, .overlay_toolbar_scrollable {
-  background: #373d53;
+  background: #1c2031;
   padding: 10px; }
 
 /*# sourceMappingURL=gtk.css.map */
