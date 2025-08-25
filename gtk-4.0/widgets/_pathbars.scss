@@ -66,6 +66,19 @@
     padding: 0;
   }
 
+  // Current directory options button
+  .flat.popup {
+    margin: 0;
+    button {
+      padding: 4px 6px;
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+      &:hover, &:active, &:checked {
+        @include button(active, $selected_bg_color, $selected_fg_color);
+      }
+    }
+  }
+
   // Selected dir
   .current-dir  {
     
