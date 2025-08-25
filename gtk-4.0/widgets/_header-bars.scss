@@ -71,6 +71,15 @@
    .linked > button:hover,
    .linked > button:backdrop { @extend %linked-header; }
    // End reset style
+
+  & splitbutton.image-button {
+    > button:not(.toggle) { 
+      border-radius: 6px 0px 0px 6px;
+    }
+     menubutton.popup button.toggle {
+      border-radius: 0px 6px 6px 0px ;
+    }
+  }
  
    .path-bar-box {
     .dim-label {
