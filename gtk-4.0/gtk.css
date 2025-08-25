@@ -2324,6 +2324,12 @@ GraniteWidgetsWelcome {
       .titlebar .path-bar-box headerbar button:checked:backdrop label,
       headerbar .path-bar-box button:checked:backdrop label {
         color: rgba(254, 254, 254, 0.5); }
+  .titlebar splitbutton.image-button > button:not(.toggle),
+  headerbar splitbutton.image-button > button:not(.toggle) {
+    border-radius: 6px 0px 0px 6px; }
+  .titlebar splitbutton.image-button menubutton.popup button.toggle,
+  headerbar splitbutton.image-button menubutton.popup button.toggle {
+    border-radius: 0px 6px 6px 0px; }
   .titlebar .path-bar-box .dim-label, .titlebar .path-bar-box label.separator, .titlebar .path-bar-box .subtitle,
   headerbar .path-bar-box .dim-label,
   headerbar .path-bar-box label.separator,
@@ -3182,6 +3188,17 @@ paned.vertical > separator {
     border: none;
     margin: 0;
     padding: 0; }
+  #NautilusPathBar .flat.popup, .pathbar .flat.popup {
+    margin: 0; }
+    #NautilusPathBar .flat.popup button, .pathbar .flat.popup button {
+      padding: 4px 6px;
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px; }
+      #NautilusPathBar .flat.popup button:hover, #NautilusPathBar .flat.popup button:active, #NautilusPathBar .flat.popup button:checked, .pathbar .flat.popup button:hover, .pathbar .flat.popup button:active, .pathbar .flat.popup button:checked {
+        color: #fefefe;
+        outline-color: rgba(254, 254, 254, 0.3);
+        background: #00A9A5;
+        text-shadow: none; }
   #NautilusPathBar .current-dir label, .pathbar .current-dir label {
     color: #c5c8d8;
     background: linear-gradient(to right, #00A9A5, #00A9A5) left bottom #414963 no-repeat;
