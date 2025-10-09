@@ -660,14 +660,18 @@ button.osd {
 button.suggested-action {
   border: none;
   box-shadow: none;
-  color: #1f2430;
+  color: #fff;
   border-radius: 6px;
   background: #fad07b; }
+  button.suggested-action label {
+    color: #fff; }
   button.suggested-action.flat {
     box-shadow: none;
-    color: #1f2430;
+    color: #fff;
     border-radius: 6px;
     background: #fad07b; }
+    button.suggested-action.flat label {
+      color: #fff; }
   button.suggested-action:hover, button.suggested-action:active, button.suggested-action:checked {
     opacity: 0.9; }
   button.suggested-action:backdrop, button.suggested-action.flat:backdrop {
@@ -708,7 +712,8 @@ button.suggested-action {
     color: white;
     border-color: rgba(19, 22, 29, 0.5);
     background-color: #fad07b;
-    text-shadow: none; }
+    text-shadow: none;
+    opacity: 0.7; }
     button.suggested-action:disabled:active, button.suggested-action:disabled:checked {
       color: rgba(31, 36, 48, 0.7);
       outline-color: rgba(255, 255, 255, 0.3);
@@ -759,14 +764,18 @@ button.suggested-action {
 button.destructive-action {
   border: none;
   box-shadow: none;
-  color: #1f2430;
+  color: #fff;
   border-radius: 6px;
   background: #e75947; }
+  button.destructive-action label {
+    color: #fff; }
   button.destructive-action.flat {
     box-shadow: none;
-    color: #1f2430;
+    color: #fff;
     border-radius: 6px;
     background: #e75947; }
+    button.destructive-action.flat label {
+      color: #fff; }
   button.destructive-action:hover, button.destructive-action:active, button.destructive-action:checked {
     opacity: 0.9; }
   button.destructive-action:backdrop, button.destructive-action.flat:backdrop {
@@ -807,7 +816,8 @@ button.destructive-action {
     color: white;
     border-color: rgba(19, 22, 29, 0.5);
     background-color: #e75947;
-    text-shadow: none; }
+    text-shadow: none;
+    opacity: 0.7; }
     button.destructive-action:disabled:active, button.destructive-action:disabled:checked {
       color: rgba(31, 36, 48, 0.7);
       outline-color: rgba(255, 255, 255, 0.3);
