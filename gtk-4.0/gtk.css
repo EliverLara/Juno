@@ -4088,14 +4088,14 @@ placessidebar {
     placessidebar list:backdrop {
       background-color: transparent; }
 
-.sidebar-pane .bottom-bar {
+.sidebar-pane, .sidebar-pane .bottom.bar {
   background-color: #272b3b; }
-  .sidebar-pane .bottom-bar button {
-    background-color: transparent;
-    border-radius: 0px;
-    border: none; }
-    .sidebar-pane .bottom-bar button .view, .sidebar-pane .bottom-bar button iconview {
-      background-color: transparent; }
+.sidebar-pane .bottom-bar button {
+  background-color: transparent;
+  border-radius: 0px;
+  border: none; }
+  .sidebar-pane .bottom-bar button .view, .sidebar-pane .bottom-bar button iconview {
+    background-color: transparent; }
 
 /*****************
  * GtkSpinButton *
@@ -5638,8 +5638,6 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
 /*******************
  * Calendar sidebar *
 ********************/
-datechooser, datechooser:backdrop {
-  background-color: #2b2f41; }
 datechooser .circular.day.text-button {
   padding: 6px;
   border-radius: 50%;
@@ -5656,15 +5654,26 @@ datechooser .circular.day.text-button {
     background: #00A9A5;
     text-shadow: none;
     font-weight: bold; }
+datechooser .weekday, datechooser .weeknum {
+  color: #707486; }
+datechooser .weeknum {
+  background-color: #353a50; }
+datechooser .current-week {
+  background-color: rgba(112, 116, 134, 0.1); }
 
 agenda-view list.background {
   padding: 8px; }
-  agenda-view list.background, agenda-view list.background:backdrop {
-    background-color: #2b2f41; }
   agenda-view list.background .caption-heading, agenda-view list.background .dim-label.no-events, agenda-view list.background label.no-events.separator, agenda-view list.background .titlebar .no-events.subtitle, .titlebar agenda-view list.background .no-events.subtitle,
   agenda-view list.background headerbar .no-events.subtitle,
   headerbar agenda-view list.background .no-events.subtitle {
     color: #B6BACE; }
+
+datechooser, datechooser:backdrop,
+agenda-view list.background,
+agenda-view list.background:backdrop,
+.calendar-list,
+.calendar-list:backdrop {
+  background-color: #272b3b; }
 
 /******************************
  * Gnome system monitor graph *
