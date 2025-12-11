@@ -1982,7 +1982,7 @@ actionbar > revealer > box {
 scrolledwindow viewport.frame {
   border-style: none; }
 scrolledwindow overshoot.top {
-  background-image: radial-gradient(farthest-side at top, #272d3c 85%, rgba(39, 45, 60, 0)), radial-gradient(farthest-side at top, rgba(164, 171, 182, 0.2), rgba(164, 171, 182, 0));
+  background-image: radial-gradient(farthest-side at top, black 85%, rgba(0, 0, 0, 0)), radial-gradient(farthest-side at top, rgba(164, 171, 182, 0.07), rgba(164, 171, 182, 0));
   background-size: 100% 3%, 100% 50%;
   background-repeat: no-repeat;
   background-position: top;
@@ -1998,7 +1998,7 @@ scrolledwindow overshoot.top {
     border: none;
     box-shadow: none; }
 scrolledwindow overshoot.bottom {
-  background-image: radial-gradient(farthest-side at bottom, #272d3c 85%, rgba(39, 45, 60, 0)), radial-gradient(farthest-side at bottom, rgba(164, 171, 182, 0.2), rgba(164, 171, 182, 0));
+  background-image: radial-gradient(farthest-side at bottom, black 85%, rgba(0, 0, 0, 0)), radial-gradient(farthest-side at bottom, rgba(164, 171, 182, 0.07), rgba(164, 171, 182, 0));
   background-size: 100% 3%, 100% 50%;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -2014,7 +2014,7 @@ scrolledwindow overshoot.bottom {
     border: none;
     box-shadow: none; }
 scrolledwindow overshoot.left {
-  background-image: radial-gradient(farthest-side at left, #272d3c 85%, rgba(39, 45, 60, 0)), radial-gradient(farthest-side at left, rgba(164, 171, 182, 0.2), rgba(164, 171, 182, 0));
+  background-image: radial-gradient(farthest-side at left, black 85%, rgba(0, 0, 0, 0)), radial-gradient(farthest-side at left, rgba(164, 171, 182, 0.07), rgba(164, 171, 182, 0));
   background-size: 3% 100%, 50% 100%;
   background-repeat: no-repeat;
   background-position: left;
@@ -2030,7 +2030,7 @@ scrolledwindow overshoot.left {
     border: none;
     box-shadow: none; }
 scrolledwindow overshoot.right {
-  background-image: radial-gradient(farthest-side at right, #272d3c 85%, rgba(39, 45, 60, 0)), radial-gradient(farthest-side at right, rgba(164, 171, 182, 0.2), rgba(164, 171, 182, 0));
+  background-image: radial-gradient(farthest-side at right, black 85%, rgba(0, 0, 0, 0)), radial-gradient(farthest-side at right, rgba(164, 171, 182, 0.07), rgba(164, 171, 182, 0));
   background-size: 3% 100%, 50% 100%;
   background-repeat: no-repeat;
   background-position: right;
