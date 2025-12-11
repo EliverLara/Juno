@@ -518,8 +518,8 @@ box-shadow: none;
   $_big_gradient_color: transparentize($c, 0.93);
 
   @if $c==$fg_color {
-    $_small_gradient_color: lighten($borders_color, 10%);
-    $_big_gradient_color: transparentize($fg_color, 0.80);
+    $_small_gradient_color: darken($borders_color, 10%);
+    $_big_gradient_color: transparentize($fg_color, 0.93);
 
     @if $t==backdrop { $_small_gradient_color: $backdrop_borders_color; }
   }
