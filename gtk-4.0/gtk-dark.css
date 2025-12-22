@@ -1070,7 +1070,7 @@ button.accent-button, button.accent-button:backdrop {
   min-width: 24px;
   padding: 5px;
   border-radius: 100%;
-  background: var(--accent-bg-color);
+  background: var(--accent-bg-color, #29383d);
   outline: none;
   background-clip: content-box;
   box-shadow: none;
@@ -1078,7 +1078,7 @@ button.accent-button, button.accent-button:backdrop {
 button.accent-button:hover {
   box-shadow: 0 0 0 3px #182023; }
 button.accent-button:checked, button.accent-button:checked:backdrop {
-  box-shadow: 0 0 0 3px var(--accent-bg-color); }
+  box-shadow: 0 0 0 3px var(--accent-bg-color, #12171a); }
 
 /************
  * Calendar *

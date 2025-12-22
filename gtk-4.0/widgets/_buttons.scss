@@ -571,7 +571,7 @@ button.accent-button {
     min-width: 24px;
     padding: 5px;
     border-radius: 100%;
-    background: var(--accent-bg-color);
+    background: var(--accent-bg-color, $default_btn_color);
     outline: none;
     background-clip: content-box;
     box-shadow: none;
@@ -580,5 +580,5 @@ button.accent-button {
   
   &:hover { box-shadow: 0 0 0 3px darken($base_color, 5%); }
 
-  &:checked { &, &:backdrop { box-shadow: 0 0 0 3px var(--accent-bg-color); }}
+  &:checked { &, &:backdrop { box-shadow: 0 0 0 3px var(--accent-bg-color, $borders_color); }}
 }

@@ -228,7 +228,7 @@
     font-weight: normal;
     color: $tc;
    // outline-color: transparentize($tc, 0.7);
-    background-color: lighten(mix($bg_color, $base_color, 15%), 4%);
+    background-color: $default_btn_color;
     text-shadow: none;
   }
 
