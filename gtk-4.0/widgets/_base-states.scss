@@ -150,9 +150,9 @@ label {
   text-shadow: none;
 }
 
-assistant {
+window.assistant {
   .sidebar {
-    background-color: $base_color;
+    background-color: $_sidebar_color;
     border-top: 1px solid $borders_color;
 
     &:backdrop {
@@ -165,7 +165,14 @@ assistant {
 
   .sidebar label { padding: 6px 12px; }
 
-  .sidebar label.highlight { background-color: mix($bg_color, $fg_color, 80%); }
+  .sidebar label.highlight { 
+    background-color: $selected_bg_color;
+    color: $selected_fg_color; 
+  }
+}
+
+window.aboutdialog image.large-icons {
+  -gtk-icon-size: 128px;
 }
 
 %osd, .osd {
