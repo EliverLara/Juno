@@ -29,7 +29,7 @@
 }
 
 // Nautilus, filechooser(gnome 47) path bar
-#NautilusPathBar, .pathbar {
+#NautilusPathBar, .pathbar, .nautilus-pathbar {
   @include button(normal);
   border-radius: 6px;
   .dim-label {
@@ -102,7 +102,7 @@
 }
 
 // search entry
-#NautilusQueryEditor { 
+#NautilusQueryEditor, .nautilus-query-editor { 
   > menubutton > button {
     -gtk-icon-size: 12px;
     padding: 0 2px;
