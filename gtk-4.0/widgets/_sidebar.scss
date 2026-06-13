@@ -121,63 +121,38 @@ stacksidebar {
 placessidebar {
 
 		background-color: $_sidebar_color;
-		row{
+		row.activatable {
       padding: 1px 11px;
-			&.sidebar-row {
-				&.sidebar-row{
-          margin: 0;
-          border-radius: 0;
-          label { padding-left: 8px; }
-					.sidebar-icon {
-						margin-left:-14px;
-						margin-right: 5px;
-						padding-left: 14px;
-						padding-right: 5px;
-					}
-				}
-				&:hover, &:active, &:selected{
-          background-color: lighten($_sidebar_color, 7%);
-          &, label {
-            color: $selected_fg_color;
-            font-weight: normal;
-          }
-				}
+      margin: 0;
+      border-radius: 0;
 
-				&:selected{
-          &:backdrop{
-            color: $backdrop_text_color;
-            label {
-              color: $backdrop_text_color;
-            }
-            background-color: transparent;
-            background-image:linear-gradient(to right, transparentize(darken($_sidebar_color, 3%), 0.07) 40px,
-            transparentize(darken($_sidebar_color, 3%), 0.07) 36px, transparentize(darken($_sidebar_color, 3%), 0.07) 97%);
-          }
+      label { padding-left: 8px; }
 
-					.sidebar-icon {
-						color: inherit; 
-					}
+      &:hover, &:active, &:selected, &:selected:backdrop, &:selected:hover{
+        background-color: lighten($_sidebar_color, 7%);
+        &, label {
+          color: $selected_fg_color;
+          font-weight: normal;
         }
-        
-        &.sidebar-new-bookmark-row { 
-          &, label, .sidebar-icon {
-            color: $yellow; 
-          }
+      }
+      
+      &.sidebar-new-bookmark-row { 
+        &, label, .sidebar-icon {
+          color: $yellow; 
         }
+      }
 
-        &:drop(active):not(:disabled) {
-          &, label, image { color: $drop_target_color; }
-    
-          box-shadow: inset 0 1px $drop_target_color,
-                      inset 0 -1px $drop_target_color;
-    
-          &:selected {
-            &, label, image { color: $selected_fg_color; }
-            background: $drop_target_color;
-          }
+      &:drop(active):not(:disabled) {
+        &, label, image { color: $drop_target_color; }
+  
+        box-shadow: inset 0 1px $drop_target_color,
+                    inset 0 -1px $drop_target_color;
+  
+        &:selected {
+          &, label, image { color: $selected_fg_color; }
+          background: $drop_target_color;
         }
-
-			}
+      }
 		}
 	
 	list{ 
